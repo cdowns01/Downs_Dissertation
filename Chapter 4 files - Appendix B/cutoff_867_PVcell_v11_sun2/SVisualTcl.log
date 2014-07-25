@@ -1,0 +1,19 @@
+load_file /h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/n297_des.tdr
+create_plot -dataset n297_des
+select_plots {Plot_n297_des}
+#-> Plot_n297_des
+#-> Plot_n297_des
+#-> n297_des
+create_cutline -plot Plot_n297_des -type free -points {-24.5565 -1.56878 -24.5565 12.6208}
+select_plots {Plot_1}
+#-> Plot_1
+#-> C1(n297_des)
+select_plots {Plot_n297_des}
+#-> Plot_n297_des
+select_plots {Plot_1}
+#-> Plot_1
+select_plots {Plot_n297_des}
+#-> Plot_n297_des
+zoom_plot -factor 0.909091
+zoom_plot -factor 1.1
+zoom_plot -factor 1.06985

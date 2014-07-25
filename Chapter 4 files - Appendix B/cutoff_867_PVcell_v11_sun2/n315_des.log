@@ -1,0 +1,2025 @@
+****************************************************************************
+***                           Sentaurus Device                           ***
+***                          Version G-2012.06                           ***
+***                         (1.5, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+	Running on machine with the following configuration:
+	Host Name: sunfire47
+	Operating System: Linux rel. 2.6.18-348.16.1.el5 ver. #1 SMP Sat Jul 27 01:05:23 EDT 2013
+	Machine Type: x86_64
+	Process ID: 12875
+	Number of processors: 16
+	Domain Name: (none)
+	Date: Tue Mar 11 18:49:17 2014  (EDT)
+
+Tue Mar 11 18:49:17 2014: checked out 1 Dessis license(s)
+Tue Mar 11 18:49:17 2014: checked out 1 sdevice license(s)
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_isource.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_pGC.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_sRL.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_vsource.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/bs_psource.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_SRL1.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_vsource2.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_isource2.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/scm/MOS_harness.ccf
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/scm/MOS_harness.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_isource2.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_vsource2.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_SRL1.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/bs_psource.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_vsource.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_sRL.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_pGC.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_isource.so.amd64
+Tue Mar 11 18:49:17 2014: checked out 4 Dessis-Parallel license(s)
+Tue Mar 11 18:49:17 2014: checked out 4 sdevice-parallel license(s)
+Tue Mar 11 18:49:17 2014: checked out 4 sparallel license(s)
+
+Input source: pp315_des.cmd
+
+===============================
+
+Output file: n315_des.log
+
+
+GlobalParameter {
+}
+no ACExtract file
+
+PMIPath file: /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice-20.0.5 /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice
+
+CMIPath file: /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/scm
+
+SPICEPath file: /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/lib/sdevice-20.0.5/spice
+
+no DevicePath file
+
+no CIRCUITSAVENAME file
+
+no CIRCUITLOADNAME file
+
+Numerical parameters:
+  Absolute error : 
+    Poisson : 1.0000e-03
+    Electron : 1.0000e-05
+    Hole : 1.0000e-05
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1.0000e-05
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e-05
+    QW-eScattering-Equation : 1.0000e-05
+    QW-hScattering-Equation : 1.0000e-05
+    Optical Problem : 1.0000e-03
+    Wavelength : 1.0000e-03
+    Bandstructure : 1.0000e-03
+    EmissionTable : 1.0000e-03
+    DephasingRates : 1.0000e-03
+    Photon Recycling : 1.0000e-03
+    Electron-Temperature : 1.0000e-04
+    Hole-Temperature : 1.0000e-04
+    Lattice-Hole-Electron-Temperature : 1.0000e-03
+    Circuit : 1.0000e-03
+    TCircuit : 1.0000e-03
+    Contact : 1.0000e-03
+    TContact : 1.0000e-03
+    Continuation : 1.0000e-03
+    eLaplace : 1.0000e-03
+    hLaplace : 1.0000e-03
+    tLaplace : 1.0000e-03
+    MonteCarlo : 1.0000e-03
+    MCPoissonPDE : 1.0000e-03
+    eQuantumPotential : 1.0000e-03
+    hQuantumPotential : 1.0000e-03
+    quasi-fermi-potential : 1.0000e-03
+    ConductiveInsulator : 1.0000e-03
+    ContactAndConductiveInsulator : 1.0000e-03
+    SingletExciton : 1.0000e-05
+    eHopping : 1.0000e-03
+    hHopping : 1.0000e-03
+    HydrogenAtom : 1.0000e-03
+    HydrogenMolecule : 1.0000e-03
+    HydrogenIon : 1.0000e-03
+    HydrogenSiliconBondOccupation : 1.0000e-03
+    eSHEDistribution : 1.0000e-03
+    hSHEDistribution : 1.0000e-03
+  RelErrControl (Reference error): 
+    Poisson : 0.025852
+    Electron : 1.0000e+07
+    Hole : 1.0000e+07
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e+10
+    QW-eScattering-Equation : 1.0000e+10
+    QW-hScattering-Equation : 1.0000e+10
+    Optical Problem : 1
+    Wavelength : 1
+    Bandstructure : 1
+    EmissionTable : 1
+    DephasingRates : 1
+    Photon Recycling : 1
+    Electron-Temperature : 3.0000e+02
+    Hole-Temperature : 3.0000e+02
+    Lattice-Hole-Electron-Temperature : 3.0000e+02
+    Circuit : 1
+    TCircuit : 1
+    Contact : 0.025852
+    TContact : 1
+    Continuation : 1
+    eLaplace : 1
+    hLaplace : 1
+    tLaplace : 1
+    MonteCarlo : 1
+    MCPoissonPDE : 1
+    eQuantumPotential : 0.025852
+    hQuantumPotential : 0.025852
+    quasi-fermi-potential : 0.025852
+    ConductiveInsulator : 1
+    ContactAndConductiveInsulator : 1
+    SingletExciton : 1.0000e+10
+    eHopping : 0.025852
+    hHopping : 0.025852
+    HydrogenAtom : 1.0000e+10
+    HydrogenMolecule : 1.0000e+10
+    HydrogenIon : 1.0000e+10
+    HydrogenSiliconBondOccupation : 1
+    eSHEDistribution : 0.025852
+    hSHEDistribution : 0.025852
+  Relative error : 7 digits
+  Without checked transient error
+  Max. #iterations : 20
+  LineSearchDamping=1
+  #undamped iterations : 100
+  No incomplete Newton
+  transient method : Backward Euler
+  Linear solver : Super
+  Linear solver for AC analysis : blocked decomposition
+  Linear solver for SHEDistribution Model : Super
+  use linear extrapolation in transient/quasistationary computations
+  use complex supernodal in ac-analysis (if possible)
+  do not use smoothed PDE's in transient/quasistationary computations
+  Harmonic balance (HB) specifications:
+    Do not use MDFT mode in HB (i.e. one-tone and time domain assembly).
+    Do not use in HB the logarithm of densities.
+    No SolveSpectrum entries are specified.
+    Plot HB results for time domain interval (0.0000e+00 , 0.0000e+00) using 0 intervals.
+    HB Newton scaling parameters for rhs and update:
+      Equation                         :  RhsScale  : UpdateScale
+      Poisson                          :   1.00E+00 :   1.00E+00 
+      Electron                         :   1.00E-05 :   1.00E+00 
+      Hole                             :   1.00E-05 :   1.00E+00 
+      Photon-Rate-Equation             :   1.00E-05 :   1.00E+00 
+      Photon-Phase-Equation            :   1.00E+00 :   1.00E+00 
+      Rate-Stabilize-Equation          :   1.00E+00 :   1.00E+00 
+      QW-Scattering-Equations          :   1.00E-05 :   1.00E+00 
+      QW-eScattering-Equation          :   1.00E-05 :   1.00E+00 
+      QW-hScattering-Equation          :   1.00E-05 :   1.00E+00 
+      Optical Problem                  :   1.00E+00 :   1.00E+00 
+      Wavelength                       :   1.00E+00 :   1.00E+00 
+      Bandstructure                    :   1.00E+00 :   1.00E+00 
+      EmissionTable                    :   1.00E+00 :   1.00E+00 
+      DephasingRates                   :   1.00E+00 :   1.00E+00 
+      Photon Recycling                 :   1.00E+00 :   1.00E+00 
+      Electron-Temperature             :   1.00E+00 :   1.00E+00 
+      Hole-Temperature                 :   1.00E+00 :   1.00E+00 
+      Lattice-Hole-Electron-Temperature:   1.00E+00 :   1.00E+00 
+      Circuit                          :   1.00E-05 :   1.00E+00 
+      TCircuit                         :   1.00E+00 :   1.00E+00 
+      Contact                          :   1.00E-05 :   1.00E+00 
+      TContact                         :   1.00E+00 :   1.00E+00 
+      Continuation                     :   1.00E+00 :   1.00E+00 
+      eLaplace                         :   1.00E+00 :   1.00E+00 
+      hLaplace                         :   1.00E+00 :   1.00E+00 
+      tLaplace                         :   1.00E+00 :   1.00E+00 
+      MonteCarlo                       :   1.00E+00 :   1.00E+00 
+      MCPoissonPDE                     :   1.00E+00 :   1.00E+00 
+      eQuantumPotential                :   1.00E+00 :   1.00E+00 
+      hQuantumPotential                :   1.00E+00 :   1.00E+00 
+      quasi-fermi-potential            :   1.00E+00 :   1.00E+00 
+      ConductiveInsulator              :   1.00E+00 :   1.00E+00 
+      ContactAndConductiveInsulator    :   1.00E+00 :   1.00E+00 
+      SingletExciton                   :   1.00E+00 :   1.00E+00 
+      eHopping                         :   1.00E+00 :   1.00E+00 
+      hHopping                         :   1.00E+00 :   1.00E+00 
+      HydrogenAtom                     :   1.00E+00 :   1.00E+00 
+      HydrogenMolecule                 :   1.00E+00 :   1.00E+00 
+      HydrogenIon                      :   1.00E+00 :   1.00E+00 
+      HydrogenSiliconBondOccupation    :   1.00E+00 :   1.00E+00 
+      eSHEDistribution                 :   1.00E+00 :   1.00E+00 
+      hSHEDistribution                 :   1.00E+00 :   1.00E+00 
+    HB Newton correction parameters for values:
+      Equation                         :     Min    :  Variation 
+      Electron                         :   1.00E-20 :   1.00E+18 
+      Hole                             :   1.00E-20 :   1.00E+18 
+      Photon-Rate-Equation             :   0.00E+00 :   1.00E+18 
+      QW-eScattering-Equation          :   1.00E-20 :   1.00E+18 
+      QW-hScattering-Equation          :   1.00E-20 :   1.00E+18 
+      Electron-Temperature             :   1.00E+02 :   1.00E+18 
+      Hole-Temperature                 :   1.00E+02 :   1.00E+18 
+      Lattice-Hole-Electron-Temperature:   1.00E+02 :   1.00E+18 
+    
+    Traps are solved by decoupled mode.
+  use automatic coupling of contact/circuit stuff
+  Spice temperature: 3.0015e+02
+  Spice nominal temperature of parameter measurements: 3.0015e+02
+  Spice minimum conductance gmin: 1.0000e-12
+  Terminate simulation immediately if a solve command fails.
+  Use 80 bit (long double) extended precision floating point arithmetic.
+  Mininum |rhs| : 1.0000e-05
+  Maximum |rhs| : 1.0000e+20
+  Maximum |rhs| factor : 1.0000e+10
+  Lattice Temperature Range : (50,5.0000e+03)
+  Carrier Temperature Range : (10,8.0000e+04)
+  Simplified first order SHE of BTE will be solved
+  SHERefinementCutoff : 20
+  No user dependencies.
+  Number of assembly threads: 16 (Sentaurus Device command file)
+  Number of solver threads: 16 (Sentaurus Device command file)
+  Thread stacksize: 1000000 bytes (default)
+  Go serial if not enough parallel licenses are available.
+
+Default device parameters:
+  Electrodes:
+    "front" : 0.0000e+00 V (Ohmic), area factor : 1
+    "back" : 0.0000e+00 V (Ohmic), area factor : 1
+  Files:
+    no Boundary file
+    Grid file: n291_msh.tdr
+    no Doping file
+    no MobilityDoping file
+    no Load file
+    no Save file
+    Plot file: n315_des.tdr
+    no DevFieldsName file
+    no Path file
+    no optical-Generation file
+    no Lifetime file
+    no Temperature file
+    Current file: n315_des.plt
+    no PMIUserFields file
+    no Extraction file
+    ModelParameters file: pp315_des.par
+    no Piezo file
+    no ModeGain file
+    no Optical emission table for stimulated emission file
+    no Optical emission table for spontaneous emission file
+    no Optical emission table for photon phase change coefficient file
+    no EmissionTable file
+    no DephasingRates file
+    no ASESpectrum file
+    no OpticalFarField file
+    no OpticalIntensityPattern file
+    no SaveOpticalIntensityPattern file
+    no OpticalXYAnglePattern file
+    no SaveOpticalXYAnglePattern file
+    no MonteCarloInput file
+    no MonteCarloOutput file
+    no ACPlot file
+-----------------------------------------------
+  Numerical parameters:
+    With exact derivatives
+    With avalanche derivatives
+    Using old wavelength search algorithm
+    Do not reinitialize quasi Fermi potentials in quasi-stationary simulations
+    Ignore ionization integral constraints
+    Without diagonal preconditioning
+    With Scharfetter-Gummel Discretization
+    Relative error : 7 digits
+    Delta for numerical tunnelling derivatives : 1.0000e-03
+    Do not compute breakdown paths and ionization integrals
+    QuasiFermiPotential is used for Contact Equation
+    Break if contact current (front) exceeds bounds:
+        maxval = 1.0000e-05
+-----------------------------------------------
+-----------------------------------------------
+  Physical models:
+    Without incomplete ionization
+    Use Si parameters
+    TATNonlocalPathNC = 0.0000e+00
+    With SRH-Recombination
+      Without field dependent lifetimes
+      Without doping dependent lifetimes
+      Without temperature dependent lifetimes
+    Without CDL-Recombination
+    With optical generation computation 
+    With electron non local Barrier Tunneling
+      include band-to-band tunneling with legacy perpendicular energy integration
+    With hole non local Barrier Tunneling
+      include band-to-band tunneling with legacy perpendicular energy integration
+    Without Band-to-Band-Tunneling
+    With Auger-Recombination (without Generation)
+    With Radiative Recombination
+    Without Surface-Recombination
+    Without Trap-Assisted-Auger-Recombination
+    PMI recombination models: none
+  Without thermal resistance interfaces
+  With HeteroInterfaces
+  With Thermionic Emission at heterointerfaces for electrons and holes
+  Theta = 0.0000e+00 degree
+  Phi = 0.0000e+00 degree
+  Polarization = 0.0000e+00
+  Reference Refractive Index Model =   With Optics 
+    Optical solver type: TMM 1D Solver
+  Without Piezo
+  Without Anisotropic Material Properties
+  Without Avalanche-Generation 
+  Without Alpha Particle
+  Without Heavy Ion
+  Without polarization
+  Volume charge density: 0.0000e+00 cm^-3
+  Device Temperature = 3.0000e+02 K
+  Electron Quasi Fermi Potential: 0.0000e+00 V
+  Hole Quasi Fermi Potential: 0.0000e+00 V
+  Without MagneticField
+  With SingletExciton Barrier Type
+  Fermi Statistic 
+  Intrinsic density models:
+    default bandgap model
+    Bandgap narrowing model: Bennett/Wilson without bandgap narrowing
+  default affinity model
+  default effective mass model
+  Electron mobility:
+    Doping dependence:
+      Default
+    no Carrier-Carrier scattering
+    no E_normal dependence
+    Without ThinLayer mobility model
+    no high-field saturation
+    Einstein relation for diffusivity-mobility ratio.
+  Hole mobility:
+    Doping dependence:
+      Default
+    no Carrier-Carrier scattering
+    no E_normal dependence
+    Without ThinLayer mobility model
+    no high-field saturation
+    Einstein relation for diffusivity-mobility ratio.
+  DeviceAreaFactor = 2.0000e+09
+  Model: Optics  Switched on
+  Energy relaxation time model: according to formula in parameter file
+  Lattice thermal conductivity model: according to formula in parameter file
+  Metal Resistivity model: according to formula in parameter file
+  Thermo Electric Power model: extraploted Si data
+  Metal Thermo Electric Power model: MetalThermoElectricPower model not defined
+  Lattice heat capacity model: temperature dependent
+  no piezoelectric polarization model
+  Without default parameters from file (use built-in default parameters)
+-----------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'AlInP_top_window'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.4
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'AlInP_region1'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.4
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'AlInP_region2'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.4
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'AlInP_top_BSF'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.33
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'InAlAs_region3'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.4
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'InAlAs_region4'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.3
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'GaInP_mid_window'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.5
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'GaInP_region5'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.5
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'GaInP_region6'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.5
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'GaInP_mid_BSF'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.4
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'InAlAs_region7'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.75
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'InAlAs_region8'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.25
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+Process information for extraction purposes:
+  none
+Plot variables:
+  eCurrentDensity
+  hCurrentDensity
+  ElectrostaticPotential
+  ElectricField
+  eMobility
+  hMobility
+  eVelocity
+  hVelocity
+  OpticalIntensity
+  OpticalGeneration
+  OpticalAbsorption
+  OpticalField/Vector3D
+  NDopantConcentration
+  PDopantConcentration
+  xMoleFraction
+  DopingConcentration
+  DonorConcentration
+  AcceptorConcentration
+  eEffectiveStateDensity
+  hEffectiveStateDensity
+  EffectiveIntrinsicDensity
+  IntrinsicDensity
+  eDensity
+  hDensity
+  SpaceCharge
+  eQuasiFermiPotential
+  hQuasiFermiPotential
+  BandGap
+  ConductionBandEnergy
+  ValenceBandEnergy
+  ElectronAffinity
+  ElectricField/Vector
+  eLifetime
+  hLifetime
+  SRHRecombination
+  AugerRecombination
+  TotalRecombination
+  SurfaceRecombination
+  RadiativeRecombination
+  eCurrentDensity/Vector
+  hCurrentDensity/Vector
+  TotalCurrentDensity/Vector
+  RefractiveIndexRealVertexComponent0
+  RefractiveIndexImagVertexComponent0
+  NonLocalDirection/Vector
+  NonLocalBackDirection/Vector
+
+------------------------------------------------
+NoisePlot variables:
+  none
+Plot groups:
+  none
+
+------------------------------------------------
+CurrentPlot variables:
+  Model=Optics,Parameter=Wavelength
+  OpticalGeneration/Scalar/Integral( Semiconductor )
+Devices:
+Systems:
+Solve :
+ Poisson
+Transient (
+      Max. #iterations : 20, 
+      Initial step : 1.0000e-11 s, Minimum #intervals : 0, 
+      Minimum step : 1.0000e-12 s, Maximum step : 1 s, 
+      Initial time : 0.0000e+00 s, Final time : 0.1 s, 
+    )
+  {
+    Coupled ( Digits : 7, Max. #iterations : 20, 
+        Solver : Super,
+        #undamped iterations : 100 
+)
+        { Poisson Electron Hole } 
+  }
+Quasistationary ( Digits : 7, Max. #iterations : 20, 
+      Initial step in t : 0.05, 
+      Minimum step in t : 1.0000e-03, Maximum step in t : 0.01, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact front : 3.5V
+    )
+  {
+    Coupled ( Digits : 7, Max. #iterations : 20, 
+        Solver : Super,
+        #undamped iterations : 100 
+)
+        { Poisson Electron Hole } 
+  }
+Quasistationary ( Digits : 7, Max. #iterations : 20, 
+      Initial step in t : 0.05, 
+      Minimum step in t : 1.0000e-15, Maximum step in t : 1.0000e-03, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact front : 5V
+    )
+  {
+    Coupled ( Digits : 7, Max. #iterations : 20, 
+        Solver : Super,
+        #undamped iterations : 100 
+)
+        { Poisson Electron Hole } 
+  }
+
+===============================
+
+Reading grid 'n291_msh.tdr' ... 
+  coordinate system: DFISE, 2d_dfise (y is device down direction, 3d extension right-handed)
+  use coordinate system as is (no transformation)
+  TDR format
+  Number of grid points is 16848.
+done.
+
+Adding interfaces and contacts .... done.
+Computing edges ...
+  Number of edges: 79024
+done.
+Computing boxes ...
+
+  CVPL_AverageBoxMethod = TRUE 
+   
+  ElementWithMinVolume( 25572) Vertex0(16370)(-2.400000e+01, 9.500000e-01) Volume = 7.141113e-06 um3 (1.51e-08 from TotalVolume)
+    ElementWithMinEdge( 23915) Vertex0(  568)(-2.343750e+01, 9.499746e-01) Length = 2.539062e-05 um
+        MaxFlatElement(  9853) Vertex0(16317)(-2.400000e+01,-1.260000e-01)  Angle = 8.850841e+01 degrees
+   ElementWithMinAngle( 23915) Vertex0(  568)(-2.343750e+01, 9.499746e-01)  Angle = 9.310564e-04 degrees
+                   tan(MinAngle) = 1.625000e-05 
+
+   NumberOfEdges              =  79024 
+   NumberOfGeometricalEdges   =  49496 
+   NumberOfDoubleEdges        =    495 
+   MaxNumberOfElementsPerEdge =      2 
+   MaxNumberOfEdgesPerVertex  =      6 
+ MaxNumberElemEdgesPerVertex  =      9 
+
+  Computing coefficient and measure ...   done.
+  Old Parameters time:   0.00 s
+
+  Computing Voronoi faces, coefficients, and measures ... 
+  CVPL_Algorithm = TRUE 
+
+    Computing Obtuse Elements ... 
+     Obtuse Elements time:   0.00 s
+      New Parameters time:   0.00 s
+
+                       NumberOfVertices =  17394 
+                       NumberOfElements =  32649 
+                      NumberOfTriangles =  32649  (100.00 %)
+                     NumberOfRectangles =      0  ( 0.00 %)
+                 NumberOfObtuseElements =      0  ( 0.00 %)
+    done.
+  done.
+  (times: wc = 0.16 s, tcpu = 0.16 s)
+
+
+/-------- Region non Delaunay elements ------------------------------------------------
+ Region               Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+  name                 [um2]          [um2]           [%]                   Elements   
+ --------------------------------------------------------------------------------------
+ AlInP_region1     1.5000000e+01  1.5000000e+01       0.000      2310       0 ( 0.00 %) 
+ AlInP_top_BSF     2.5000000e+00  2.5000000e+00       0.000      1518       0 ( 0.00 %) 
+ GaInP_region6     1.5000000e+02  1.5000000e+02       0.000      1914       0 ( 0.00 %) 
+ GaAs_region9      1.5000000e+01  1.5000000e+01       0.000      2244       0 ( 0.00 %) 
+ GaAs_region10     1.5000000e+02  1.5000000e+02       0.000      1848       0 ( 0.00 %) 
+ Gold_region_1     3.2100000e-01  3.2100000e-01       0.000        21       0 ( 0.00 %) 
+ AlInP_region2     2.5000000e+01  2.5000000e+01       0.000      2046       0 ( 0.00 %) 
+ GaInP_mid_BSF     5.0000000e+00  5.0000000e+00       0.000      1650       0 ( 0.00 %) 
+ InAlAs_region7    1.5000000e+00  1.5000000e+00       0.000      1778       0 ( 0.00 %) 
+ GaAs_bot_BSF      2.5000000e+01  2.5000000e+01       0.000      1848       0 ( 0.00 %) 
+ InAlAs_region8    1.5000000e+00  1.5000000e+00       0.000      1778       0 ( 0.00 %) 
+ MgF_region_1      9.5550000e+00  9.5550000e+00       0.000       128       0 ( 0.00 %) 
+ AlInP_top_window  2.0000000e+00  2.0000000e+00       0.000      2376       0 ( 0.00 %) 
+ InAlAs_region3    1.5000000e+00  1.5000000e+00       0.000      1778       0 ( 0.00 %) 
+ TiOx_region_1     6.1740000e+00  6.1740000e+00       0.000       576       0 ( 0.00 %) 
+ InAlAs_region4    1.5000000e+00  1.5000000e+00       0.000      1840       0 ( 0.00 %) 
+ GaInP_mid_window  5.0000000e+00  5.0000000e+00       0.000      1584       0 ( 0.00 %) 
+ GaInP_region5     2.5000000e+01  2.5000000e+01       0.000      1914       0 ( 0.00 %) 
+ GaAs_bot_window   5.0000000e+00  5.0000000e+00       0.000      1650       0 ( 0.00 %) 
+ Goldregion_gold   2.5000000e+01  2.5000000e+01       0.000      1848       0 ( 0.00 %) 
+ Total             4.7155000e+02  4.7155000e+02       0.000     32649       0 ( 0.00 %) 
+\--------------------------------------------------------------------------------------
+
+
+/-------- Interface non Delaunay elements ---------------------------------------------
+ Region1              Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+ Region2               [um2]          [um2]           [%]                   Elements   
+ --------------------------------------------------------------------------------------
+ AlInP_region1     1.8566532e-01  1.8566532e-01       0.000        39       0 ( 0.00 %) 
+ AlInP_region2     5.2929687e-02  5.2929687e-02       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ AlInP_region1     2.0620155e-02  2.0620155e-02       0.000        39       0 ( 0.00 %) 
+ AlInP_top_window  1.6506958e-02  1.6506958e-02       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ AlInP_top_BSF     4.3939209e-02  4.3939209e-02       0.000        33       0 ( 0.00 %) 
+ AlInP_region2     1.3623047e-02  1.3623047e-02       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ AlInP_top_BSF     2.6034546e-02  2.6034546e-02       0.000        33       0 ( 0.00 %) 
+ InAlAs_region3    3.3222046e-03  3.3222046e-03       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ GaInP_region6     8.8391113e-02  8.8391113e-02       0.000        33       0 ( 0.00 %) 
+ GaInP_mid_BSF     2.6733398e-02  2.6733398e-02       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ GaInP_region6     1.9580078e-01  1.9580078e-01       0.000        33       0 ( 0.00 %) 
+ GaInP_region5     2.6469727e-01  2.6469727e-01       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ GaAs_region9      1.5832520e-01  1.5832520e-01       0.000        33       0 ( 0.00 %) 
+ GaAs_region10     7.1923828e-02  7.1923828e-02       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ GaAs_region9      8.8830566e-02  8.8830566e-02       0.000        33       0 ( 0.00 %) 
+ GaAs_bot_window   2.6293945e-02  2.6293945e-02       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ GaAs_region10     3.2739258e-01  3.2739258e-01       0.000        33       0 ( 0.00 %) 
+ GaAs_bot_BSF      1.3310547e-01  1.3310547e-01       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ Gold_region_1     9.7500000e-02  9.7500000e-02       0.000         2       0 ( 0.00 %) 
+ MgF_region_1      5.4843750e-02  5.4843750e-02       0.000         2       0 ( 0.00 %) 
+ ......................................................................................
+ Gold_region_1     4.7692871e-04  4.7692871e-04       0.000         1       0 ( 0.00 %) 
+ AlInP_top_window  9.8693848e-05  9.8693848e-05       0.000         1       0 ( 0.00 %) 
+ ......................................................................................
+ Gold_region_1     6.3000000e-02  6.3000000e-02       0.000         9       0 ( 0.00 %) 
+ TiOx_region_1     3.5437500e-02  3.5437500e-02       0.000         9       0 ( 0.00 %) 
+ ......................................................................................
+ GaInP_mid_BSF     2.6870728e-02  2.6870728e-02       0.000        33       0 ( 0.00 %) 
+ InAlAs_region7    2.4860229e-03  2.4860229e-03       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ InAlAs_region7    2.8561401e-02  2.8561401e-02       0.000        33       0 ( 0.00 %) 
+ InAlAs_region8    2.9000854e-02  2.9000854e-02       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ GaAs_bot_BSF      3.9394531e-01  3.9394531e-01       0.000        33       0 ( 0.00 %) 
+ Goldregion_gold   6.6552734e-02  6.6552734e-02       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ InAlAs_region8    2.0465698e-03  2.0465698e-03       0.000        33       0 ( 0.00 %) 
+ GaAs_bot_window   2.7310181e-02  2.7310181e-02       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ MgF_region_1      1.1671953e+00  1.1671953e+00       0.000        32       0 ( 0.00 %) 
+ TiOx_region_1     6.3795703e-01  6.3795703e-01       0.000        32       0 ( 0.00 %) 
+ ......................................................................................
+ AlInP_top_window  4.8359985e-03  4.8359985e-03       0.000        32       0 ( 0.00 %) 
+ TiOx_region_1     2.3369507e-02  2.3369507e-02       0.000        32       0 ( 0.00 %) 
+ ......................................................................................
+ InAlAs_region3    2.7725220e-02  2.7725220e-02       0.000        33       0 ( 0.00 %) 
+ InAlAs_region4    1.6315308e-03  1.6315308e-03       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ InAlAs_region4    1.2103882e-03  1.2103882e-03       0.000        33       0 ( 0.00 %) 
+ GaInP_mid_window  2.8146362e-02  2.8146362e-02       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ GaInP_mid_window  8.3020020e-02  8.3020020e-02       0.000        33       0 ( 0.00 %) 
+ GaInP_region5     3.2104492e-02  3.2104492e-02       0.000        33       0 ( 0.00 %) 
+ ......................................................................................
+ Total             4.5794618e+00  4.5794618e+00       0.000      1220       0 ( 0.00 %) 
+\--------------------------------------------------------------------------------------
+done.
+Reading doping 'n291_msh.tdr' (TDR format) ...
+done.
+done.
+Reading parameter file 'pp315_des.par' ...
+---------------------------------------------------
+ Reading parameters for material "AlGaAs"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	RadiativeRecombination: C = 1.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+	BarrierTunneling(elec): g = 0.068, instead of: 2.1 [1]
+	BarrierTunneling(hole): g = 0.62, instead of: 0.66 [1]
+	BarrierTunneling(elec): mt = 0.5, instead of: 0.0000e+00 [1]
+	BarrierTunneling(hole): mt = 0.58, instead of: 0.0000e+00 [1]
+
+---------------------------------------------------
+ Reading parameters for material "AlInP"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	epsilon: epsilon = 11.355, instead of: 11.7 [1]
+	Bandgap: Chi0 = 3.6145, instead of: 4.05 [eV]
+	Bandgap: Eg0 = 2.357, instead of: 1.16964 [eV]
+	Bandgap: alpha = 1.5900e-04, instead of: 4.7300e-04 [eV/K]
+	Bandgap: beta = 2.9400e+02, instead of: 6.3600e+02 [K]
+	DOSeMass: a = 0.0000e+00, instead of: 0.1905 [1]
+	DOSeMass: ml = 0.0000e+00, instead of: 0.9163 [1]
+	DOSeMass: mm = 0.23, instead of: 0.0000e+00 [1]
+	DOShMass: a = 0.0000e+00, instead of: 0.443587 [1]
+	DOShMass: b = 0.0000e+00, instead of: 3.6095e-03 [K^-1]
+	DOShMass: c = 0.0000e+00, instead of: 1.1735e-04 [K^-2]
+	DOShMass: d = 0.0000e+00, instead of: 1.2632e-06 [K^-3]
+	DOShMass: e = 0.0000e+00, instead of: 3.0256e-09 [K^-4]
+	DOShMass: f = 0.0000e+00, instead of: 4.6834e-03 [K^-1]
+	DOShMass: g = 0.0000e+00, instead of: 2.2869e-04 [K^-2]
+	DOShMass: h = 0.0000e+00, instead of: 7.4693e-07 [K^-3]
+	DOShMass: i = 0.0000e+00, instead of: 1.7275e-09 [K^-4]
+	DOShMass: mm = 0.36, instead of: 0.0000e+00 [1]
+	DOShMass: Nv300 = 5.4203e+18, instead of: 3.1400e+19 [cm-3]
+	ConstMob(elec): mumax = 1.5000e+02, instead of: 1.4170e+03 [cm^2/(Vs)]
+	ConstMob(elec): Exponent = 1, instead of: 2.5 [1]
+	ConstMob(hole): mumax = 1.8000e+02, instead of: 4.7050e+02 [cm^2/(Vs)]
+	ConstMob(hole): Exponent = 1, instead of: 2.2 [1]
+	DopingMob(elec): mumin1 = 0.0000e+00, instead of: 52.2 [cm^2/(Vs)]
+	DopingMob(elec): mumin2 = 0.0000e+00, instead of: 52.2 [cm^2/(Vs)]
+	DopingMob(elec): mu1 = 0.0000e+00, instead of: 43.4 [cm^2/(Vs)]
+	DopingMob(elec): Cr = 5.0000e+17, instead of: 9.6800e+16 [cm^(-3)]
+	DopingMob(elec): Cs = 0.0000e+00, instead of: 3.4300e+20 [cm^(-3)]
+	DopingMob(elec): alpha = 0.436, instead of: 0.68 [1]
+	DopingMob(elec): beta = 0.0000e+00, instead of: 2 [1]
+	DopingMob(hole): mumin1 = 0.0000e+00, instead of: 44.9 [cm^2/(Vs)]
+	DopingMob(hole): mu1 = 0.0000e+00, instead of: 29 [cm^2/(Vs)]
+	DopingMob(hole): Pc = 0.0000e+00, instead of: 9.2300e+16 [cm^(-3)]
+	DopingMob(hole): Cr = 2.7500e+17, instead of: 2.2300e+17 [cm^(-3)]
+	DopingMob(hole): Cs = 0.0000e+00, instead of: 6.1000e+20 [cm^(-3)]
+	DopingMob(hole): alpha = 0.397, instead of: 0.719 [1]
+	DopingMob(hole): beta = 0.0000e+00, instead of: 2 [1]
+	Scharfetter(elec): tau_max = 1.0000e-07, instead of: 1.0000e-05 [s]
+	Scharfetter(hole): tau_max = 1.0000e-07, instead of: 3.0000e-06 [s]
+	Scharfetter(elec): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(hole): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(elec): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Scharfetter(hole): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	RadiativeRecombination: C = 1.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+	Auger(elec): A = 3.0000e-30, instead of: 6.7000e-32 [cm^6/s]
+	Auger(hole): A = 3.0000e-30, instead of: 7.2000e-32 [cm^6/s]
+	Auger(elec): B = 0.0000e+00, instead of: 2.4500e-31 [cm^6/s]
+	Auger(hole): B = 0.0000e+00, instead of: 4.5000e-33 [cm^6/s]
+	Auger(elec): C = 0.0000e+00, instead of: -2.2000e-32 [cm^6/s]
+	Auger(hole): C = 0.0000e+00, instead of: 2.6300e-32 [cm^6/s]
+	Auger(elec): H = 0.0000e+00, instead of: 3.46667 [1]
+	Auger(hole): H = 0.0000e+00, instead of: 8.25688 [1]
+	ComplexRefractiveIndex: n_0 = 3.5108, instead of: 1 [1]
+	ComplexRefractiveIndex: Formula = 3, instead of: 0 [1]
+	ComplexRefractiveIndex: Cn_temp = 4.0000e-04, instead of: 2.0000e-04 [K^-1]
+	BarrierTunneling(elec): g = 0.068, instead of: 2.1 [1]
+	BarrierTunneling(hole): g = 0.62, instead of: 0.66 [1]
+	BarrierTunneling(elec): mt = 0.5, instead of: 0.0000e+00 [1]
+	BarrierTunneling(hole): mt = 0.58, instead of: 0.0000e+00 [1]
+
+---------------------------------------------------
+ Reading parameters for material "GaAs"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	Scharfetter(elec): tau_max = 2.5000e-07, instead of: 1.0000e-09 [s]
+	Scharfetter(hole): tau_max = 3.0000e-06, instead of: 1.0000e-09 [s]
+	BarrierTunneling(elec): mt = 0.05, instead of: 0.0000e+00 [1]
+	BarrierTunneling(hole): mt = 0.14, instead of: 0.0000e+00 [1]
+	RadiativeRecombination: C = 7.0000e-10, instead of: 2.0000e-10 [cm^3/s]
+	ComplexRefractiveIndex: Formula = 3, instead of: 0 [1]
+
+---------------------------------------------------
+ Reading parameters for material "GaInP"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	Scharfetter(elec): tau_max = 1.0000e-07, instead of: 1.0000e-05 [s]
+	Scharfetter(hole): tau_max = 1.0000e-07, instead of: 3.0000e-06 [s]
+	Scharfetter(elec): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(hole): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(elec): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Scharfetter(hole): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Auger(elec): A = 3.0000e-30, instead of: 6.7000e-32 [cm^6/s]
+	Auger(hole): A = 3.0000e-30, instead of: 7.2000e-32 [cm^6/s]
+	Auger(elec): B = 0.0000e+00, instead of: 2.4500e-31 [cm^6/s]
+	Auger(hole): B = 0.0000e+00, instead of: 4.5000e-33 [cm^6/s]
+	Auger(elec): C = 0.0000e+00, instead of: -2.2000e-32 [cm^6/s]
+	Auger(hole): C = 0.0000e+00, instead of: 2.6300e-32 [cm^6/s]
+	Auger(elec): H = 0.0000e+00, instead of: 3.46667 [1]
+	Auger(hole): H = 0.0000e+00, instead of: 8.25688 [1]
+	BarrierTunneling(elec): g = 0.068, instead of: 2.1 [1]
+	BarrierTunneling(hole): g = 0.62, instead of: 0.66 [1]
+	BarrierTunneling(elec): mt = 0.5, instead of: 0.0000e+00 [1]
+	BarrierTunneling(hole): mt = 0.58, instead of: 0.0000e+00 [1]
+	ComplexRefractiveIndex: n_0 = 3.5108, instead of: 1 [1]
+	ComplexRefractiveIndex: Formula = 3, instead of: 0 [1]
+	ComplexRefractiveIndex: Cn_temp = 4.0000e-04, instead of: 2.0000e-04 [K^-1]
+	RadiativeRecombination: C = 1.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+
+---------------------------------------------------
+ Reading parameters for material "GaInP_25"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	epsilon: epsilon = 12.4575, instead of: 11.7 [1]
+	Bandgap: Chi0 = 4.1642, instead of: 4.05 [eV]
+	Bandgap: Eg0 = 1.6673, instead of: 1.16964 [eV]
+	Bandgap: alpha = 2.7225e-04, instead of: 4.7300e-04 [eV/K]
+	Bandgap: beta = 1.2150e+02, instead of: 6.3600e+02 [K]
+	DOSeMass: a = 0.0000e+00, instead of: 0.1905 [1]
+	DOSeMass: ml = 0.0000e+00, instead of: 0.9163 [1]
+	DOSeMass: mm = 0.085152, instead of: 0.0000e+00 [1]
+	DOShMass: a = 0.0000e+00, instead of: 0.443587 [1]
+	DOShMass: b = 0.0000e+00, instead of: 3.6095e-03 [K^-1]
+	DOShMass: c = 0.0000e+00, instead of: 1.1735e-04 [K^-2]
+	DOShMass: d = 0.0000e+00, instead of: 1.2632e-06 [K^-3]
+	DOShMass: e = 0.0000e+00, instead of: 3.0256e-09 [K^-4]
+	DOShMass: f = 0.0000e+00, instead of: 4.6834e-03 [K^-1]
+	DOShMass: g = 0.0000e+00, instead of: 2.2869e-04 [K^-2]
+	DOShMass: h = 0.0000e+00, instead of: 7.4693e-07 [K^-3]
+	DOShMass: i = 0.0000e+00, instead of: 1.7275e-09 [K^-4]
+	DOShMass: mm = 0.65445, instead of: 0.0000e+00 [1]
+	DOShMass: Nv300 = 1.3286e+19, instead of: 3.1400e+19 [cm-3]
+	DopingMob(elec): formula = 2, instead of: 1 [1]
+	DopingMob(elec): Ar_mumin = 4.0000e+02, instead of: 88 [cm^2/(Vs)]
+	DopingMob(elec): Ar_alm = 0.0000e+00, instead of: -5.7000e-01 [1]
+	DopingMob(elec): Ar_mud = 3.9000e+03, instead of: 1.2520e+03 [cm^2/(Vs)]
+	DopingMob(elec): Ar_ald = 0.0000e+00, instead of: -2.3300e+00 [1]
+	DopingMob(elec): Ar_N0 = 2.0000e+16, instead of: 1.2500e+17 [cm^(-3)]
+	DopingMob(elec): Ar_alN = 1.955, instead of: 2.4 [1]
+	DopingMob(elec): Ar_a = 0.7, instead of: 0.88 [1]
+	DopingMob(elec): Ar_ala = 0.0000e+00, instead of: -1.4600e-01 [1]
+	DopingMob(hole): formula = 2, instead of: 1 [1]
+	DopingMob(hole): Ar_mumin = 15, instead of: 54.3 [cm^2/(Vs)]
+	DopingMob(hole): Ar_alm = 0.0000e+00, instead of: -5.7000e-01 [1]
+	DopingMob(hole): Ar_mud = 1.3500e+02, instead of: 4.0700e+02 [cm^2/(Vs)]
+	DopingMob(hole): Ar_ald = 0.0000e+00, instead of: -2.2300e+00 [1]
+	DopingMob(hole): Ar_N0 = 1.5000e+17, instead of: 2.3500e+17 [cm^(-3)]
+	DopingMob(hole): Ar_alN = 1.47, instead of: 2.4 [1]
+	DopingMob(hole): Ar_a = 0.8, instead of: 0.88 [1]
+	DopingMob(hole): Ar_ala = 0.0000e+00, instead of: -1.4600e-01 [1]
+	ConstMob(elec): mumax = 4.3000e+03, instead of: 1.4170e+03 [cm^2/(Vs)]
+	ConstMob(elec): Exponent = 1.66, instead of: 2.5 [1]
+	ConstMob(hole): mumax = 1.5000e+02, instead of: 4.7050e+02 [cm^2/(Vs)]
+	ConstMob(hole): Exponent = 2, instead of: 2.2 [1]
+	RadiativeRecombination: C = 1.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+	Scharfetter(elec): tau_max = 1.0000e-09, instead of: 1.0000e-05 [s]
+	Scharfetter(hole): tau_max = 1.0000e-09, instead of: 3.0000e-06 [s]
+	Scharfetter(elec): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(hole): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(elec): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Scharfetter(hole): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Auger(elec): A = 3.0000e-30, instead of: 6.7000e-32 [cm^6/s]
+	Auger(hole): A = 3.0000e-30, instead of: 7.2000e-32 [cm^6/s]
+	Auger(elec): B = 0.0000e+00, instead of: 2.4500e-31 [cm^6/s]
+	Auger(hole): B = 0.0000e+00, instead of: 4.5000e-33 [cm^6/s]
+	Auger(elec): C = 0.0000e+00, instead of: -2.2000e-32 [cm^6/s]
+	Auger(hole): C = 0.0000e+00, instead of: 2.6300e-32 [cm^6/s]
+	Auger(elec): H = 0.0000e+00, instead of: 3.46667 [1]
+	Auger(hole): H = 0.0000e+00, instead of: 8.25688 [1]
+	ComplexRefractiveIndex: n_0 = 3.5108, instead of: 1 [1]
+	ComplexRefractiveIndex: Formula = 3, instead of: 0 [1]
+	ComplexRefractiveIndex: Cn_temp = 4.0000e-04, instead of: 2.0000e-04 [K^-1]
+
+---------------------------------------------------
+ Reading parameters for material "GaTlP"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	Auger(elec): A = 1.0000e-30, instead of: 6.7000e-32 [cm^6/s]
+	Auger(hole): A = 1.0000e-30, instead of: 7.2000e-32 [cm^6/s]
+	Auger(elec): B = 0.0000e+00, instead of: 2.4500e-31 [cm^6/s]
+	Auger(hole): B = 0.0000e+00, instead of: 4.5000e-33 [cm^6/s]
+	Auger(elec): C = 0.0000e+00, instead of: -2.2000e-32 [cm^6/s]
+	Auger(hole): C = 0.0000e+00, instead of: 2.6300e-32 [cm^6/s]
+	Auger(elec): H = 0.0000e+00, instead of: 3.46667 [1]
+	Auger(hole): H = 0.0000e+00, instead of: 8.25688 [1]
+	RadiativeRecombination: C = 2.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+	Scharfetter(elec): tau_max = 1.0000e-09, instead of: 1.0000e-05 [s]
+	Scharfetter(hole): tau_max = 1.0000e-09, instead of: 3.0000e-06 [s]
+	Scharfetter(elec): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(hole): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(elec): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Scharfetter(hole): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+
+---------------------------------------------------
+ Reading parameters for material "Germanium"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	Scharfetter(elec): tau_max = 1.0000e-09, instead of: 1.0000e-05 [s]
+	Scharfetter(hole): tau_max = 1.0000e-09, instead of: 3.0000e-06 [s]
+	Scharfetter(elec): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(hole): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(elec): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Scharfetter(hole): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Auger(elec): A = 1.0000e-30, instead of: 6.7000e-32 [cm^6/s]
+	Auger(hole): A = 1.0000e-30, instead of: 7.2000e-32 [cm^6/s]
+	Auger(elec): B = 0.0000e+00, instead of: 2.4500e-31 [cm^6/s]
+	Auger(hole): B = 0.0000e+00, instead of: 4.5000e-33 [cm^6/s]
+	Auger(elec): C = 0.0000e+00, instead of: -2.2000e-32 [cm^6/s]
+	Auger(hole): C = 0.0000e+00, instead of: 2.6300e-32 [cm^6/s]
+	Auger(elec): H = 0.0000e+00, instead of: 3.46667 [1]
+	Auger(hole): H = 0.0000e+00, instead of: 8.25688 [1]
+	RadiativeRecombination: C = 2.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+
+---------------------------------------------------
+ Reading parameters for material "InAlAs"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	BarrierTunneling(elec): g = 1.19, instead of: 2.1 [1]
+	BarrierTunneling(hole): g = 0.34, instead of: 0.66 [1]
+	BarrierTunneling(elec): mt = 0.04, instead of: 0.0000e+00 [1]
+	BarrierTunneling(hole): mt = 0.42, instead of: 0.0000e+00 [1]
+
+---------------------------------------------------
+ Reading parameters for material "InGaAs"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	BarrierTunneling(elec): g = 1.19, instead of: 2.1 [1]
+	BarrierTunneling(hole): g = 0.34, instead of: 0.66 [1]
+	BarrierTunneling(elec): mt = 0.04, instead of: 0.0000e+00 [1]
+	BarrierTunneling(hole): mt = 0.42, instead of: 0.0000e+00 [1]
+	SchroedingerParameters(interval[0]): A = 0.0000e+00, instead of: 4.22 [1]
+	SchroedingerParameters(interval[1]): A = 0.0000e+00, instead of: 4.22 [1]
+	SchroedingerParameters(interval[0]): B = 0.0000e+00, instead of: 0.6084 [1]
+	SchroedingerParameters(interval[1]): B = 0.0000e+00, instead of: 0.6084 [1]
+	SchroedingerParameters(interval[0]): C = 0.0000e+00, instead of: 23.058 [1]
+	SchroedingerParameters(interval[1]): C = 0.0000e+00, instead of: 23.058 [1]
+	ComplexRefractiveIndex: n_0 = 3.5108, instead of: 3.892 [1]
+	ComplexRefractiveIndex: Formula = 3, instead of: 0 [1]
+	ComplexRefractiveIndex: Cn_temp = 4.0000e-04, instead of: 2.0000e-04 [K^-1]
+	RadiativeRecombination: C = 2.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+
+---------------------------------------------------
+ Reading parameters for material "InGaAsP"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	BarrierTunneling(elec): g = 1.19, instead of: 2.1 [1]
+	BarrierTunneling(hole): g = 0.34, instead of: 0.66 [1]
+	BarrierTunneling(elec): mt = 0.04, instead of: 0.0000e+00 [1]
+	BarrierTunneling(hole): mt = 0.42, instead of: 0.0000e+00 [1]
+	Scharfetter(elec): tau_max = 1.0000e-09, instead of: 1.0000e-05 [s]
+	Scharfetter(hole): tau_max = 1.0000e-09, instead of: 3.0000e-06 [s]
+	Scharfetter(elec): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(hole): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(elec): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Scharfetter(hole): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Auger(elec): A = 1.0000e-30, instead of: 6.7000e-32 [cm^6/s]
+	Auger(hole): A = 1.0000e-30, instead of: 7.2000e-32 [cm^6/s]
+	Auger(elec): B = 0.0000e+00, instead of: 2.4500e-31 [cm^6/s]
+	Auger(hole): B = 0.0000e+00, instead of: 4.5000e-33 [cm^6/s]
+	Auger(elec): C = 0.0000e+00, instead of: -2.2000e-32 [cm^6/s]
+	Auger(hole): C = 0.0000e+00, instead of: 2.6300e-32 [cm^6/s]
+	Auger(elec): H = 0.0000e+00, instead of: 3.46667 [1]
+	Auger(hole): H = 0.0000e+00, instead of: 8.25688 [1]
+
+---------------------------------------------------
+ Reading parameters for material "InP"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	Bandgap: Chi0 = 4.5, instead of: 4.4 [eV]
+	Bandgap: Eg0 = 1.35, instead of: 1.4205 [eV]
+
+---------------------------------------------------
+ Reading parameters for material "MgF"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	epsilon: epsilon = 6, instead of: 11.7 [1]
+	DOSeMass: a = 0.0000e+00, instead of: 0.1905 [1]
+	DOSeMass: ml = 0.0000e+00, instead of: 0.9163 [1]
+	DOSeMass: mm = 0.42, instead of: 0.0000e+00 [1]
+	DOShMass: a = 0.0000e+00, instead of: 0.443587 [1]
+	DOShMass: b = 0.0000e+00, instead of: 3.6095e-03 [K^-1]
+	DOShMass: c = 0.0000e+00, instead of: 1.1735e-04 [K^-2]
+	DOShMass: d = 0.0000e+00, instead of: 1.2632e-06 [K^-3]
+	DOShMass: e = 0.0000e+00, instead of: 3.0256e-09 [K^-4]
+	DOShMass: f = 0.0000e+00, instead of: 4.6834e-03 [K^-1]
+	DOShMass: g = 0.0000e+00, instead of: 2.2869e-04 [K^-2]
+	DOShMass: h = 0.0000e+00, instead of: 7.4693e-07 [K^-3]
+	DOShMass: i = 0.0000e+00, instead of: 1.7275e-09 [K^-4]
+	DOShMass: mm = 1, instead of: 0.0000e+00 [1]
+
+---------------------------------------------------
+ Reading parameters for material "TiOx"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	epsilon: epsilon = 6, instead of: 11.7 [1]
+	DOSeMass: a = 0.0000e+00, instead of: 0.1905 [1]
+	DOSeMass: ml = 0.0000e+00, instead of: 0.9163 [1]
+	DOSeMass: mm = 0.42, instead of: 0.0000e+00 [1]
+	DOShMass: a = 0.0000e+00, instead of: 0.443587 [1]
+	DOShMass: b = 0.0000e+00, instead of: 3.6095e-03 [K^-1]
+	DOShMass: c = 0.0000e+00, instead of: 1.1735e-04 [K^-2]
+	DOShMass: d = 0.0000e+00, instead of: 1.2632e-06 [K^-3]
+	DOShMass: e = 0.0000e+00, instead of: 3.0256e-09 [K^-4]
+	DOShMass: f = 0.0000e+00, instead of: 4.6834e-03 [K^-1]
+	DOShMass: g = 0.0000e+00, instead of: 2.2869e-04 [K^-2]
+	DOShMass: h = 0.0000e+00, instead of: 7.4693e-07 [K^-3]
+	DOShMass: i = 0.0000e+00, instead of: 1.7275e-09 [K^-4]
+	DOShMass: mm = 1, instead of: 0.0000e+00 [1]
+
+---------------------------------------------------
+ Reading parameters for material "TlP"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	epsilon: epsilon = 18, instead of: 11.7 [1]
+	Refractiveindex: refractiveindex = 3.22, instead of: 3.45 [1]
+	Energy relaxation time: tau_w_ele = 1, instead of: 0.3 [ps]
+	Energy relaxation time: tau_w_hol = 0.4, instead of: 0.25 [ps]
+	Avalanche Generation Factor for Hydro: n_l_f = 0.8, instead of: 1 [1]
+	Avalanche Generation Factor for Hydro: p_l_f = 0.8, instead of: 1 [1]
+	Avalanche Generation Factor for Hydro: n_gamma = 0.0000e+00, instead of: 1 [1]
+	Avalanche Generation Factor for Hydro: p_gamma = 0.0000e+00, instead of: 1 [1]
+	Avalanche Generation Factor for Hydro: n_delta = 0.0000e+00, instead of: 1.5 [1]
+	Avalanche Generation Factor for Hydro: p_delta = 0.0000e+00, instead of: 1.5 [1]
+	Bandgap: Chi0 = 4.8, instead of: 4.05 [eV]
+	Bandgap: Eg0 = -2.7000e-01, instead of: 1.16964 [eV]
+	Bandgap: alpha = 4.1000e-04, instead of: 4.7300e-04 [eV/K]
+	Bandgap: beta = 1.3600e+02, instead of: 6.3600e+02 [K]
+	BandstructureParameters: gamma_1 = 4.95, instead of: 6.85 [1]
+	BandstructureParameters: gamma_2 = 1.65, instead of: 2.1 [1]
+	BandstructureParameters: gamma_3 = 2.35, instead of: 2.9 [1]
+	BandstructureParameters: so = 0.11, instead of: 0.34 [eV]
+	BandstructureParameters: ep_te = 20.7, instead of: 28.8 [eV]
+	BandstructureParameters: ep_tm = 20.7, instead of: 28.8 [eV]
+	DOSeMass: Formula = 2, instead of: 1 [1]
+	DOSeMass: Nc300 = 5.6600e+17, instead of: 2.8900e+19 [1]
+	DOShMass: Formula = 2, instead of: 1 [1]
+	DOShMass: Nv300 = 1.0300e+19, instead of: 3.1400e+19 [cm-3]
+	SchroedingerParameters: Formula(hole) = 2, instead of: 0 [1]
+	SchroedingerParameters: ml = 0.089, instead of: 0.0000e+00 [1]
+	SchroedingerParameters: mh = 0.85, instead of: 0.0000e+00 [1]
+	ConstMob(elec): mumax = 4.5000e+03, instead of: 1.4170e+03 [cm^2/(Vs)]
+	ConstMob(elec): Exponent = 1.5, instead of: 2.5 [1]
+	ConstMob(hole): mumax = 1.5000e+02, instead of: 4.7050e+02 [cm^2/(Vs)]
+	ConstMob(hole): Exponent = 1.5, instead of: 2.2 [1]
+	ConstMob(elec): mumax = 4.5000e+03, instead of: 1.4170e+03 [cm^2/(Vs)]
+	ConstMob(elec): Exponent = 1.5, instead of: 2.5 [1]
+	ConstMob(hole): mumax = 1.5000e+02, instead of: 4.7050e+02 [cm^2/(Vs)]
+	ConstMob(hole): Exponent = 1.5, instead of: 2.2 [1]
+	DopingMob(elec): formula = 2, instead of: 1 [1]
+	DopingMob(elec): Ar_mumin = 4.5000e+03, instead of: 88 [cm^2/(Vs)]
+	DopingMob(elec): Ar_alm = -1.5000e+00, instead of: -5.7000e-01 [1]
+	DopingMob(elec): Ar_mud = 0.0000e+00, instead of: 1.2520e+03 [cm^2/(Vs)]
+	DopingMob(elec): Ar_ald = 0.0000e+00, instead of: -2.3300e+00 [1]
+	DopingMob(elec): Ar_N0 = 1.0000e+17, instead of: 1.2500e+17 [cm^(-3)]
+	DopingMob(elec): Ar_alN = 0.0000e+00, instead of: 2.4 [1]
+	DopingMob(elec): Ar_a = 0.0000e+00, instead of: 0.88 [1]
+	DopingMob(elec): Ar_ala = 0.0000e+00, instead of: -1.4600e-01 [1]
+	DopingMob(hole): formula = 2, instead of: 1 [1]
+	DopingMob(hole): Ar_mumin = 1.5000e+02, instead of: 54.3 [cm^2/(Vs)]
+	DopingMob(hole): Ar_alm = -1.5000e+00, instead of: -5.7000e-01 [1]
+	DopingMob(hole): Ar_mud = 0.0000e+00, instead of: 4.0700e+02 [cm^2/(Vs)]
+	DopingMob(hole): Ar_ald = 0.0000e+00, instead of: -2.2300e+00 [1]
+	DopingMob(hole): Ar_N0 = 1.0000e+17, instead of: 2.3500e+17 [cm^(-3)]
+	DopingMob(hole): Ar_alN = 0.0000e+00, instead of: 2.4 [1]
+	DopingMob(hole): Ar_a = 0.0000e+00, instead of: 0.88 [1]
+	DopingMob(hole): Ar_ala = 0.0000e+00, instead of: -1.4600e-01 [1]
+	DopingMob(elec): formula = 2, instead of: 1 [1]
+	DopingMob(elec): Ar_mumin = 4.5000e+03, instead of: 88 [cm^2/(Vs)]
+	DopingMob(elec): Ar_alm = -1.5000e+00, instead of: -5.7000e-01 [1]
+	DopingMob(elec): Ar_mud = 0.0000e+00, instead of: 1.2520e+03 [cm^2/(Vs)]
+	DopingMob(elec): Ar_ald = 0.0000e+00, instead of: -2.3300e+00 [1]
+	DopingMob(elec): Ar_N0 = 1.0000e+17, instead of: 1.2500e+17 [cm^(-3)]
+	DopingMob(elec): Ar_alN = 0.0000e+00, instead of: 2.4 [1]
+	DopingMob(elec): Ar_a = 0.0000e+00, instead of: 0.88 [1]
+	DopingMob(elec): Ar_ala = 0.0000e+00, instead of: -1.4600e-01 [1]
+	DopingMob(hole): formula = 2, instead of: 1 [1]
+	DopingMob(hole): Ar_mumin = 1.5000e+02, instead of: 54.3 [cm^2/(Vs)]
+	DopingMob(hole): Ar_alm = -1.5000e+00, instead of: -5.7000e-01 [1]
+	DopingMob(hole): Ar_mud = 0.0000e+00, instead of: 4.0700e+02 [cm^2/(Vs)]
+	DopingMob(hole): Ar_ald = 0.0000e+00, instead of: -2.2300e+00 [1]
+	DopingMob(hole): Ar_N0 = 1.0000e+17, instead of: 2.3500e+17 [cm^(-3)]
+	DopingMob(hole): Ar_alN = 0.0000e+00, instead of: 2.4 [1]
+	DopingMob(hole): Ar_a = 0.0000e+00, instead of: 0.88 [1]
+	DopingMob(hole): Ar_ala = 0.0000e+00, instead of: -1.4600e-01 [1]
+	HighFieldMob(elec): beta0 = 2, instead of: 1.109 [1]
+	HighFieldMob(elec): betaexp = 0.0000e+00, instead of: 0.66 [1]
+	HighFieldMob(elec): Vsat_Formula = 2, instead of: 1 [1]
+	HighFieldMob(elec): A_vsat = 1.0000e+07, instead of: 1.0700e+07 [cm/s]
+	HighFieldMob(hole): beta0 = 2, instead of: 1.213 [1]
+	HighFieldMob(hole): betaexp = 0.0000e+00, instead of: 0.17 [1]
+	HighFieldMob(hole): Vsat_Formula = 2, instead of: 1 [1]
+	HighFieldMob(hole): A_vsat = 1.0000e+07, instead of: 8.3700e+06 [cm/s]
+	HighFieldMob(elec): beta0 = 2, instead of: 1.109 [1]
+	HighFieldMob(elec): betaexp = 0.0000e+00, instead of: 0.66 [1]
+	HighFieldMob(elec): Vsat_Formula = 2, instead of: 1 [1]
+	HighFieldMob(elec): A_vsat = 1.0000e+07, instead of: 1.0700e+07 [cm/s]
+	HighFieldMob(hole): beta0 = 2, instead of: 1.213 [1]
+	HighFieldMob(hole): betaexp = 0.0000e+00, instead of: 0.17 [1]
+	HighFieldMob(hole): Vsat_Formula = 2, instead of: 1 [1]
+	HighFieldMob(hole): A_vsat = 1.0000e+07, instead of: 8.3700e+06 [cm/s]
+	Scharfetter(elec): tau_max = 1.0000e-09, instead of: 1.0000e-05 [s]
+	Scharfetter(hole): tau_max = 1.0000e-09, instead of: 3.0000e-06 [s]
+	Scharfetter(elec): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(hole): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(elec): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Scharfetter(hole): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Auger(elec): A = 1.0000e-30, instead of: 6.7000e-32 [cm^6/s]
+	Auger(hole): A = 1.0000e-30, instead of: 7.2000e-32 [cm^6/s]
+	Auger(elec): B = 0.0000e+00, instead of: 2.4500e-31 [cm^6/s]
+	Auger(hole): B = 0.0000e+00, instead of: 4.5000e-33 [cm^6/s]
+	Auger(elec): C = 0.0000e+00, instead of: -2.2000e-32 [cm^6/s]
+	Auger(hole): C = 0.0000e+00, instead of: 2.6300e-32 [cm^6/s]
+	Auger(elec): H = 0.0000e+00, instead of: 3.46667 [1]
+	Auger(hole): H = 0.0000e+00, instead of: 8.25688 [1]
+	PooleFrenkel: epsPFe = 18, instead of: 11.7 [1]
+	PooleFrenkel: epsPFh = 18, instead of: 11.7 [1]
+	RadiativeRecombination: C = 2.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+
+
+=======
+Region: "AlInP_region1"
+  (material is "AlInP")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "AlInP_region2"
+  (material is "AlInP")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "AlInP_top_BSF"
+  (material is "AlInP")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "AlInP_top_window"
+  (material is "AlInP")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "GaAs_bot_BSF"
+  (material is "GaAs")
+=======
+  Model: "BarrierTunneling"
+    Parameter "mt_e" is modified from 0 to 0.05
+    Parameter "mt_h" is modified from 0 to 0.14
+  Model: "RadiativeRecombination"
+    Parameter "C" is modified from 2e-10 to 7e-10
+  Model: "Scharfetter"
+    Parameter "taumax_e" is modified from 1e-09 to 2.5e-07
+    Parameter "taumax_h" is modified from 1e-09 to 3e-06
+
+=======
+Region: "GaAs_bot_window"
+  (material is "GaAs")
+=======
+  Model: "BarrierTunneling"
+    Parameter "mt_e" is modified from 0 to 0.05
+    Parameter "mt_h" is modified from 0 to 0.14
+  Model: "RadiativeRecombination"
+    Parameter "C" is modified from 2e-10 to 7e-10
+  Model: "Scharfetter"
+    Parameter "taumax_e" is modified from 1e-09 to 2.5e-07
+    Parameter "taumax_h" is modified from 1e-09 to 3e-06
+
+=======
+Region: "GaAs_region10"
+  (material is "GaAs")
+=======
+  Model: "BarrierTunneling"
+    Parameter "mt_e" is modified from 0 to 0.05
+    Parameter "mt_h" is modified from 0 to 0.14
+  Model: "RadiativeRecombination"
+    Parameter "C" is modified from 2e-10 to 7e-10
+  Model: "Scharfetter"
+    Parameter "taumax_e" is modified from 1e-09 to 2.5e-07
+    Parameter "taumax_h" is modified from 1e-09 to 3e-06
+
+=======
+Region: "GaAs_region9"
+  (material is "GaAs")
+=======
+  Model: "BarrierTunneling"
+    Parameter "mt_e" is modified from 0 to 0.05
+    Parameter "mt_h" is modified from 0 to 0.14
+  Model: "RadiativeRecombination"
+    Parameter "C" is modified from 2e-10 to 7e-10
+  Model: "Scharfetter"
+    Parameter "taumax_e" is modified from 1e-09 to 2.5e-07
+    Parameter "taumax_h" is modified from 1e-09 to 3e-06
+
+=======
+Region: "GaInP_mid_BSF"
+  (material is "GaInP")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "GaInP_mid_window"
+  (material is "GaInP")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "GaInP_region5"
+  (material is "GaInP")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "GaInP_region6"
+  (material is "GaInP")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "Gold_region_1"
+  (material is "Gold")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "Goldregion_gold"
+  (material is "Gold")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "InAlAs_region3"
+  (material is "InAlAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "InAlAs_region4"
+  (material is "InAlAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "InAlAs_region7"
+  (material is "InAlAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "InAlAs_region8"
+  (material is "InAlAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "MgF_region_1"
+  (material is "MgF")
+=======
+  Model: "DOSMass_electron"
+    Parameter "a" is modified from 0.1905 to 0
+    Parameter "ml" is modified from 0.9163 to 0
+    Parameter "mm" is modified from 0 to 0.42
+  Model: "DOSMass_hole"
+    Parameter "a" is modified from 0.443587 to 0
+    Parameter "b" is modified from 0.00360953 to 0
+    Parameter "c" is modified from 0.000117352 to 0
+    Parameter "d" is modified from 1.26322e-06 to 0
+    Parameter "e" is modified from 3.02558e-09 to 0
+    Parameter "f" is modified from 0.00468338 to 0
+    Parameter "g" is modified from 0.000228689 to 0
+    Parameter "h" is modified from 7.46927e-07 to 0
+    Parameter "i" is modified from 1.72748e-09 to 0
+    Parameter "mm" is modified from 0 to 1
+  Model: "Epsilon"
+    Parameter "epsilon" is modified from 11.7 to 6
+
+=======
+Region: "TiOx_region_1"
+  (material is "TiOx")
+=======
+  Model: "DOSMass_electron"
+    Parameter "a" is modified from 0.1905 to 0
+    Parameter "ml" is modified from 0.9163 to 0
+    Parameter "mm" is modified from 0 to 0.42
+  Model: "DOSMass_hole"
+    Parameter "a" is modified from 0.443587 to 0
+    Parameter "b" is modified from 0.00360953 to 0
+    Parameter "c" is modified from 0.000117352 to 0
+    Parameter "d" is modified from 1.26322e-06 to 0
+    Parameter "e" is modified from 3.02558e-09 to 0
+    Parameter "f" is modified from 0.00468338 to 0
+    Parameter "g" is modified from 0.000228689 to 0
+    Parameter "h" is modified from 7.46927e-07 to 0
+    Parameter "i" is modified from 1.72748e-09 to 0
+    Parameter "mm" is modified from 0 to 1
+  Model: "Epsilon"
+    Parameter "epsilon" is modified from 11.7 to 6
+
+================
+RegionInterface: "AlInP_region1/AlInP_region2"
+  (material interface is "AlInP/AlInP")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "AlInP_region1/AlInP_top_window"
+  (material interface is "AlInP/AlInP")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "AlInP_top_BSF/AlInP_region2"
+  (material interface is "AlInP/AlInP")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "AlInP_top_BSF/InAlAs_region3"
+  (material interface is "AlInP/InAlAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Gold_region_1/AlInP_top_window"
+  (material interface is "Gold/AlInP")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "AlInP_top_window/TiOx_region_1"
+  (material interface is "AlInP/TiOx")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaAs_region10/GaAs_bot_BSF"
+  (material interface is "GaAs/GaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaAs_bot_BSF/Goldregion_gold"
+  (material interface is "GaAs/Gold")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaAs_region9/GaAs_bot_window"
+  (material interface is "GaAs/GaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "InAlAs_region8/GaAs_bot_window"
+  (material interface is "InAlAs/GaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaAs_region9/GaAs_region10"
+  (material interface is "GaAs/GaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaInP_region6/GaInP_mid_BSF"
+  (material interface is "GaInP/GaInP")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaInP_mid_BSF/InAlAs_region7"
+  (material interface is "GaInP/InAlAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaInP_mid_window/GaInP_region5"
+  (material interface is "GaInP/GaInP")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "InAlAs_region4/GaInP_mid_window"
+  (material interface is "InAlAs/GaInP")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaInP_region6/GaInP_region5"
+  (material interface is "GaInP/GaInP")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Gold_region_1/MgF_region_1"
+  (material interface is "Gold/MgF")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Gold_region_1/TiOx_region_1"
+  (material interface is "Gold/TiOx")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "InAlAs_region3/InAlAs_region4"
+  (material interface is "InAlAs/InAlAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "InAlAs_region7/InAlAs_region8"
+  (material interface is "InAlAs/InAlAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "MgF_region_1/TiOx_region_1"
+  (material interface is "MgF/TiOx")
+================
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "back"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "front"
+==========
+  Constants are not modified and equal to default ones
+
+
+Use doping species (B, P) concentrations from file (Species => Na,Nd)!
+Use doping concentration (Nnet) from file.
+No total doping concentration in doping file (Species => Ntot)!
+
+
+ Region "GaInP_region6" (Material "GaInP"): "Bandgap" computed by side materials "InP,GaP"
+ Region "GaInP_region6" (Material "GaInP"): "Epsilon" computed by side materials "InP,GaP"
+ Region "GaInP_region6" (Material "GaInP"): "eDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_region6" (Material "GaInP"): "hDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_region6" (Material "GaInP"): "DopingDependence(electrons)" computed by side materials "InP,GaP"
+ Region "GaInP_region6" (Material "GaInP"): "DopingDependence(holes)" computed by side materials "InP,GaP"
+ Region "GaInP_mid_BSF" (Material "GaInP"): "Bandgap" computed by side materials "InP,GaP"
+ Region "GaInP_mid_BSF" (Material "GaInP"): "Epsilon" computed by side materials "InP,GaP"
+ Region "GaInP_mid_BSF" (Material "GaInP"): "eDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_mid_BSF" (Material "GaInP"): "hDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_mid_BSF" (Material "GaInP"): "DopingDependence(electrons)" computed by side materials "InP,GaP"
+ Region "GaInP_mid_BSF" (Material "GaInP"): "DopingDependence(holes)" computed by side materials "InP,GaP"
+ Region "InAlAs_region7" (Material "InAlAs"): "DopingDependence(electrons)" computed by side materials "InAs,AlAs"
+ Region "InAlAs_region7" (Material "InAlAs"): "DopingDependence(holes)" computed by side materials "InAs,AlAs"
+ Region "InAlAs_region8" (Material "InAlAs"): "DopingDependence(electrons)" computed by side materials "InAs,AlAs"
+ Region "InAlAs_region8" (Material "InAlAs"): "DopingDependence(holes)" computed by side materials "InAs,AlAs"
+ Region "InAlAs_region3" (Material "InAlAs"): "DopingDependence(electrons)" computed by side materials "InAs,AlAs"
+ Region "InAlAs_region3" (Material "InAlAs"): "DopingDependence(holes)" computed by side materials "InAs,AlAs"
+ Region "InAlAs_region4" (Material "InAlAs"): "DopingDependence(electrons)" computed by side materials "InAs,AlAs"
+ Region "InAlAs_region4" (Material "InAlAs"): "DopingDependence(holes)" computed by side materials "InAs,AlAs"
+ Region "GaInP_mid_window" (Material "GaInP"): "Bandgap" computed by side materials "InP,GaP"
+ Region "GaInP_mid_window" (Material "GaInP"): "Epsilon" computed by side materials "InP,GaP"
+ Region "GaInP_mid_window" (Material "GaInP"): "eDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_mid_window" (Material "GaInP"): "hDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_mid_window" (Material "GaInP"): "DopingDependence(electrons)" computed by side materials "InP,GaP"
+ Region "GaInP_mid_window" (Material "GaInP"): "DopingDependence(holes)" computed by side materials "InP,GaP"
+ Region "GaInP_region5" (Material "GaInP"): "Bandgap" computed by side materials "InP,GaP"
+ Region "GaInP_region5" (Material "GaInP"): "Epsilon" computed by side materials "InP,GaP"
+ Region "GaInP_region5" (Material "GaInP"): "eDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_region5" (Material "GaInP"): "hDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_region5" (Material "GaInP"): "DopingDependence(electrons)" computed by side materials "InP,GaP"
+ Region "GaInP_region5" (Material "GaInP"): "DopingDependence(holes)" computed by side materials "InP,GaP"
+Tue Mar 11 18:49:21 2014: checked out 1 Dessis-Hetero license(s)
+Tue Mar 11 18:49:21 2014: checked out 1 sdevice-hetero license(s)
+
+With Constant Reference Potential:
+  Parameters of Reference Semiconductor:
+    The Electron Affinity: 4.11826
+    The Band Gap: 1.42248
+    The Electron DOS: 4.4200e+17
+    The Hole DOS: 8.4700e+18
+  The Constant Reference Potential: 4.79133
+Tue Mar 11 18:49:22 2014: checked out 1 Dessis-Optic license(s)
+Tue Mar 11 18:49:22 2014: checked out 1 sdevice-optic license(s)
+
+===============================
+Starting solve of next problem:
+ Poisson
+===============================
+
+Computing poisson-equation 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.14e+05                                                      0.11
+    1      7.73e+03   1.00e+00   8.88e+00   2.05e+07    0         1      0.46
+    2      9.33e+02   1.00e+00   2.67e+00   3.01e+06    0         1      0.78
+    3      2.34e+02   1.00e+00   1.03e+00   1.09e+06    0         1      1.10
+    4      2.42e+01   1.00e+00   3.19e-01   3.53e+05    0         1      1.46
+    5      2.78e-01   1.00e+00   3.90e-02   3.26e+04    0         1      1.78
+    6      4.16e-04   1.00e+00   1.36e-03   1.33e+03    0         1      2.10
+    7      1.89e-09   1.00e+00   2.66e-06   3.96e+00    0         1      2.43
+Finished, because...
+|RHS| less than 1.0000E-05.
+
+Accumulated times:
+Rhs time:        0.72 s
+Jacobian time:   0.52 s
+Solve time:      1.15 s
+Total time:      2.43 s
+
+
+Warning: Illumination spectrum file n311_am15d.txt does not contain header specifying parameter name and corresponding unit for each data column, continuing in backward compatibility mode (pre E-2010.12) where first column is supposed to contain wavelength [um] and second column is supposed to contain intensity [W*cm^-2]  !
+
+Parsing file 'n311_am15d.txt' succeeded.
+Reading geometry 'n291_msh.tdr' ...
+  coordinate system: DFISE, 2d_dfise (y is device down direction, 3d extension right-handed)
+  use coordinate system as is (no transformation)
+done.
+contact        voltage     electron current    hole current  conduction current
+ back         0.000E+00       6.943E+02        -6.943E+02       -1.620E-16
+ front        0.000E+00       5.592E+02        -5.592E+02        1.620E-16
+
+
+===============================
+Starting solve of next problem:
+Transient (
+      Max. #iterations : 20, 
+      Initial step : 1.0000e-11 s, Minimum #intervals : 0, 
+      Minimum step : 1.0000e-12 s, Maximum step : 1 s, 
+      Initial time : 0.0000e+00 s, Final time : 0.1 s, 
+    )
+  {
+    Coupled ( Digits : 7, Max. #iterations : 20, 
+        Solver : Super,
+        #undamped iterations : 100 
+)
+        { Poisson Electron Hole } 
+  }
+===============================
+
+Computing BE-step from 0.0000e+00 s to 1.0000e-11 s (Stepsize: 1.0000e-11 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.30e+03                                                      2.10
+    1      1.82e+04   1.00e+00   2.64e+01   5.54e+06    0         1      9.63
+    2      6.31e-02   1.00e+00   1.55e-03   1.52e+04    0         1     16.97
+    3      6.36e-02   1.00e+00   1.16e-11   1.08e-04    0         1     24.32
+Finished, because...
+Error smaller than 1 ( 1.0795E-04 ).
+
+Accumulated times:
+Rhs time:        8.96 s
+Jacobian time:   2.09 s
+Solve time:     12.94 s
+Total time:     24.32 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       3.388E+01         1.350E-17        1.811E+02
+ front        0.000E+00      -3.422E+01        -7.805E-18       -5.077E+02
+
+
+Computing BE-step from 1.0000e-11 s to 3.0000e-11 s (Stepsize: 2.0000e-11 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.79e+04                                                      2.10
+    1      1.89e+05   1.00e+00   4.15e-01   2.56e+06    0         1      9.38
+    2      4.72e-02   1.00e+00   2.52e-05   2.48e+02    0         1     16.87
+    3      6.88e-02   1.00e+00   3.80e-12   3.78e-05    0         1     24.24
+Finished, because...
+Error smaller than 1 ( 3.7778E-05 ).
+
+Accumulated times:
+Rhs time:        9.08 s
+Jacobian time:   2.08 s
+Solve time:     12.77 s
+Total time:     24.25 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       7.160E+01         8.122E-18        4.028E+02
+ front        0.000E+00      -7.182E+01        -6.540E-18       -6.349E+02
+
+
+Computing BE-step from 3.0000e-11 s to 7.0000e-11 s (Stepsize: 4.0000e-11 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.87e+05                                                      2.37
+    1      1.44e+05   1.00e+00   5.41e-01   1.21e+07    0         1      9.66
+    2      5.36e-02   1.00e+00   1.17e-04   1.07e+03    0         1     17.00
+    3      6.06e-02   1.00e+00   5.22e-12   5.21e-05    0         1     24.35
+Finished, because...
+Error smaller than 1 ( 5.2059E-05 ).
+
+Accumulated times:
+Rhs time:        9.24 s
+Jacobian time:   2.05 s
+Solve time:     12.74 s
+Total time:     24.35 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       1.185E+02         1.519E-17        6.024E+02
+ front        0.000E+00      -1.186E+02         0.000E+00       -6.948E+02
+
+
+Computing BE-step from 7.0000e-11 s to 1.5000e-10 s (Stepsize: 8.0000e-11 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.20e+06                                                      2.29
+    1      4.64e+05   1.00e+00   3.61e-01   6.66e+06    0         1      9.51
+    2      6.06e-02   1.00e+00   5.11e-05   4.86e+02    0         1     16.79
+    3      6.71e-02   1.00e+00   3.84e-12   3.84e-05    0         1     24.07
+Finished, because...
+Error smaller than 1 ( 3.8382E-05 ).
+
+Accumulated times:
+Rhs time:        9.26 s
+Jacobian time:   2.07 s
+Solve time:     12.40 s
+Total time:     24.07 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       1.789E+02         1.688E-18        6.990E+02
+ front        0.000E+00      -1.790E+02        -1.719E-17       -7.463E+02
+
+
+Computing BE-step from 1.5000e-10 s to 3.1000e-10 s (Stepsize: 1.6000e-10 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.69e+07                                                      2.26
+    1      1.27e+06   1.00e+00   3.21e-01   5.56e+06    0         1      9.52
+    2      5.31e-02   1.00e+00   3.80e-05   3.72e+02    0         1     16.89
+    3      5.00e-02   1.00e+00   1.58e-11   1.57e-04    0         1     24.15
+Finished, because...
+Error smaller than 1 ( 1.5719E-04 ).
+
+Accumulated times:
+Rhs time:        9.02 s
+Jacobian time:   2.06 s
+Solve time:     12.72 s
+Total time:     24.15 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       2.553E+02        -9.282E-18        7.251E+02
+ front        0.000E+00      -2.553E+02         1.013E-17       -7.916E+02
+
+
+Computing BE-step from 3.1000e-10 s to 6.3000e-10 s (Stepsize: 3.2000e-10 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.06e+08                                                      2.38
+    1      2.31e+06   1.00e+00   2.86e-01   4.31e+06    0         1      9.74
+    2      8.76e-02   1.00e+00   4.79e-05   4.69e+02    0         1     16.96
+    3      6.78e-02   1.00e+00   7.53e-11   7.27e-04    0         1     24.02
+Finished, because...
+Error smaller than 1 ( 7.2693E-04 ).
+
+Accumulated times:
+Rhs time:        9.20 s
+Jacobian time:   2.16 s
+Solve time:     12.28 s
+Total time:     24.02 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       3.463E+02        -7.289E-17        7.296E+02
+ front        0.000E+00      -3.463E+02        -2.527E-16       -8.199E+02
+
+
+Computing BE-step from 6.3000e-10 s to 1.2700e-09 s (Stepsize: 6.4000e-10 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.17e+08                                                      2.32
+    1      2.33e+07   1.00e+00   2.38e-01   2.92e+06    0         1      9.66
+    2      6.93e+00   1.00e+00   8.60e-05   7.66e+02    0         1     16.84
+    3      5.35e-02   1.00e+00   6.51e-10   5.14e-03    0         1     24.16
+Finished, because...
+Error smaller than 1 ( 5.1364E-03 ).
+
+Accumulated times:
+Rhs time:        9.32 s
+Jacobian time:   2.03 s
+Solve time:     12.49 s
+Total time:     24.16 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       4.480E+02         4.852E-17        7.302E+02
+ front        0.000E+00      -4.481E+02         1.831E-16       -8.306E+02
+
+
+Computing BE-step from 1.2700e-09 s to 2.5500e-09 s (Stepsize: 1.2800e-09 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.86e+08                                                      2.30
+    1      1.20e+08   1.00e+00   2.55e-01   1.89e+06    0         1      9.50
+    2      4.29e+02   1.00e+00   3.20e-04   2.55e+03    0         1     16.65
+    3      5.90e-02   1.00e+00   2.01e-08   5.71e-02    0         1     24.08
+Finished, because...
+Error smaller than 1 ( 5.7106E-02 ).
+
+Accumulated times:
+Rhs time:        9.24 s
+Jacobian time:   2.15 s
+Solve time:     12.34 s
+Total time:     24.08 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       5.559E+02         6.118E-17        7.304E+02
+ front        0.000E+00      -5.559E+02         1.540E-16       -8.326E+02
+
+
+Computing BE-step from 2.5500e-09 s to 5.1100e-09 s (Stepsize: 2.5600e-09 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.39e+09                                                      2.31
+    1      2.97e+08   1.00e+00   4.07e-01   1.17e+06    0         1      9.63
+    2      2.37e+03   1.00e+00   1.31e-03   1.10e+04    0         1     16.92
+    3      1.97e-01   1.00e+00   1.71e-07   7.82e-01    0         1     24.29
+Finished, because...
+Error smaller than 1 ( 7.8153E-01 ).
+
+Accumulated times:
+Rhs time:        9.25 s
+Jacobian time:   2.12 s
+Solve time:     12.56 s
+Total time:     24.29 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       6.598E+02         4.177E-17        7.304E+02
+ front        0.000E+00      -6.598E+02        -2.776E-16       -8.326E+02
+
+
+Computing BE-step from 5.1100e-09 s to 1.0230e-08 s (Stepsize: 5.1200e-09 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.25e+10                                                      2.37
+    1      4.07e+08   1.00e+00   6.20e-01   7.50e+05    0         1      9.67
+    2      8.31e+03   1.00e+00   3.59e-03   3.22e+04    0         1     17.25
+    3      1.44e+00   1.00e+00   9.49e-07   6.28e+00    0         1     24.58
+    4      5.20e-02   1.00e+00   5.54e-09   9.55e-03    0         1     31.96
+Finished, because...
+Error smaller than 1 ( 9.5455E-03 ).
+
+Accumulated times:
+Rhs time:       11.91 s
+Jacobian time:   2.83 s
+Solve time:     16.73 s
+Total time:     31.96 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       7.405E+02        -6.033E-17        7.305E+02
+ front        0.000E+00      -7.405E+02        -1.645E-17       -8.324E+02
+
+
+Computing BE-step from 1.0230e-08 s to 2.0470e-08 s (Stepsize: 1.0240e-08 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.83e+10                                                      2.39
+    1      6.73e+08   1.00e+00   6.58e-01   6.95e+05    0         1      9.67
+    2      1.56e+04   1.00e+00   4.30e-03   3.96e+04    0         1     16.84
+    3      1.16e+00   1.00e+00   1.48e-06   1.12e+01    0         1     24.10
+    4      5.76e-02   1.00e+00   3.35e-09   5.87e-03    0         1     31.21
+Finished, because...
+Error smaller than 1 ( 5.8701E-03 ).
+
+Accumulated times:
+Rhs time:       11.75 s
+Jacobian time:   2.63 s
+Solve time:     16.38 s
+Total time:     31.21 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       7.832E+02         7.510E-17        7.305E+02
+ front        0.000E+00      -7.832E+02         2.848E-16       -8.321E+02
+
+
+Computing BE-step from 2.0470e-08 s to 4.0950e-08 s (Stepsize: 2.0480e-08 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.30e+11                                                      2.35
+    1      4.57e+08   1.00e+00   4.20e-01   4.25e+05    0         1      9.73
+    2      1.91e+04   1.00e+00   1.68e-03   1.53e+04    0         1     17.10
+    3      5.79e+00   1.00e+00   1.26e-06   2.98e+00    0         1     24.60
+    4      6.39e-02   1.00e+00   1.90e-08   3.84e-02    0         1     31.66
+Finished, because...
+Error smaller than 1 ( 3.8410E-02 ).
+
+Accumulated times:
+Rhs time:       11.68 s
+Jacobian time:   2.69 s
+Solve time:     16.80 s
+Total time:     31.66 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       7.962E+02        -6.540E-17        7.305E+02
+ front        0.000E+00      -7.962E+02        -3.012E-16       -8.317E+02
+
+
+Computing BE-step from 4.0950e-08 s to 8.1910e-08 s (Stepsize: 4.0960e-08 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.46e+12                                                      2.19
+    1      6.08e+09   1.00e+00   1.60e-01   1.90e+05    0         1      9.61
+    2      5.51e+04   1.00e+00   5.25e-04   2.26e+03    0         1     17.10
+    3      1.82e+01   1.00e+00   2.26e-06   3.94e+00    0         1     24.41
+    4      5.83e-02   1.00e+00   4.29e-08   7.28e-02    0         1     31.78
+Finished, because...
+Error smaller than 1 ( 7.2798E-02 ).
+
+Accumulated times:
+Rhs time:       11.29 s
+Jacobian time:   2.89 s
+Solve time:     17.14 s
+Total time:     31.78 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       7.966E+02        -2.869E-17        7.306E+02
+ front        0.000E+00      -7.966E+02         2.245E-16       -8.308E+02
+
+
+Computing BE-step from 8.1910e-08 s to 1.6383e-07 s (Stepsize: 8.1920e-08 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.34e+13                                                      2.28
+    1      6.01e+11   1.00e+00   1.43e-01   6.19e+05    0         1      9.43
+    2      2.87e+08   1.00e+00   1.25e-02   4.36e+04    0         1     16.86
+    3      1.62e+02   1.00e+00   2.47e-05   1.23e+02    0         1     24.17
+    4      5.59e-02   1.00e+00   4.94e-09   1.75e-02    0         1     31.39
+Finished, because...
+Error smaller than 1 ( 1.7539E-02 ).
+
+Accumulated times:
+Rhs time:       11.40 s
+Jacobian time:   2.74 s
+Solve time:     16.78 s
+Total time:     31.39 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       7.918E+02         1.498E-17        7.307E+02
+ front        0.000E+00      -7.918E+02        -7.594E-17       -8.287E+02
+
+
+Computing BE-step from 1.6383e-07 s to 3.2767e-07 s (Stepsize: 1.6384e-07 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.75e+13                                                      1.95
+    1      1.30e+13   1.00e+00   4.74e-01   5.29e+07    0         1      8.91
+    2      5.81e+11   1.00e+00   2.83e-01   7.07e+05    0         1     15.85
+    3      7.76e+08   1.00e+00   2.20e-02   9.39e+04    0         1     22.92
+    4      1.63e+03   1.00e+00   2.69e-04   2.55e+03    0         1     29.88
+    5      5.80e-02   1.00e+00   3.98e-08   3.81e-01    0         1     37.10
+Finished, because...
+Error smaller than 1 ( 3.8141E-01 ).
+
+Accumulated times:
+Rhs time:       11.97 s
+Jacobian time:   3.44 s
+Solve time:     21.07 s
+Total time:     37.10 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       7.821E+02         5.643E-17        7.310E+02
+ front        0.000E+00      -7.821E+02        -1.029E-16       -8.234E+02
+
+
+Computing BE-step from 3.2767e-07 s to 6.5535e-07 s (Stepsize: 3.2768e-07 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.25e+16                                                      2.05
+    1      2.40e+15   1.00e+00   3.09e+00   7.21e+10    0         1      9.22
+    2      5.44e+14   1.00e+00   2.82e+00   3.16e+08    0         1     16.30
+    3      1.31e+14   1.00e+00   1.82e+00   6.87e+08    0         1     23.41
+    4      2.77e+13   1.00e+00   4.46e+00   1.04e+09    0         1     30.53
+    5      6.23e+12   1.00e+00   1.27e+00   2.39e+06    0         1     37.49
+    6      7.74e+11   1.00e+00   2.40e-01   8.69e+05    0         1     44.51
+    7      2.09e+10   1.00e+00   5.32e-02   2.08e+05    0         1     51.66
+    8      1.26e+06   1.00e+00   2.84e-03   1.01e+04    0         1     58.65
+    9      5.45e-02   1.00e+00   2.49e-06   8.54e+00    0         1     65.50
+   10      5.85e-02   1.00e+00   7.68e-11   1.51e-04    0         1     72.67
+Finished, because...
+Error smaller than 1 ( 1.5107E-04 ).
+
+Accumulated times:
+Rhs time:       22.46 s
+Jacobian time:   7.04 s
+Solve time:     41.90 s
+Total time:     72.67 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       7.673E+02         7.341E-17        7.312E+02
+ front        0.000E+00      -7.673E+02         4.093E-17       -8.039E+02
+
+
+Computing BE-step from 6.5535e-07 s to 1.3107e-06 s (Stepsize: 6.5536e-07 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0     4.22e+150                                                      2.08

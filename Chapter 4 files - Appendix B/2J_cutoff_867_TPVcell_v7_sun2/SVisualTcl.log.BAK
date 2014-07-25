@@ -1,0 +1,17 @@
+load_file /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/n84_des.tdr
+create_plot -dataset n84_des
+select_plots {Plot_n84_des}
+#-> Plot_n84_des
+#-> Plot_n84_des
+#-> n84_des
+create_cutline -plot Plot_n84_des -type free -points {0 -0.61 0 4.55}
+select_plots {Plot_1}
+#-> Plot_1
+#-> C1(n84_des)
+select_plots {Plot_n84_des}
+#-> Plot_n84_des
+select_plots {Plot_1}
+#-> Plot_1
+windows_style -style max
+#-> 0
+exit

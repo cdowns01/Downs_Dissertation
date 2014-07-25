@@ -1,0 +1,42 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gjob                       ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gjob is running on host 'sunfire47' by user 'cdowns01'
+Binary 'gjob'
+Command line options '-verbose -nice 19 -nopp -job 650 -swb_pid 10583 -gsub_pid 24400 -gsub_host sunfire47 -gsub_port 44967 @STDB@/cutoff_1100/reasonable/2J_cutoff_1100_botcell_sun2_v7_2'
+Current directory '/h/cdowns01/tmp/cutoff_1100/reasonable/2J_cutoff_1100_botcell_sun2_v7_2'
+Some relevant environment variables:
+	STROOT=/usr/cots/synopsys/G_2012.06
+	STRELEASE=current
+	STROOT_LIB=/usr/cots/synopsys/G_2012.06/tcad/current/lib
+	STDB=/h/cdowns01/tmp
+	DATEX=/usr/cots/synopsys/G_2012.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:12.0
+
+relativizing paths:
+project path: /h/cdowns01/tmp/cutoff_1100/reasonable/2J_cutoff_1100_botcell_sun2_v7_2
+STDB path: @STDB@
+Project '@STDB@/cutoff_1100/reasonable/2J_cutoff_1100_botcell_sun2_v7_2'
+Loading global tool database '/usr/cots/synopsys/G_2012.06/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/h/cdowns01/tmp/gpref2_cdowns01.G-2012.06'...
+Loading project tree '/h/cdowns01/tmp/cutoff_1100/reasonable/2J_cutoff_1100_botcell_sun2_v7_2/gtree.dat'
+Loading jobs and dependence graph '"/h/cdowns01/tmp/cutoff_1100/reasonable/2J_cutoff_1100_botcell_sun2_v7_2/gexec.cmd"'
+Start Simulation section
+11:50:14 Mar 18 2014     job 650 <tecplot> started on host 'sunfire47': "tecplot_sv -rel G-2012.06 -p n650_tec.mcr"
+11:50:14 Mar 18 2014 --- job 650 <tecplot> exited abnormally: exit(23)
+End Simulation section
+Job failed
+Error: Child process with pid '9673' exists with the code '23'
+gjob exits with status 23

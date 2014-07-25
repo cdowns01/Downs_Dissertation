@@ -1,0 +1,3354 @@
+****************************************************************************
+***                           Sentaurus Device                           ***
+***                          Version G-2012.06                           ***
+***                         (1.5, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+	Running on machine with the following configuration:
+	Host Name: sunfire47
+	Operating System: Linux rel. 2.6.18-348.16.1.el5 ver. #1 SMP Sat Jul 27 01:05:23 EDT 2013
+	Machine Type: x86_64
+	Process ID: 10750
+	Number of processors: 16
+	Domain Name: (none)
+	Date: Sun Mar 16 05:13:54 2014  (EDT)
+
+Sun Mar 16 05:13:54 2014: checked out 1 Dessis license(s)
+Sun Mar 16 05:13:54 2014: checked out 1 sdevice license(s)
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_isource.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_pGC.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_sRL.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_vsource.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/bs_psource.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_SRL1.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_vsource2.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_isource2.ccf
+Parsing circuit file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/scm/MOS_harness.ccf
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/scm/MOS_harness.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_isource2.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_vsource2.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_SRL1.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/bs_psource.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_vsource.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_sRL.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_pGC.so.amd64
+Loading shared object file /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice/sd_hb_isource.so.amd64
+Sun Mar 16 05:13:54 2014: checked out 4 Dessis-Parallel license(s)
+Sun Mar 16 05:13:54 2014: checked out 4 sdevice-parallel license(s)
+Sun Mar 16 05:13:55 2014: checked out 4 sparallel license(s)
+
+Input source: pp643_des.cmd
+
+===============================
+
+Output file: n643_des.log
+
+
+GlobalParameter {
+}
+no ACExtract file
+
+PMIPath file: /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice-20.0.5 /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice
+
+CMIPath file: /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/sdevice /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/amd64/lib/scm
+
+SPICEPath file: /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/lib/sdevice-20.0.5/spice
+
+no DevicePath file
+
+no CIRCUITSAVENAME file
+
+no CIRCUITLOADNAME file
+
+Numerical parameters:
+  Absolute error : 
+    Poisson : 1.0000e-03
+    Electron : 1.0000e-05
+    Hole : 1.0000e-05
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1.0000e-05
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e-05
+    QW-eScattering-Equation : 1.0000e-05
+    QW-hScattering-Equation : 1.0000e-05
+    Optical Problem : 1.0000e-03
+    Wavelength : 1.0000e-03
+    Bandstructure : 1.0000e-03
+    EmissionTable : 1.0000e-03
+    DephasingRates : 1.0000e-03
+    Photon Recycling : 1.0000e-03
+    Electron-Temperature : 1.0000e-04
+    Hole-Temperature : 1.0000e-04
+    Lattice-Hole-Electron-Temperature : 1.0000e-03
+    Circuit : 1.0000e-03
+    TCircuit : 1.0000e-03
+    Contact : 1.0000e-03
+    TContact : 1.0000e-03
+    Continuation : 1.0000e-03
+    eLaplace : 1.0000e-03
+    hLaplace : 1.0000e-03
+    tLaplace : 1.0000e-03
+    MonteCarlo : 1.0000e-03
+    MCPoissonPDE : 1.0000e-03
+    eQuantumPotential : 1.0000e-03
+    hQuantumPotential : 1.0000e-03
+    quasi-fermi-potential : 1.0000e-03
+    ConductiveInsulator : 1.0000e-03
+    ContactAndConductiveInsulator : 1.0000e-03
+    SingletExciton : 1.0000e-05
+    eHopping : 1.0000e-03
+    hHopping : 1.0000e-03
+    HydrogenAtom : 1.0000e-03
+    HydrogenMolecule : 1.0000e-03
+    HydrogenIon : 1.0000e-03
+    HydrogenSiliconBondOccupation : 1.0000e-03
+    eSHEDistribution : 1.0000e-03
+    hSHEDistribution : 1.0000e-03
+  RelErrControl (Reference error): 
+    Poisson : 0.025852
+    Electron : 1.0000e+07
+    Hole : 1.0000e+07
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e+10
+    QW-eScattering-Equation : 1.0000e+10
+    QW-hScattering-Equation : 1.0000e+10
+    Optical Problem : 1
+    Wavelength : 1
+    Bandstructure : 1
+    EmissionTable : 1
+    DephasingRates : 1
+    Photon Recycling : 1
+    Electron-Temperature : 3.0000e+02
+    Hole-Temperature : 3.0000e+02
+    Lattice-Hole-Electron-Temperature : 3.0000e+02
+    Circuit : 1
+    TCircuit : 1
+    Contact : 0.025852
+    TContact : 1
+    Continuation : 1
+    eLaplace : 1
+    hLaplace : 1
+    tLaplace : 1
+    MonteCarlo : 1
+    MCPoissonPDE : 1
+    eQuantumPotential : 0.025852
+    hQuantumPotential : 0.025852
+    quasi-fermi-potential : 0.025852
+    ConductiveInsulator : 1
+    ContactAndConductiveInsulator : 1
+    SingletExciton : 1.0000e+10
+    eHopping : 0.025852
+    hHopping : 0.025852
+    HydrogenAtom : 1.0000e+10
+    HydrogenMolecule : 1.0000e+10
+    HydrogenIon : 1.0000e+10
+    HydrogenSiliconBondOccupation : 1
+    eSHEDistribution : 0.025852
+    hSHEDistribution : 0.025852
+  Relative error : 11 digits
+  Without checked transient error
+  Max. #iterations : 20
+  LineSearchDamping=1
+  #undamped iterations : 100
+  No incomplete Newton
+  transient method : Backward Euler
+  Linear solver : Super
+  Linear solver for AC analysis : blocked decomposition
+  Linear solver for SHEDistribution Model : Super
+  use linear extrapolation in transient/quasistationary computations
+  use complex supernodal in ac-analysis (if possible)
+  do not use smoothed PDE's in transient/quasistationary computations
+  Harmonic balance (HB) specifications:
+    Do not use MDFT mode in HB (i.e. one-tone and time domain assembly).
+    Do not use in HB the logarithm of densities.
+    No SolveSpectrum entries are specified.
+    Plot HB results for time domain interval (0.0000e+00 , 0.0000e+00) using 0 intervals.
+    HB Newton scaling parameters for rhs and update:
+      Equation                         :  RhsScale  : UpdateScale
+      Poisson                          :   1.00E+00 :   1.00E+00 
+      Electron                         :   1.00E-05 :   1.00E+00 
+      Hole                             :   1.00E-05 :   1.00E+00 
+      Photon-Rate-Equation             :   1.00E-05 :   1.00E+00 
+      Photon-Phase-Equation            :   1.00E+00 :   1.00E+00 
+      Rate-Stabilize-Equation          :   1.00E+00 :   1.00E+00 
+      QW-Scattering-Equations          :   1.00E-05 :   1.00E+00 
+      QW-eScattering-Equation          :   1.00E-05 :   1.00E+00 
+      QW-hScattering-Equation          :   1.00E-05 :   1.00E+00 
+      Optical Problem                  :   1.00E+00 :   1.00E+00 
+      Wavelength                       :   1.00E+00 :   1.00E+00 
+      Bandstructure                    :   1.00E+00 :   1.00E+00 
+      EmissionTable                    :   1.00E+00 :   1.00E+00 
+      DephasingRates                   :   1.00E+00 :   1.00E+00 
+      Photon Recycling                 :   1.00E+00 :   1.00E+00 
+      Electron-Temperature             :   1.00E+00 :   1.00E+00 
+      Hole-Temperature                 :   1.00E+00 :   1.00E+00 
+      Lattice-Hole-Electron-Temperature:   1.00E+00 :   1.00E+00 
+      Circuit                          :   1.00E-05 :   1.00E+00 
+      TCircuit                         :   1.00E+00 :   1.00E+00 
+      Contact                          :   1.00E-05 :   1.00E+00 
+      TContact                         :   1.00E+00 :   1.00E+00 
+      Continuation                     :   1.00E+00 :   1.00E+00 
+      eLaplace                         :   1.00E+00 :   1.00E+00 
+      hLaplace                         :   1.00E+00 :   1.00E+00 
+      tLaplace                         :   1.00E+00 :   1.00E+00 
+      MonteCarlo                       :   1.00E+00 :   1.00E+00 
+      MCPoissonPDE                     :   1.00E+00 :   1.00E+00 
+      eQuantumPotential                :   1.00E+00 :   1.00E+00 
+      hQuantumPotential                :   1.00E+00 :   1.00E+00 
+      quasi-fermi-potential            :   1.00E+00 :   1.00E+00 
+      ConductiveInsulator              :   1.00E+00 :   1.00E+00 
+      ContactAndConductiveInsulator    :   1.00E+00 :   1.00E+00 
+      SingletExciton                   :   1.00E+00 :   1.00E+00 
+      eHopping                         :   1.00E+00 :   1.00E+00 
+      hHopping                         :   1.00E+00 :   1.00E+00 
+      HydrogenAtom                     :   1.00E+00 :   1.00E+00 
+      HydrogenMolecule                 :   1.00E+00 :   1.00E+00 
+      HydrogenIon                      :   1.00E+00 :   1.00E+00 
+      HydrogenSiliconBondOccupation    :   1.00E+00 :   1.00E+00 
+      eSHEDistribution                 :   1.00E+00 :   1.00E+00 
+      hSHEDistribution                 :   1.00E+00 :   1.00E+00 
+    HB Newton correction parameters for values:
+      Equation                         :     Min    :  Variation 
+      Electron                         :   1.00E-20 :   1.00E+18 
+      Hole                             :   1.00E-20 :   1.00E+18 
+      Photon-Rate-Equation             :   0.00E+00 :   1.00E+18 
+      QW-eScattering-Equation          :   1.00E-20 :   1.00E+18 
+      QW-hScattering-Equation          :   1.00E-20 :   1.00E+18 
+      Electron-Temperature             :   1.00E+02 :   1.00E+18 
+      Hole-Temperature                 :   1.00E+02 :   1.00E+18 
+      Lattice-Hole-Electron-Temperature:   1.00E+02 :   1.00E+18 
+    
+    Traps are solved by decoupled mode.
+  use automatic coupling of contact/circuit stuff
+  Spice temperature: 3.0015e+02
+  Spice nominal temperature of parameter measurements: 3.0015e+02
+  Spice minimum conductance gmin: 1.0000e-12
+  Terminate simulation immediately if a solve command fails.
+  Use 80 bit (long double) extended precision floating point arithmetic.
+  Mininum |rhs| : 1.0000e-05
+  Maximum |rhs| : 1.0000e+20
+  Maximum |rhs| factor : 1.0000e+10
+  Lattice Temperature Range : (50,5.0000e+03)
+  Carrier Temperature Range : (10,8.0000e+04)
+  Simplified first order SHE of BTE will be solved
+  SHERefinementCutoff : 20
+  No user dependencies.
+  Number of assembly threads: 16 (Sentaurus Device command file)
+  Number of solver threads: 16 (Sentaurus Device command file)
+  Thread stacksize: 1000000 bytes (default)
+  Go serial if not enough parallel licenses are available.
+
+Default device parameters:
+  Electrodes:
+    "front" : 0.0000e+00 V (Ohmic), area factor : 1
+    "back" : 0.0000e+00 V (Ohmic), area factor : 1
+  Files:
+    no Boundary file
+    Grid file: n610_msh.tdr
+    no Doping file
+    no MobilityDoping file
+    no Load file
+    no Save file
+    Plot file: n643_des.tdr
+    no DevFieldsName file
+    no Path file
+    no optical-Generation file
+    no Lifetime file
+    no Temperature file
+    Current file: n643_des.plt
+    no PMIUserFields file
+    no Extraction file
+    ModelParameters file: pp643_des.par
+    no Piezo file
+    no ModeGain file
+    no Optical emission table for stimulated emission file
+    no Optical emission table for spontaneous emission file
+    no Optical emission table for photon phase change coefficient file
+    no EmissionTable file
+    no DephasingRates file
+    no ASESpectrum file
+    no OpticalFarField file
+    no OpticalIntensityPattern file
+    no SaveOpticalIntensityPattern file
+    no OpticalXYAnglePattern file
+    no SaveOpticalXYAnglePattern file
+    no MonteCarloInput file
+    no MonteCarloOutput file
+    no ACPlot file
+-----------------------------------------------
+  Numerical parameters:
+    With exact derivatives
+    With avalanche derivatives
+    Using old wavelength search algorithm
+    Do not reinitialize quasi Fermi potentials in quasi-stationary simulations
+    Ignore ionization integral constraints
+    Without diagonal preconditioning
+    With Scharfetter-Gummel Discretization
+    Relative error : 11 digits
+    Delta for numerical tunnelling derivatives : 1.0000e-03
+    Do not compute breakdown paths and ionization integrals
+    QuasiFermiPotential is used for Contact Equation
+    Break if contact current (front) exceeds bounds:
+        maxval = 1.0000e-05
+-----------------------------------------------
+-----------------------------------------------
+  Physical models:
+    Without incomplete ionization
+    Use Si parameters
+    TATNonlocalPathNC = 0.0000e+00
+    With SRH-Recombination
+      Without field dependent lifetimes
+      Without doping dependent lifetimes
+      Without temperature dependent lifetimes
+    Without CDL-Recombination
+    With optical generation computation 
+    With electron non local Barrier Tunneling
+      include band-to-band tunneling with legacy perpendicular energy integration
+    With hole non local Barrier Tunneling
+      include band-to-band tunneling with legacy perpendicular energy integration
+    Without Band-to-Band-Tunneling
+    With Auger-Recombination (without Generation)
+    With Radiative Recombination
+    Without Surface-Recombination
+    Without Trap-Assisted-Auger-Recombination
+    PMI recombination models: none
+  Without thermal resistance interfaces
+  With HeteroInterfaces
+  With Thermionic Emission at heterointerfaces for electrons and holes
+  Theta = 0.0000e+00 degree
+  Phi = 0.0000e+00 degree
+  Polarization = 0.0000e+00
+  Reference Refractive Index Model =   With Optics 
+    Optical solver type: TMM 1D Solver
+  Without Piezo
+  Without Anisotropic Material Properties
+  Without Avalanche-Generation 
+  Without Alpha Particle
+  Without Heavy Ion
+  Without polarization
+  Volume charge density: 0.0000e+00 cm^-3
+  Device Temperature = 3.0000e+02 K
+  Electron Quasi Fermi Potential: 0.0000e+00 V
+  Hole Quasi Fermi Potential: 0.0000e+00 V
+  Without MagneticField
+  With SingletExciton Barrier Type
+  Fermi Statistic 
+  Intrinsic density models:
+    default bandgap model
+    Bandgap narrowing model: Bennett/Wilson without bandgap narrowing
+  default affinity model
+  default effective mass model
+  Electron mobility:
+    Doping dependence:
+      Default
+    no Carrier-Carrier scattering
+    no E_normal dependence
+    Without ThinLayer mobility model
+    no high-field saturation
+    Einstein relation for diffusivity-mobility ratio.
+  Hole mobility:
+    Doping dependence:
+      Default
+    no Carrier-Carrier scattering
+    no E_normal dependence
+    Without ThinLayer mobility model
+    no high-field saturation
+    Einstein relation for diffusivity-mobility ratio.
+  DeviceAreaFactor = 2.0000e+09
+  Model: Optics  Switched on
+  Energy relaxation time model: according to formula in parameter file
+  Lattice thermal conductivity model: according to formula in parameter file
+  Metal Resistivity model: according to formula in parameter file
+  Thermo Electric Power model: extraploted Si data
+  Metal Thermo Electric Power model: MetalThermoElectricPower model not defined
+  Lattice heat capacity model: temperature dependent
+  no piezoelectric polarization model
+  Without default parameters from file (use built-in default parameters)
+-----------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'GaInP_top_window'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.8
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'GaInP_region1'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.75
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'GaInP_region2'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.75
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'GaInP_top_BSF'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.8
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'InAlAs_region3'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.4
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'InAlAs_region4'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.3
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'AlGaAs_mid_window'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.1
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'AlGaAs_region5'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.06
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'AlGaAs_region6'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.06
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'AlGaAs_mid_BSF'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.15
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'AlInP_region7'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.06
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'InGaAs_region8'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.3
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'InGaAs_bot_window'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.8
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'InGaAs_region9'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.8
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'InGaAs_region10'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.8
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - 
+The following Physical models have been changed
+              for Region = 'InGaAs_bot_BSF'
+
+  Internal Mole Fraction Specification:
+    xMoleFractionConst = 0.8
+
+  Without thermal resistance interfaces
+- - - - - - - - - - - - - - - - - - - - - - - -
+Process information for extraction purposes:
+  none
+Plot variables:
+  eCurrentDensity
+  hCurrentDensity
+  ElectrostaticPotential
+  ElectricField
+  eMobility
+  hMobility
+  eVelocity
+  hVelocity
+  OpticalIntensity
+  OpticalGeneration
+  OpticalAbsorption
+  OpticalField/Vector3D
+  NDopantConcentration
+  PDopantConcentration
+  xMoleFraction
+  DopingConcentration
+  DonorConcentration
+  AcceptorConcentration
+  eEffectiveStateDensity
+  hEffectiveStateDensity
+  EffectiveIntrinsicDensity
+  IntrinsicDensity
+  eDensity
+  hDensity
+  SpaceCharge
+  eQuasiFermiPotential
+  hQuasiFermiPotential
+  BandGap
+  ConductionBandEnergy
+  ValenceBandEnergy
+  ElectronAffinity
+  ElectricField/Vector
+  eLifetime
+  hLifetime
+  SRHRecombination
+  AugerRecombination
+  TotalRecombination
+  SurfaceRecombination
+  RadiativeRecombination
+  eCurrentDensity/Vector
+  hCurrentDensity/Vector
+  TotalCurrentDensity/Vector
+  RefractiveIndexRealVertexComponent0
+  RefractiveIndexImagVertexComponent0
+  NonLocalDirection/Vector
+  NonLocalBackDirection/Vector
+
+------------------------------------------------
+NoisePlot variables:
+  none
+Plot groups:
+  none
+
+------------------------------------------------
+CurrentPlot variables:
+  none
+Devices:
+Systems:
+Solve :
+ Poisson
+Transient (
+      Max. #iterations : 20, 
+      Initial step : 1.0000e-10 s, Minimum #intervals : 0, 
+      Minimum step : 1.0000e-14 s, Maximum step : 1 s, 
+      Initial time : 0.0000e+00 s, Final time : 0.1 s, 
+    )
+  {
+    Coupled ( Digits : 11, Max. #iterations : 20, 
+        Solver : Super,
+        #undamped iterations : 100 
+)
+        { Poisson Electron Hole } 
+  }
+Quasistationary ( Digits : 11, Max. #iterations : 20, 
+      Initial step in t : 0.05, 
+      Minimum step in t : 1.0000e-03, Maximum step in t : 0.01, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact front : 2V
+    )
+  {
+    Coupled ( Digits : 11, Max. #iterations : 20, 
+        Solver : Super,
+        #undamped iterations : 100 
+)
+        { Poisson Electron Hole } 
+  }
+Plot( FilePrefix = "n643_debug" overwrite )
+  { }
+Quasistationary ( Digits : 11, Max. #iterations : 20, 
+      Initial step in t : 5.0000e-10, 
+      Minimum step in t : 1.0000e-20, Maximum step in t : 1.0000e-03, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact front : 4.5V
+    )
+  {
+    Coupled ( Digits : 11, Max. #iterations : 20, 
+        Solver : Super,
+        #undamped iterations : 100 
+)
+        { Poisson Electron Hole } 
+  }
+
+===============================
+
+Reading grid 'n610_msh.tdr' ... 
+  coordinate system: DFISE, 2d_dfise (y is device down direction, 3d extension right-handed)
+  use coordinate system as is (no transformation)
+  TDR format
+  Number of grid points is 19426.
+done.
+
+Adding interfaces and contacts .... done.
+Computing edges ...
+  Number of edges: 81586
+done.
+Computing boxes ...
+
+  CVPL_AverageBoxMethod = TRUE 
+   
+  ElementWithMinVolume(  1947) Vertex0(18830)(-2.400000e+01,-0.000000e+00) Volume = 1.689148e-05 um3 (6.17e-08 from TotalVolume)
+    ElementWithMinEdge(     0) Vertex0(   44)(-2.343750e+01,-0.000000e+00) Length = 6.005859e-05 um
+        MaxFlatElement(  2064) Vertex0(18836)(-2.400000e+01,-1.570000e-01)  Angle = 8.919433e+01 degrees
+   ElementWithMinAngle(     4) Vertex0(   49)(-2.187500e+01, 6.005859e-05)  Angle = 2.202307e-03 degrees
+                   tan(MinAngle) = 3.843750e-05 
+
+   NumberOfEdges              =  81586 
+   NumberOfGeometricalEdges   =  57082 
+   NumberOfDoubleEdges        =    528 
+   MaxNumberOfElementsPerEdge =      2 
+   MaxNumberOfEdgesPerVertex  =      7 
+ MaxNumberElemEdgesPerVertex  =      9 
+
+  Computing coefficient and measure ...   done.
+  Old Parameters time:   0.00 s
+
+  Computing Voronoi faces, coefficients, and measures ... 
+  CVPL_Algorithm = TRUE 
+
+    Computing Obtuse Elements ... 
+     Obtuse Elements time:   0.00 s
+      New Parameters time:   0.00 s
+
+                       NumberOfVertices =  20006 
+                       NumberOfElements =  37657 
+                      NumberOfTriangles =  37657  (100.00 %)
+                     NumberOfRectangles =      0  ( 0.00 %)
+                 NumberOfObtuseElements =      0  ( 0.00 %)
+    done.
+  done.
+  (times: wc = 0.17 s, tcpu = 0.18 s)
+
+
+/-------- Region non Delaunay elements -------------------------------------------------
+ Region                Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+  name                  [um2]          [um2]           [%]                   Elements   
+ ---------------------------------------------------------------------------------------
+ GaInP_top_window   2.0000000e+00  2.0000000e+00       0.000      2042       0 ( 0.00 %) 
+ Gold_region_1      3.1400000e-01  3.1400000e-01       0.000        23       0 ( 0.00 %) 
+ AlGaAs_mid_window  5.0000000e+00  5.0000000e+00       0.000      2570       0 ( 0.00 %) 
+ AlGaAs_region5     2.5000000e+01  2.5000000e+01       0.000      1848       0 ( 0.00 %) 
+ InGaAs_bot_BSF     5.0000000e+00  5.0000000e+00       0.000      2508       0 ( 0.00 %) 
+ AlGaAs_region6     6.2500000e+01  6.2500000e+01       0.000      2372       0 ( 0.00 %) 
+ GaInP_region1      1.5000000e+01  1.5000000e+01       0.000      2112       0 ( 0.00 %) 
+ GaInP_top_BSF      2.5000000e+00  2.5000000e+00       0.000      2508       0 ( 0.00 %) 
+ GaInP_region2      2.5000000e+01  2.5000000e+01       0.000      1848       0 ( 0.00 %) 
+ AlGaAs_mid_BSF     5.0000000e+00  5.0000000e+00       0.000      2508       0 ( 0.00 %) 
+ GaAsbot_contact    2.5000000e+01  2.5000000e+01       0.000      1712       0 ( 0.00 %) 
+ MgF_region_1       7.6930000e+00  7.6930000e+00       0.000       128       0 ( 0.00 %) 
+ InAlAs_region3     1.5000000e+00  1.5000000e+00       0.000      1580       0 ( 0.00 %) 
+ AlInP_region7      1.5000000e+00  1.5000000e+00       0.000      1580       0 ( 0.00 %) 
+ InGaAs_region8     1.5000000e+00  1.5000000e+00       0.000      1518       0 ( 0.00 %) 
+ InGaAs_bot_window  5.0000000e+00  5.0000000e+00       0.000      2570       0 ( 0.00 %) 
+ TiOx_region_1      7.6930000e+00  7.6930000e+00       0.000       640       0 ( 0.00 %) 
+ InAlAs_region4     1.5000000e+00  1.5000000e+00       0.000      1518       0 ( 0.00 %) 
+ InGaAs_region9     1.5000000e+01  1.5000000e+01       0.000      2046       0 ( 0.00 %) 
+ InGaAs_region10    3.5000000e+01  3.5000000e+01       0.000      2442       0 ( 0.00 %) 
+ Goldregion_gold    2.5000000e+01  2.5000000e+01       0.000      1584       0 ( 0.00 %) 
+ Total              2.7370000e+02  2.7370000e+02       0.000     37657       0 ( 0.00 %) 
+\---------------------------------------------------------------------------------------
+
+
+/-------- Interface non Delaunay elements ----------------------------------------------
+ Region1               Volume      BoxMethodVolume  DeltaVolume  Elements  non Delaunay 
+ Region2                [um2]          [um2]           [%]                   Elements   
+ ---------------------------------------------------------------------------------------
+ GaInP_top_window   3.9712524e-03  3.9712524e-03       0.000         7       0 ( 0.00 %) 
+ Gold_region_1      6.3818359e-04  6.3818359e-04       0.000         1       0 ( 0.00 %) 
+ .......................................................................................
+ GaInP_top_window   3.2862854e-02  3.2862854e-02       0.000        39       0 ( 0.00 %) 
+ GaInP_region1      3.8208008e-03  3.8208008e-03       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ GaInP_top_window   4.7444458e-03  4.7444458e-03       0.000        38       0 ( 0.00 %) 
+ TiOx_region_1      3.1270996e-02  3.1270996e-02       0.000        32       0 ( 0.00 %) 
+ .......................................................................................
+ Gold_region_1      7.8500000e-02  7.8500000e-02       0.000         2       0 ( 0.00 %) 
+ MgF_region_1       4.4156250e-02  4.4156250e-02       0.000         2       0 ( 0.00 %) 
+ .......................................................................................
+ Gold_region_1      7.8500000e-02  7.8500000e-02       0.000        10       0 ( 0.00 %) 
+ TiOx_region_1      4.4156250e-02  4.4156250e-02       0.000        10       0 ( 0.00 %) 
+ .......................................................................................
+ AlGaAs_mid_window  2.1142578e-02  2.1142578e-02       0.000        33       0 ( 0.00 %) 
+ AlGaAs_region5     4.5678711e-02  4.5678711e-02       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ AlGaAs_mid_window  7.8061523e-03  7.8061523e-03       0.000        33       0 ( 0.00 %) 
+ InAlAs_region4     2.6940918e-02  2.6940918e-02       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ AlGaAs_region5     9.2382812e-02  9.2382812e-02       0.000        33       0 ( 0.00 %) 
+ AlGaAs_region6     4.4218750e-01  4.4218750e-01       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ InGaAs_bot_BSF     5.7983398e-02  5.7983398e-02       0.000        33       0 ( 0.00 %) 
+ GaAsbot_contact    1.1510742e-02  1.1510742e-02       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ InGaAs_bot_BSF     3.6450195e-02  3.6450195e-02       0.000        33       0 ( 0.00 %) 
+ InGaAs_region10    3.0371094e-02  3.0371094e-02       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ AlGaAs_region6     4.5346680e-03  4.5346680e-03       0.000        33       0 ( 0.00 %) 
+ AlGaAs_mid_BSF     6.3623047e-02  6.3623047e-02       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ GaInP_region1      4.5605469e-02  4.5605469e-02       0.000        33       0 ( 0.00 %) 
+ GaInP_region2      2.2167969e-01  2.2167969e-01       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ GaInP_top_BSF      1.6796875e-02  1.6796875e-02       0.000        33       0 ( 0.00 %) 
+ GaInP_region2      1.6613770e-02  1.6613770e-02       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ GaInP_top_BSF      3.0419922e-02  3.0419922e-02       0.000        33       0 ( 0.00 %) 
+ InAlAs_region3     3.6589355e-03  3.6589355e-03       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ AlGaAs_mid_BSF     3.0810547e-02  3.0810547e-02       0.000        33       0 ( 0.00 %) 
+ AlInP_region7      3.2683105e-03  3.2683105e-03       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ GaAsbot_contact    3.2968750e-01  3.2968750e-01       0.000        33       0 ( 0.00 %) 
+ Goldregion_gold    2.0488281e-01  2.0488281e-01       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ MgF_region_1       1.7509844e+00  1.7509844e+00       0.000        32       0 ( 0.00 %) 
+ TiOx_region_1      3.4453125e-01  3.4453125e-01       0.000        32       0 ( 0.00 %) 
+ .......................................................................................
+ InAlAs_region3     1.1975098e-02  1.1975098e-02       0.000        33       0 ( 0.00 %) 
+ InAlAs_region4     2.1435547e-02  2.1435547e-02       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ AlInP_region7      1.2365723e-02  1.2365723e-02       0.000        33       0 ( 0.00 %) 
+ InGaAs_region8     2.1044922e-02  2.1044922e-02       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ InGaAs_region8     2.7331543e-02  2.7331543e-02       0.000        33       0 ( 0.00 %) 
+ InGaAs_bot_window  7.4155273e-03  7.4155273e-03       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ InGaAs_bot_window  2.1533203e-02  2.1533203e-02       0.000        33       0 ( 0.00 %) 
+ InGaAs_region9     4.5288086e-02  4.5288086e-02       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ InGaAs_region9     1.7119141e-01  1.7119141e-01       0.000        33       0 ( 0.00 %) 
+ InGaAs_region10    9.6093750e-02  9.6093750e-02       0.000        33       0 ( 0.00 %) 
+ .......................................................................................
+ Total              4.5978471e+00  4.5978471e+00       0.000      1294       0 ( 0.00 %) 
+\---------------------------------------------------------------------------------------
+done.
+Reading doping 'n610_msh.tdr' (TDR format) ...
+done.
+done.
+Reading parameter file 'pp643_des.par' ...
+---------------------------------------------------
+ Reading parameters for material "AlGaAs"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	Scharfetter(elec): tau_max = 1.0000e-07, instead of: 1.0000e-09 [s]
+	Scharfetter(hole): tau_max = 1.0000e-07, instead of: 1.0000e-09 [s]
+	Auger(elec): A = 1.9000e-31, instead of: 1.0000e-30 [cm^6/s]
+	Auger(hole): A = 1.2000e-30, instead of: 1.0000e-30 [cm^6/s]
+	RadiativeRecombination: C = 1.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+	BarrierTunneling(elec): g = 0.068, instead of: 2.1 [1]
+	BarrierTunneling(hole): g = 0.62, instead of: 0.66 [1]
+	BarrierTunneling(elec): mt = 0.5, instead of: 0.0000e+00 [1]
+	BarrierTunneling(hole): mt = 0.58, instead of: 0.0000e+00 [1]
+
+---------------------------------------------------
+ Reading parameters for material "AlInP"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	epsilon: epsilon = 11.355, instead of: 11.7 [1]
+	Bandgap: Chi0 = 3.6145, instead of: 4.05 [eV]
+	Bandgap: Eg0 = 2.357, instead of: 1.16964 [eV]
+	Bandgap: alpha = 1.5900e-04, instead of: 4.7300e-04 [eV/K]
+	Bandgap: beta = 2.9400e+02, instead of: 6.3600e+02 [K]
+	DOSeMass: a = 0.0000e+00, instead of: 0.1905 [1]
+	DOSeMass: ml = 0.0000e+00, instead of: 0.9163 [1]
+	DOSeMass: mm = 0.23, instead of: 0.0000e+00 [1]
+	DOShMass: a = 0.0000e+00, instead of: 0.443587 [1]
+	DOShMass: b = 0.0000e+00, instead of: 3.6095e-03 [K^-1]
+	DOShMass: c = 0.0000e+00, instead of: 1.1735e-04 [K^-2]
+	DOShMass: d = 0.0000e+00, instead of: 1.2632e-06 [K^-3]
+	DOShMass: e = 0.0000e+00, instead of: 3.0256e-09 [K^-4]
+	DOShMass: f = 0.0000e+00, instead of: 4.6834e-03 [K^-1]
+	DOShMass: g = 0.0000e+00, instead of: 2.2869e-04 [K^-2]
+	DOShMass: h = 0.0000e+00, instead of: 7.4693e-07 [K^-3]
+	DOShMass: i = 0.0000e+00, instead of: 1.7275e-09 [K^-4]
+	DOShMass: mm = 0.36, instead of: 0.0000e+00 [1]
+	DOShMass: Nv300 = 5.4203e+18, instead of: 3.1400e+19 [cm-3]
+	ConstMob(elec): mumax = 1.5000e+02, instead of: 1.4170e+03 [cm^2/(Vs)]
+	ConstMob(elec): Exponent = 1, instead of: 2.5 [1]
+	ConstMob(hole): mumax = 1.8000e+02, instead of: 4.7050e+02 [cm^2/(Vs)]
+	ConstMob(hole): Exponent = 1, instead of: 2.2 [1]
+	DopingMob(elec): mumin1 = 0.0000e+00, instead of: 52.2 [cm^2/(Vs)]
+	DopingMob(elec): mumin2 = 0.0000e+00, instead of: 52.2 [cm^2/(Vs)]
+	DopingMob(elec): mu1 = 0.0000e+00, instead of: 43.4 [cm^2/(Vs)]
+	DopingMob(elec): Cr = 5.0000e+17, instead of: 9.6800e+16 [cm^(-3)]
+	DopingMob(elec): Cs = 0.0000e+00, instead of: 3.4300e+20 [cm^(-3)]
+	DopingMob(elec): alpha = 0.436, instead of: 0.68 [1]
+	DopingMob(elec): beta = 0.0000e+00, instead of: 2 [1]
+	DopingMob(hole): mumin1 = 0.0000e+00, instead of: 44.9 [cm^2/(Vs)]
+	DopingMob(hole): mu1 = 0.0000e+00, instead of: 29 [cm^2/(Vs)]
+	DopingMob(hole): Pc = 0.0000e+00, instead of: 9.2300e+16 [cm^(-3)]
+	DopingMob(hole): Cr = 2.7500e+17, instead of: 2.2300e+17 [cm^(-3)]
+	DopingMob(hole): Cs = 0.0000e+00, instead of: 6.1000e+20 [cm^(-3)]
+	DopingMob(hole): alpha = 0.397, instead of: 0.719 [1]
+	DopingMob(hole): beta = 0.0000e+00, instead of: 2 [1]
+	Scharfetter(elec): tau_max = 1.0000e-09, instead of: 1.0000e-05 [s]
+	Scharfetter(hole): tau_max = 1.0000e-09, instead of: 3.0000e-06 [s]
+	Scharfetter(elec): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(hole): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(elec): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Scharfetter(hole): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	RadiativeRecombination: C = 1.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+	Auger(elec): A = 3.0000e-30, instead of: 6.7000e-32 [cm^6/s]
+	Auger(hole): A = 3.0000e-30, instead of: 7.2000e-32 [cm^6/s]
+	Auger(elec): B = 0.0000e+00, instead of: 2.4500e-31 [cm^6/s]
+	Auger(hole): B = 0.0000e+00, instead of: 4.5000e-33 [cm^6/s]
+	Auger(elec): C = 0.0000e+00, instead of: -2.2000e-32 [cm^6/s]
+	Auger(hole): C = 0.0000e+00, instead of: 2.6300e-32 [cm^6/s]
+	Auger(elec): H = 0.0000e+00, instead of: 3.46667 [1]
+	Auger(hole): H = 0.0000e+00, instead of: 8.25688 [1]
+	ComplexRefractiveIndex: n_0 = 3.5108, instead of: 1 [1]
+	ComplexRefractiveIndex: Formula = 3, instead of: 0 [1]
+	ComplexRefractiveIndex: Cn_temp = 4.0000e-04, instead of: 2.0000e-04 [K^-1]
+	BarrierTunneling(elec): g = 0.068, instead of: 2.1 [1]
+	BarrierTunneling(hole): g = 0.62, instead of: 0.66 [1]
+	BarrierTunneling(elec): mt = 0.5, instead of: 0.0000e+00 [1]
+	BarrierTunneling(hole): mt = 0.58, instead of: 0.0000e+00 [1]
+
+---------------------------------------------------
+ Reading parameters for material "GaAs"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	BarrierTunneling(elec): mt = 0.05, instead of: 0.0000e+00 [1]
+	BarrierTunneling(hole): mt = 0.14, instead of: 0.0000e+00 [1]
+	ComplexRefractiveIndex: Formula = 3, instead of: 0 [1]
+
+---------------------------------------------------
+ Reading parameters for material "GaInP"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	Scharfetter(elec): tau_max = 1.0000e-07, instead of: 1.0000e-05 [s]
+	Scharfetter(hole): tau_max = 1.0000e-07, instead of: 3.0000e-06 [s]
+	Scharfetter(elec): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(hole): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(elec): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Scharfetter(hole): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Auger(elec): A = 3.0000e-30, instead of: 6.7000e-32 [cm^6/s]
+	Auger(hole): A = 3.0000e-30, instead of: 7.2000e-32 [cm^6/s]
+	Auger(elec): B = 0.0000e+00, instead of: 2.4500e-31 [cm^6/s]
+	Auger(hole): B = 0.0000e+00, instead of: 4.5000e-33 [cm^6/s]
+	Auger(elec): C = 0.0000e+00, instead of: -2.2000e-32 [cm^6/s]
+	Auger(hole): C = 0.0000e+00, instead of: 2.6300e-32 [cm^6/s]
+	Auger(elec): H = 0.0000e+00, instead of: 3.46667 [1]
+	Auger(hole): H = 0.0000e+00, instead of: 8.25688 [1]
+	BarrierTunneling(elec): g = 0.068, instead of: 2.1 [1]
+	BarrierTunneling(hole): g = 0.62, instead of: 0.66 [1]
+	BarrierTunneling(elec): mt = 0.5, instead of: 0.0000e+00 [1]
+	BarrierTunneling(hole): mt = 0.58, instead of: 0.0000e+00 [1]
+	ComplexRefractiveIndex: n_0 = 3.5108, instead of: 1 [1]
+	ComplexRefractiveIndex: Formula = 3, instead of: 0 [1]
+	ComplexRefractiveIndex: Cn_temp = 4.0000e-04, instead of: 2.0000e-04 [K^-1]
+	RadiativeRecombination: C = 2.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+
+---------------------------------------------------
+ Reading parameters for material "GaInP_25"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	epsilon: epsilon = 12.4575, instead of: 11.7 [1]
+	Bandgap: Chi0 = 4.1642, instead of: 4.05 [eV]
+	Bandgap: Eg0 = 1.6673, instead of: 1.16964 [eV]
+	Bandgap: alpha = 2.7225e-04, instead of: 4.7300e-04 [eV/K]
+	Bandgap: beta = 1.2150e+02, instead of: 6.3600e+02 [K]
+	DOSeMass: a = 0.0000e+00, instead of: 0.1905 [1]
+	DOSeMass: ml = 0.0000e+00, instead of: 0.9163 [1]
+	DOSeMass: mm = 0.085152, instead of: 0.0000e+00 [1]
+	DOShMass: a = 0.0000e+00, instead of: 0.443587 [1]
+	DOShMass: b = 0.0000e+00, instead of: 3.6095e-03 [K^-1]
+	DOShMass: c = 0.0000e+00, instead of: 1.1735e-04 [K^-2]
+	DOShMass: d = 0.0000e+00, instead of: 1.2632e-06 [K^-3]
+	DOShMass: e = 0.0000e+00, instead of: 3.0256e-09 [K^-4]
+	DOShMass: f = 0.0000e+00, instead of: 4.6834e-03 [K^-1]
+	DOShMass: g = 0.0000e+00, instead of: 2.2869e-04 [K^-2]
+	DOShMass: h = 0.0000e+00, instead of: 7.4693e-07 [K^-3]
+	DOShMass: i = 0.0000e+00, instead of: 1.7275e-09 [K^-4]
+	DOShMass: mm = 0.65445, instead of: 0.0000e+00 [1]
+	DOShMass: Nv300 = 1.3286e+19, instead of: 3.1400e+19 [cm-3]
+	DopingMob(elec): formula = 2, instead of: 1 [1]
+	DopingMob(elec): Ar_mumin = 4.0000e+02, instead of: 88 [cm^2/(Vs)]
+	DopingMob(elec): Ar_alm = 0.0000e+00, instead of: -5.7000e-01 [1]
+	DopingMob(elec): Ar_mud = 3.9000e+03, instead of: 1.2520e+03 [cm^2/(Vs)]
+	DopingMob(elec): Ar_ald = 0.0000e+00, instead of: -2.3300e+00 [1]
+	DopingMob(elec): Ar_N0 = 2.0000e+16, instead of: 1.2500e+17 [cm^(-3)]
+	DopingMob(elec): Ar_alN = 1.955, instead of: 2.4 [1]
+	DopingMob(elec): Ar_a = 0.7, instead of: 0.88 [1]
+	DopingMob(elec): Ar_ala = 0.0000e+00, instead of: -1.4600e-01 [1]
+	DopingMob(hole): formula = 2, instead of: 1 [1]
+	DopingMob(hole): Ar_mumin = 15, instead of: 54.3 [cm^2/(Vs)]
+	DopingMob(hole): Ar_alm = 0.0000e+00, instead of: -5.7000e-01 [1]
+	DopingMob(hole): Ar_mud = 1.3500e+02, instead of: 4.0700e+02 [cm^2/(Vs)]
+	DopingMob(hole): Ar_ald = 0.0000e+00, instead of: -2.2300e+00 [1]
+	DopingMob(hole): Ar_N0 = 1.5000e+17, instead of: 2.3500e+17 [cm^(-3)]
+	DopingMob(hole): Ar_alN = 1.47, instead of: 2.4 [1]
+	DopingMob(hole): Ar_a = 0.8, instead of: 0.88 [1]
+	DopingMob(hole): Ar_ala = 0.0000e+00, instead of: -1.4600e-01 [1]
+	ConstMob(elec): mumax = 4.3000e+03, instead of: 1.4170e+03 [cm^2/(Vs)]
+	ConstMob(elec): Exponent = 1.66, instead of: 2.5 [1]
+	ConstMob(hole): mumax = 1.5000e+02, instead of: 4.7050e+02 [cm^2/(Vs)]
+	ConstMob(hole): Exponent = 2, instead of: 2.2 [1]
+	RadiativeRecombination: C = 1.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+	Scharfetter(elec): tau_max = 1.0000e-09, instead of: 1.0000e-05 [s]
+	Scharfetter(hole): tau_max = 1.0000e-09, instead of: 3.0000e-06 [s]
+	Scharfetter(elec): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(hole): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(elec): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Scharfetter(hole): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Auger(elec): A = 3.0000e-30, instead of: 6.7000e-32 [cm^6/s]
+	Auger(hole): A = 3.0000e-30, instead of: 7.2000e-32 [cm^6/s]
+	Auger(elec): B = 0.0000e+00, instead of: 2.4500e-31 [cm^6/s]
+	Auger(hole): B = 0.0000e+00, instead of: 4.5000e-33 [cm^6/s]
+	Auger(elec): C = 0.0000e+00, instead of: -2.2000e-32 [cm^6/s]
+	Auger(hole): C = 0.0000e+00, instead of: 2.6300e-32 [cm^6/s]
+	Auger(elec): H = 0.0000e+00, instead of: 3.46667 [1]
+	Auger(hole): H = 0.0000e+00, instead of: 8.25688 [1]
+	ComplexRefractiveIndex: n_0 = 3.5108, instead of: 1 [1]
+	ComplexRefractiveIndex: Formula = 3, instead of: 0 [1]
+	ComplexRefractiveIndex: Cn_temp = 4.0000e-04, instead of: 2.0000e-04 [K^-1]
+
+---------------------------------------------------
+ Reading parameters for material "GaTlP"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	Auger(elec): A = 1.0000e-30, instead of: 6.7000e-32 [cm^6/s]
+	Auger(hole): A = 1.0000e-30, instead of: 7.2000e-32 [cm^6/s]
+	Auger(elec): B = 0.0000e+00, instead of: 2.4500e-31 [cm^6/s]
+	Auger(hole): B = 0.0000e+00, instead of: 4.5000e-33 [cm^6/s]
+	Auger(elec): C = 0.0000e+00, instead of: -2.2000e-32 [cm^6/s]
+	Auger(hole): C = 0.0000e+00, instead of: 2.6300e-32 [cm^6/s]
+	Auger(elec): H = 0.0000e+00, instead of: 3.46667 [1]
+	Auger(hole): H = 0.0000e+00, instead of: 8.25688 [1]
+	RadiativeRecombination: C = 2.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+	Scharfetter(elec): tau_max = 1.0000e-09, instead of: 1.0000e-05 [s]
+	Scharfetter(hole): tau_max = 1.0000e-09, instead of: 3.0000e-06 [s]
+	Scharfetter(elec): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(hole): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(elec): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Scharfetter(hole): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+
+---------------------------------------------------
+ Reading parameters for material "Germanium"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	Scharfetter(elec): tau_max = 1.0000e-09, instead of: 1.0000e-05 [s]
+	Scharfetter(hole): tau_max = 1.0000e-09, instead of: 3.0000e-06 [s]
+	Scharfetter(elec): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(hole): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(elec): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Scharfetter(hole): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Auger(elec): A = 1.0000e-30, instead of: 6.7000e-32 [cm^6/s]
+	Auger(hole): A = 1.0000e-30, instead of: 7.2000e-32 [cm^6/s]
+	Auger(elec): B = 0.0000e+00, instead of: 2.4500e-31 [cm^6/s]
+	Auger(hole): B = 0.0000e+00, instead of: 4.5000e-33 [cm^6/s]
+	Auger(elec): C = 0.0000e+00, instead of: -2.2000e-32 [cm^6/s]
+	Auger(hole): C = 0.0000e+00, instead of: 2.6300e-32 [cm^6/s]
+	Auger(elec): H = 0.0000e+00, instead of: 3.46667 [1]
+	Auger(hole): H = 0.0000e+00, instead of: 8.25688 [1]
+	RadiativeRecombination: C = 2.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+
+---------------------------------------------------
+ Reading parameters for material "InAlAs"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	BarrierTunneling(elec): g = 1.19, instead of: 2.1 [1]
+	BarrierTunneling(hole): g = 0.34, instead of: 0.66 [1]
+	BarrierTunneling(elec): mt = 0.04, instead of: 0.0000e+00 [1]
+	BarrierTunneling(hole): mt = 0.42, instead of: 0.0000e+00 [1]
+
+---------------------------------------------------
+ Reading parameters for material "InGaAs"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	BarrierTunneling(elec): g = 1.19, instead of: 2.1 [1]
+	BarrierTunneling(hole): g = 0.34, instead of: 0.66 [1]
+	BarrierTunneling(elec): mt = 0.04, instead of: 0.0000e+00 [1]
+	BarrierTunneling(hole): mt = 0.42, instead of: 0.0000e+00 [1]
+	Scharfetter(elec): tau_max = 1.0000e-07, instead of: 1.0000e-09 [s]
+	Scharfetter(hole): tau_max = 1.0000e-07, instead of: 1.0000e-09 [s]
+	SchroedingerParameters(interval[0]): A = 0.0000e+00, instead of: 4.22 [1]
+	SchroedingerParameters(interval[1]): A = 0.0000e+00, instead of: 4.22 [1]
+	SchroedingerParameters(interval[0]): B = 0.0000e+00, instead of: 0.6084 [1]
+	SchroedingerParameters(interval[1]): B = 0.0000e+00, instead of: 0.6084 [1]
+	SchroedingerParameters(interval[0]): C = 0.0000e+00, instead of: 23.058 [1]
+	SchroedingerParameters(interval[1]): C = 0.0000e+00, instead of: 23.058 [1]
+	Scharfetter(elec): tau_max = 1.0000e-09, instead of: 1.0000e-07 [s]
+	Scharfetter(hole): tau_max = 1.0000e-09, instead of: 1.0000e-07 [s]
+	ComplexRefractiveIndex: n_0 = 3.5108, instead of: 3.892 [1]
+	ComplexRefractiveIndex: Formula = 3, instead of: 0 [1]
+	ComplexRefractiveIndex: Cn_temp = 4.0000e-04, instead of: 2.0000e-04 [K^-1]
+	RadiativeRecombination: C = 2.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+
+---------------------------------------------------
+ Reading parameters for material "InGaAsP"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	BarrierTunneling(elec): g = 1.19, instead of: 2.1 [1]
+	BarrierTunneling(hole): g = 0.34, instead of: 0.66 [1]
+	BarrierTunneling(elec): mt = 0.04, instead of: 0.0000e+00 [1]
+	BarrierTunneling(hole): mt = 0.42, instead of: 0.0000e+00 [1]
+	Scharfetter(elec): tau_max = 1.0000e-09, instead of: 1.0000e-05 [s]
+	Scharfetter(hole): tau_max = 1.0000e-09, instead of: 3.0000e-06 [s]
+	Scharfetter(elec): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(hole): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(elec): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Scharfetter(hole): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Auger(elec): A = 1.0000e-30, instead of: 6.7000e-32 [cm^6/s]
+	Auger(hole): A = 1.0000e-30, instead of: 7.2000e-32 [cm^6/s]
+	Auger(elec): B = 0.0000e+00, instead of: 2.4500e-31 [cm^6/s]
+	Auger(hole): B = 0.0000e+00, instead of: 4.5000e-33 [cm^6/s]
+	Auger(elec): C = 0.0000e+00, instead of: -2.2000e-32 [cm^6/s]
+	Auger(hole): C = 0.0000e+00, instead of: 2.6300e-32 [cm^6/s]
+	Auger(elec): H = 0.0000e+00, instead of: 3.46667 [1]
+	Auger(hole): H = 0.0000e+00, instead of: 8.25688 [1]
+
+---------------------------------------------------
+ Reading parameters for material "InP"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	Bandgap: Chi0 = 4.5, instead of: 4.4 [eV]
+	Bandgap: Eg0 = 1.35, instead of: 1.4205 [eV]
+
+---------------------------------------------------
+ Reading parameters for material "MgF"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	epsilon: epsilon = 6, instead of: 11.7 [1]
+	DOSeMass: a = 0.0000e+00, instead of: 0.1905 [1]
+	DOSeMass: ml = 0.0000e+00, instead of: 0.9163 [1]
+	DOSeMass: mm = 0.42, instead of: 0.0000e+00 [1]
+	DOShMass: a = 0.0000e+00, instead of: 0.443587 [1]
+	DOShMass: b = 0.0000e+00, instead of: 3.6095e-03 [K^-1]
+	DOShMass: c = 0.0000e+00, instead of: 1.1735e-04 [K^-2]
+	DOShMass: d = 0.0000e+00, instead of: 1.2632e-06 [K^-3]
+	DOShMass: e = 0.0000e+00, instead of: 3.0256e-09 [K^-4]
+	DOShMass: f = 0.0000e+00, instead of: 4.6834e-03 [K^-1]
+	DOShMass: g = 0.0000e+00, instead of: 2.2869e-04 [K^-2]
+	DOShMass: h = 0.0000e+00, instead of: 7.4693e-07 [K^-3]
+	DOShMass: i = 0.0000e+00, instead of: 1.7275e-09 [K^-4]
+	DOShMass: mm = 1, instead of: 0.0000e+00 [1]
+
+---------------------------------------------------
+ Reading parameters for material "TiOx"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	epsilon: epsilon = 6, instead of: 11.7 [1]
+	DOSeMass: a = 0.0000e+00, instead of: 0.1905 [1]
+	DOSeMass: ml = 0.0000e+00, instead of: 0.9163 [1]
+	DOSeMass: mm = 0.42, instead of: 0.0000e+00 [1]
+	DOShMass: a = 0.0000e+00, instead of: 0.443587 [1]
+	DOShMass: b = 0.0000e+00, instead of: 3.6095e-03 [K^-1]
+	DOShMass: c = 0.0000e+00, instead of: 1.1735e-04 [K^-2]
+	DOShMass: d = 0.0000e+00, instead of: 1.2632e-06 [K^-3]
+	DOShMass: e = 0.0000e+00, instead of: 3.0256e-09 [K^-4]
+	DOShMass: f = 0.0000e+00, instead of: 4.6834e-03 [K^-1]
+	DOShMass: g = 0.0000e+00, instead of: 2.2869e-04 [K^-2]
+	DOShMass: h = 0.0000e+00, instead of: 7.4693e-07 [K^-3]
+	DOShMass: i = 0.0000e+00, instead of: 1.7275e-09 [K^-4]
+	DOShMass: mm = 1, instead of: 0.0000e+00 [1]
+
+---------------------------------------------------
+ Reading parameters for material "TlP"
+---------------------------------------------------
+
+	Differences compared with default parameters:
+	epsilon: epsilon = 18, instead of: 11.7 [1]
+	Refractiveindex: refractiveindex = 3.22, instead of: 3.45 [1]
+	Energy relaxation time: tau_w_ele = 1, instead of: 0.3 [ps]
+	Energy relaxation time: tau_w_hol = 0.4, instead of: 0.25 [ps]
+	Avalanche Generation Factor for Hydro: n_l_f = 0.8, instead of: 1 [1]
+	Avalanche Generation Factor for Hydro: p_l_f = 0.8, instead of: 1 [1]
+	Avalanche Generation Factor for Hydro: n_gamma = 0.0000e+00, instead of: 1 [1]
+	Avalanche Generation Factor for Hydro: p_gamma = 0.0000e+00, instead of: 1 [1]
+	Avalanche Generation Factor for Hydro: n_delta = 0.0000e+00, instead of: 1.5 [1]
+	Avalanche Generation Factor for Hydro: p_delta = 0.0000e+00, instead of: 1.5 [1]
+	Bandgap: Chi0 = 4.8, instead of: 4.05 [eV]
+	Bandgap: Eg0 = -2.7000e-01, instead of: 1.16964 [eV]
+	Bandgap: alpha = 4.1000e-04, instead of: 4.7300e-04 [eV/K]
+	Bandgap: beta = 1.3600e+02, instead of: 6.3600e+02 [K]
+	BandstructureParameters: gamma_1 = 4.95, instead of: 6.85 [1]
+	BandstructureParameters: gamma_2 = 1.65, instead of: 2.1 [1]
+	BandstructureParameters: gamma_3 = 2.35, instead of: 2.9 [1]
+	BandstructureParameters: so = 0.11, instead of: 0.34 [eV]
+	BandstructureParameters: ep_te = 20.7, instead of: 28.8 [eV]
+	BandstructureParameters: ep_tm = 20.7, instead of: 28.8 [eV]
+	DOSeMass: Formula = 2, instead of: 1 [1]
+	DOSeMass: Nc300 = 5.6600e+17, instead of: 2.8900e+19 [1]
+	DOShMass: Formula = 2, instead of: 1 [1]
+	DOShMass: Nv300 = 1.0300e+19, instead of: 3.1400e+19 [cm-3]
+	SchroedingerParameters: Formula(hole) = 2, instead of: 0 [1]
+	SchroedingerParameters: ml = 0.089, instead of: 0.0000e+00 [1]
+	SchroedingerParameters: mh = 0.85, instead of: 0.0000e+00 [1]
+	ConstMob(elec): mumax = 4.5000e+03, instead of: 1.4170e+03 [cm^2/(Vs)]
+	ConstMob(elec): Exponent = 1.5, instead of: 2.5 [1]
+	ConstMob(hole): mumax = 1.5000e+02, instead of: 4.7050e+02 [cm^2/(Vs)]
+	ConstMob(hole): Exponent = 1.5, instead of: 2.2 [1]
+	ConstMob(elec): mumax = 4.5000e+03, instead of: 1.4170e+03 [cm^2/(Vs)]
+	ConstMob(elec): Exponent = 1.5, instead of: 2.5 [1]
+	ConstMob(hole): mumax = 1.5000e+02, instead of: 4.7050e+02 [cm^2/(Vs)]
+	ConstMob(hole): Exponent = 1.5, instead of: 2.2 [1]
+	DopingMob(elec): formula = 2, instead of: 1 [1]
+	DopingMob(elec): Ar_mumin = 4.5000e+03, instead of: 88 [cm^2/(Vs)]
+	DopingMob(elec): Ar_alm = -1.5000e+00, instead of: -5.7000e-01 [1]
+	DopingMob(elec): Ar_mud = 0.0000e+00, instead of: 1.2520e+03 [cm^2/(Vs)]
+	DopingMob(elec): Ar_ald = 0.0000e+00, instead of: -2.3300e+00 [1]
+	DopingMob(elec): Ar_N0 = 1.0000e+17, instead of: 1.2500e+17 [cm^(-3)]
+	DopingMob(elec): Ar_alN = 0.0000e+00, instead of: 2.4 [1]
+	DopingMob(elec): Ar_a = 0.0000e+00, instead of: 0.88 [1]
+	DopingMob(elec): Ar_ala = 0.0000e+00, instead of: -1.4600e-01 [1]
+	DopingMob(hole): formula = 2, instead of: 1 [1]
+	DopingMob(hole): Ar_mumin = 1.5000e+02, instead of: 54.3 [cm^2/(Vs)]
+	DopingMob(hole): Ar_alm = -1.5000e+00, instead of: -5.7000e-01 [1]
+	DopingMob(hole): Ar_mud = 0.0000e+00, instead of: 4.0700e+02 [cm^2/(Vs)]
+	DopingMob(hole): Ar_ald = 0.0000e+00, instead of: -2.2300e+00 [1]
+	DopingMob(hole): Ar_N0 = 1.0000e+17, instead of: 2.3500e+17 [cm^(-3)]
+	DopingMob(hole): Ar_alN = 0.0000e+00, instead of: 2.4 [1]
+	DopingMob(hole): Ar_a = 0.0000e+00, instead of: 0.88 [1]
+	DopingMob(hole): Ar_ala = 0.0000e+00, instead of: -1.4600e-01 [1]
+	DopingMob(elec): formula = 2, instead of: 1 [1]
+	DopingMob(elec): Ar_mumin = 4.5000e+03, instead of: 88 [cm^2/(Vs)]
+	DopingMob(elec): Ar_alm = -1.5000e+00, instead of: -5.7000e-01 [1]
+	DopingMob(elec): Ar_mud = 0.0000e+00, instead of: 1.2520e+03 [cm^2/(Vs)]
+	DopingMob(elec): Ar_ald = 0.0000e+00, instead of: -2.3300e+00 [1]
+	DopingMob(elec): Ar_N0 = 1.0000e+17, instead of: 1.2500e+17 [cm^(-3)]
+	DopingMob(elec): Ar_alN = 0.0000e+00, instead of: 2.4 [1]
+	DopingMob(elec): Ar_a = 0.0000e+00, instead of: 0.88 [1]
+	DopingMob(elec): Ar_ala = 0.0000e+00, instead of: -1.4600e-01 [1]
+	DopingMob(hole): formula = 2, instead of: 1 [1]
+	DopingMob(hole): Ar_mumin = 1.5000e+02, instead of: 54.3 [cm^2/(Vs)]
+	DopingMob(hole): Ar_alm = -1.5000e+00, instead of: -5.7000e-01 [1]
+	DopingMob(hole): Ar_mud = 0.0000e+00, instead of: 4.0700e+02 [cm^2/(Vs)]
+	DopingMob(hole): Ar_ald = 0.0000e+00, instead of: -2.2300e+00 [1]
+	DopingMob(hole): Ar_N0 = 1.0000e+17, instead of: 2.3500e+17 [cm^(-3)]
+	DopingMob(hole): Ar_alN = 0.0000e+00, instead of: 2.4 [1]
+	DopingMob(hole): Ar_a = 0.0000e+00, instead of: 0.88 [1]
+	DopingMob(hole): Ar_ala = 0.0000e+00, instead of: -1.4600e-01 [1]
+	HighFieldMob(elec): beta0 = 2, instead of: 1.109 [1]
+	HighFieldMob(elec): betaexp = 0.0000e+00, instead of: 0.66 [1]
+	HighFieldMob(elec): Vsat_Formula = 2, instead of: 1 [1]
+	HighFieldMob(elec): A_vsat = 1.0000e+07, instead of: 1.0700e+07 [cm/s]
+	HighFieldMob(hole): beta0 = 2, instead of: 1.213 [1]
+	HighFieldMob(hole): betaexp = 0.0000e+00, instead of: 0.17 [1]
+	HighFieldMob(hole): Vsat_Formula = 2, instead of: 1 [1]
+	HighFieldMob(hole): A_vsat = 1.0000e+07, instead of: 8.3700e+06 [cm/s]
+	HighFieldMob(elec): beta0 = 2, instead of: 1.109 [1]
+	HighFieldMob(elec): betaexp = 0.0000e+00, instead of: 0.66 [1]
+	HighFieldMob(elec): Vsat_Formula = 2, instead of: 1 [1]
+	HighFieldMob(elec): A_vsat = 1.0000e+07, instead of: 1.0700e+07 [cm/s]
+	HighFieldMob(hole): beta0 = 2, instead of: 1.213 [1]
+	HighFieldMob(hole): betaexp = 0.0000e+00, instead of: 0.17 [1]
+	HighFieldMob(hole): Vsat_Formula = 2, instead of: 1 [1]
+	HighFieldMob(hole): A_vsat = 1.0000e+07, instead of: 8.3700e+06 [cm/s]
+	Scharfetter(elec): tau_max = 1.0000e-09, instead of: 1.0000e-05 [s]
+	Scharfetter(hole): tau_max = 1.0000e-09, instead of: 3.0000e-06 [s]
+	Scharfetter(elec): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(hole): T_alpha = 0.0000e+00, instead of: -1.5000e+00 [1]
+	Scharfetter(elec): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Scharfetter(hole): T_coeff = 0.0000e+00, instead of: 2.55 [1]
+	Auger(elec): A = 1.0000e-30, instead of: 6.7000e-32 [cm^6/s]
+	Auger(hole): A = 1.0000e-30, instead of: 7.2000e-32 [cm^6/s]
+	Auger(elec): B = 0.0000e+00, instead of: 2.4500e-31 [cm^6/s]
+	Auger(hole): B = 0.0000e+00, instead of: 4.5000e-33 [cm^6/s]
+	Auger(elec): C = 0.0000e+00, instead of: -2.2000e-32 [cm^6/s]
+	Auger(hole): C = 0.0000e+00, instead of: 2.6300e-32 [cm^6/s]
+	Auger(elec): H = 0.0000e+00, instead of: 3.46667 [1]
+	Auger(hole): H = 0.0000e+00, instead of: 8.25688 [1]
+	PooleFrenkel: epsPFe = 18, instead of: 11.7 [1]
+	PooleFrenkel: epsPFh = 18, instead of: 11.7 [1]
+	RadiativeRecombination: C = 2.0000e-10, instead of: 0.0000e+00 [cm^3/s]
+
+
+=======
+Region: "AlGaAs_mid_BSF"
+  (material is "AlGaAs")
+=======
+  Model: "Bandgap"
+    Parameter "B(Bgn2Chi(1))" is new with value equal to 0
+    Parameter "B(Bgn2Chi(2))" is new with value equal to 0
+    Parameter "B(Chi0(1))" is new with value equal to 0
+    Parameter "B(Chi0(2))" is new with value equal to 0
+    Parameter "B(Eg0(1))" is new with value equal to 0
+    Parameter "B(EgMin(1))" is new with value equal to 0
+    Parameter "B(EgMin(2))" is new with value equal to 0
+    Parameter "B(FermiEnergy(1))" is new with value equal to 0
+    Parameter "B(FermiEnergy(2))" is new with value equal to 0
+    Parameter "B(WorkFunction(1))" is new with value equal to 0
+    Parameter "B(WorkFunction(2))" is new with value equal to 0
+    Parameter "B(alpha(1))" is new with value equal to 0
+    Parameter "B(alpha(2))" is new with value equal to 0
+    Parameter "B(alpha2(1))" is new with value equal to 0
+    Parameter "B(alpha2(2))" is new with value equal to 0
+    Parameter "B(beta(1))" is new with value equal to 0
+    Parameter "B(beta(2))" is new with value equal to 0
+    Parameter "B(beta2(1))" is new with value equal to 0
+    Parameter "B(beta2(2))" is new with value equal to 0
+    Parameter "B(dEg0(Bennett)(1))" is new with value equal to 0
+    Parameter "B(dEg0(Bennett)(2))" is new with value equal to 0
+    Parameter "B(dEg0(OldSlotboom)(1))" is new with value equal to 0
+    Parameter "B(dEg0(OldSlotboom)(2))" is new with value equal to 0
+    Parameter "B(dEg0(Slotboom)(1))" is new with value equal to 0
+    Parameter "B(dEg0(Slotboom)(2))" is new with value equal to 0
+    Parameter "B(dEg0(delAlamo)(1))" is new with value equal to 0
+    Parameter "B(dEg0(delAlamo)(2))" is new with value equal to 0
+    Parameter "B(dEgMin(1))" is new with value equal to 0
+    Parameter "B(dEgMin(2))" is new with value equal to 0
+    Parameter "Bgn2Chi(0)" is new with value equal to 0.5
+    Parameter "Bgn2Chi(1)" is new with value equal to 0.5
+    Parameter "Bgn2Chi(2)" is new with value equal to 0.5
+    Parameter "C(Chi0(1))" is new with value equal to 0
+    Parameter "C(Chi0(2))" is new with value equal to 0
+    Parameter "C(Eg0(1))" is new with value equal to 0
+    Parameter "C(Eg0(2))" is new with value equal to 0
+    Parameter "C(EgMin(1))" is new with value equal to 0
+    Parameter "C(EgMin(2))" is new with value equal to 0
+    Parameter "C(FermiEnergy(1))" is new with value equal to 0
+    Parameter "C(FermiEnergy(2))" is new with value equal to 0
+    Parameter "C(WorkFunction(1))" is new with value equal to 0
+    Parameter "C(WorkFunction(2))" is new with value equal to 0
+    Parameter "C(alpha(1))" is new with value equal to 0
+    Parameter "C(alpha(2))" is new with value equal to 0
+    Parameter "C(alpha2(1))" is new with value equal to 0
+    Parameter "C(alpha2(2))" is new with value equal to 0
+    Parameter "C(beta(1))" is new with value equal to 0
+    Parameter "C(beta(2))" is new with value equal to 0
+    Parameter "C(beta2(1))" is new with value equal to 0
+    Parameter "C(beta2(2))" is new with value equal to 0
+    Parameter "C(dEg0(Bennett)(1))" is new with value equal to 0
+    Parameter "C(dEg0(Bennett)(2))" is new with value equal to 0
+    Parameter "C(dEg0(OldSlotboom)(1))" is new with value equal to 0
+    Parameter "C(dEg0(OldSlotboom)(2))" is new with value equal to 0
+    Parameter "C(dEg0(Slotboom)(1))" is new with value equal to 0
+    Parameter "C(dEg0(Slotboom)(2))" is new with value equal to 0
+    Parameter "C(dEg0(delAlamo)(1))" is new with value equal to 0
+    Parameter "C(dEg0(delAlamo)(2))" is new with value equal to 0
+    Parameter "C(dEgMin(1))" is new with value equal to 0
+    Parameter "C(dEgMin(2))" is new with value equal to 0
+    Parameter "EgMin(0)" is new with value equal to -10
+    Parameter "EgMin(1)" is new with value equal to -10
+    Parameter "EgMin(2)" is new with value equal to -10
+    Parameter "FermiEnergy(0)" is new with value equal to 11.7
+    Parameter "FermiEnergy(1)" is new with value equal to 11.7
+    Parameter "FermiEnergy(2)" is new with value equal to 11.7
+    Parameter "WorkFunction(0)" is new with value equal to 4.25
+    Parameter "WorkFunction(1)" is new with value equal to 4.25
+    Parameter "WorkFunction(2)" is new with value equal to 4.25
+    Parameter "alpha2(0)" is new with value equal to 0
+    Parameter "alpha2(1)" is new with value equal to 0
+    Parameter "alpha2(2)" is new with value equal to 0
+    Parameter "beta2(0)" is new with value equal to 0
+    Parameter "beta2(1)" is new with value equal to 0
+    Parameter "beta2(2)" is new with value equal to 0
+    Parameter "dEg0(Bennett)(0)" is new with value equal to 0
+    Parameter "dEg0(Bennett)(1)" is new with value equal to 0
+    Parameter "dEg0(Bennett)(2)" is new with value equal to 0
+    Parameter "dEg0(OldSlotboom)(0)" is new with value equal to 0
+    Parameter "dEg0(OldSlotboom)(1)" is new with value equal to 0
+    Parameter "dEg0(OldSlotboom)(2)" is new with value equal to 0
+    Parameter "dEg0(Slotboom)(0)" is new with value equal to 0
+    Parameter "dEg0(Slotboom)(1)" is new with value equal to 0
+    Parameter "dEg0(Slotboom)(2)" is new with value equal to 0
+    Parameter "dEg0(delAlamo)(0)" is new with value equal to 0
+    Parameter "dEg0(delAlamo)(1)" is new with value equal to 0
+    Parameter "dEg0(delAlamo)(2)" is new with value equal to 0
+    Parameter "dEgMin(0)" is new with value equal to 0
+    Parameter "dEgMin(1)" is new with value equal to 0
+    Parameter "dEgMin(2)" is new with value equal to 0
+  Model: "BandstructureParameters"
+    Parameter "A1(0)" is new with value equal to 0
+    Parameter "A1(1)" is new with value equal to 0
+    Parameter "A2(0)" is new with value equal to 0
+    Parameter "A2(1)" is new with value equal to 0
+    Parameter "A3(0)" is new with value equal to 0
+    Parameter "A3(1)" is new with value equal to 0
+    Parameter "A4(0)" is new with value equal to 0
+    Parameter "A4(1)" is new with value equal to 0
+    Parameter "A5(0)" is new with value equal to 0
+    Parameter "A5(1)" is new with value equal to 0
+    Parameter "A6(0)" is new with value equal to 0
+    Parameter "A6(1)" is new with value equal to 0
+    Parameter "cr(0)" is new with value equal to 0
+    Parameter "cr(1)" is new with value equal to 0
+  Model: "ComplexRefractiveIndex"
+    Parameter "k_0(0)" is new with value equal to 0
+    Parameter "k_0(1)" is new with value equal to 0
+  Model: "ConstantMobility_electron"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_electron_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "DOSMass_electron"
+    Parameter "a(0)" is new with value equal to 0.1905
+    Parameter "a(1)" is new with value equal to 0.1905
+    Parameter "ml(0)" is new with value equal to 0.9163
+    Parameter "ml(1)" is new with value equal to 0.9163
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "DOSMass_hole"
+    Parameter "a(0)" is new with value equal to 0.443587
+    Parameter "a(1)" is new with value equal to 0.443587
+    Parameter "b(0)" is new with value equal to 0.0036095
+    Parameter "b(1)" is new with value equal to 0.0036095
+    Parameter "c(0)" is new with value equal to 0.00011735
+    Parameter "c(1)" is new with value equal to 0.00011735
+    Parameter "d(0)" is new with value equal to 1.2632e-06
+    Parameter "d(1)" is new with value equal to 1.2632e-06
+    Parameter "e(0)" is new with value equal to 3.0256e-09
+    Parameter "e(1)" is new with value equal to 3.0256e-09
+    Parameter "f(0)" is new with value equal to 0.0046834
+    Parameter "f(1)" is new with value equal to 0.0046834
+    Parameter "g(0)" is new with value equal to 0.00022869
+    Parameter "g(1)" is new with value equal to 0.00022869
+    Parameter "h(0)" is new with value equal to 7.4693e-07
+    Parameter "h(1)" is new with value equal to 7.4693e-07
+    Parameter "i(0)" is new with value equal to 1.7275e-09
+    Parameter "i(1)" is new with value equal to 1.7275e-09
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "HighFieldDependence_electron"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "HighFieldDependence_electron_aniso"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "HighFieldDependence_hole"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "HighFieldDependence_hole_aniso"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "Kappa"
+    Parameter "B(1/kappa_b(1))" is new with value equal to 0
+    Parameter "B(1/kappa_c(1))" is new with value equal to 0
+    Parameter "B(kappa(1))" is new with value equal to 0
+    Parameter "B(kappa_b(1))" is new with value equal to 0
+    Parameter "B(kappa_c(1))" is new with value equal to 0
+    Parameter "C(1/kappa(1))" is new with value equal to 0
+    Parameter "C(1/kappa_b(1))" is new with value equal to 0
+    Parameter "C(1/kappa_c(1))" is new with value equal to 0
+    Parameter "C(kappa(1))" is new with value equal to 0
+    Parameter "C(kappa_b(1))" is new with value equal to 0
+    Parameter "C(kappa_c(1))" is new with value equal to 0
+    Parameter "kappa(0)" is new with value equal to 1.5
+    Parameter "kappa(1)" is new with value equal to 1.5
+    Parameter "kappa_b(0)" is new with value equal to 0
+    Parameter "kappa_b(1)" is new with value equal to 0
+    Parameter "kappa_c(0)" is new with value equal to 0
+    Parameter "kappa_c(1)" is new with value equal to 0
+  Model: "Kappa_aniso"
+    Parameter "B(1/kappa_b(1))" is new with value equal to 0
+    Parameter "B(1/kappa_c(1))" is new with value equal to 0
+    Parameter "B(kappa(1))" is new with value equal to 0
+    Parameter "B(kappa_b(1))" is new with value equal to 0
+    Parameter "B(kappa_c(1))" is new with value equal to 0
+    Parameter "C(1/kappa(1))" is new with value equal to 0
+    Parameter "C(1/kappa_b(1))" is new with value equal to 0
+    Parameter "C(1/kappa_c(1))" is new with value equal to 0
+    Parameter "C(kappa(1))" is new with value equal to 0
+    Parameter "C(kappa_b(1))" is new with value equal to 0
+    Parameter "C(kappa_c(1))" is new with value equal to 0
+    Parameter "kappa(0)" is new with value equal to 1.5
+    Parameter "kappa(1)" is new with value equal to 1.5
+    Parameter "kappa_b(0)" is new with value equal to 0
+    Parameter "kappa_b(1)" is new with value equal to 0
+    Parameter "kappa_c(0)" is new with value equal to 0
+    Parameter "kappa_c(1)" is new with value equal to 0
+  Model: "QWStrain"
+    Parameter "C_13(0)" is new with value equal to 0
+    Parameter "C_13(1)" is new with value equal to 0
+    Parameter "C_33(0)" is new with value equal to 0
+    Parameter "C_33(1)" is new with value equal to 0
+    Parameter "D1(0)" is new with value equal to 0
+    Parameter "D1(1)" is new with value equal to 0
+    Parameter "D2(0)" is new with value equal to 0
+    Parameter "D2(1)" is new with value equal to 0
+    Parameter "D3(0)" is new with value equal to 0
+    Parameter "D3(1)" is new with value equal to 0
+    Parameter "D4(0)" is new with value equal to 0
+    Parameter "D4(1)" is new with value equal to 0
+    Parameter "c0(0)" is new with value equal to 0
+    Parameter "c0(1)" is new with value equal to 0
+  Model: "SchroedingerParameters"
+    Parameter "A(0)" is new with value equal to 4.22
+    Parameter "A(1)" is new with value equal to 4.22
+    Parameter "B(0)" is new with value equal to 0.6084
+    Parameter "B(1)" is new with value equal to 0.6084
+    Parameter "C(0)" is new with value equal to 23.058
+    Parameter "C(1)" is new with value equal to 23.058
+    Parameter "eoffset(0)" is new with value equal to 0
+    Parameter "eoffset(1)" is new with value equal to 0
+    Parameter "hoffset(0)" is new with value equal to 0
+    Parameter "hoffset(1)" is new with value equal to 0
+    Parameter "me(0)" is new with value equal to 0.07
+    Parameter "me(1)" is new with value equal to 0.07
+
+=======
+Region: "AlGaAs_mid_window"
+  (material is "AlGaAs")
+=======
+  Model: "Bandgap"
+    Parameter "B(Bgn2Chi(1))" is new with value equal to 0
+    Parameter "B(Bgn2Chi(2))" is new with value equal to 0
+    Parameter "B(Chi0(1))" is new with value equal to 0
+    Parameter "B(Chi0(2))" is new with value equal to 0
+    Parameter "B(Eg0(1))" is new with value equal to 0
+    Parameter "B(EgMin(1))" is new with value equal to 0
+    Parameter "B(EgMin(2))" is new with value equal to 0
+    Parameter "B(FermiEnergy(1))" is new with value equal to 0
+    Parameter "B(FermiEnergy(2))" is new with value equal to 0
+    Parameter "B(WorkFunction(1))" is new with value equal to 0
+    Parameter "B(WorkFunction(2))" is new with value equal to 0
+    Parameter "B(alpha(1))" is new with value equal to 0
+    Parameter "B(alpha(2))" is new with value equal to 0
+    Parameter "B(alpha2(1))" is new with value equal to 0
+    Parameter "B(alpha2(2))" is new with value equal to 0
+    Parameter "B(beta(1))" is new with value equal to 0
+    Parameter "B(beta(2))" is new with value equal to 0
+    Parameter "B(beta2(1))" is new with value equal to 0
+    Parameter "B(beta2(2))" is new with value equal to 0
+    Parameter "B(dEg0(Bennett)(1))" is new with value equal to 0
+    Parameter "B(dEg0(Bennett)(2))" is new with value equal to 0
+    Parameter "B(dEg0(OldSlotboom)(1))" is new with value equal to 0
+    Parameter "B(dEg0(OldSlotboom)(2))" is new with value equal to 0
+    Parameter "B(dEg0(Slotboom)(1))" is new with value equal to 0
+    Parameter "B(dEg0(Slotboom)(2))" is new with value equal to 0
+    Parameter "B(dEg0(delAlamo)(1))" is new with value equal to 0
+    Parameter "B(dEg0(delAlamo)(2))" is new with value equal to 0
+    Parameter "B(dEgMin(1))" is new with value equal to 0
+    Parameter "B(dEgMin(2))" is new with value equal to 0
+    Parameter "Bgn2Chi(0)" is new with value equal to 0.5
+    Parameter "Bgn2Chi(1)" is new with value equal to 0.5
+    Parameter "Bgn2Chi(2)" is new with value equal to 0.5
+    Parameter "C(Chi0(1))" is new with value equal to 0
+    Parameter "C(Chi0(2))" is new with value equal to 0
+    Parameter "C(Eg0(1))" is new with value equal to 0
+    Parameter "C(Eg0(2))" is new with value equal to 0
+    Parameter "C(EgMin(1))" is new with value equal to 0
+    Parameter "C(EgMin(2))" is new with value equal to 0
+    Parameter "C(FermiEnergy(1))" is new with value equal to 0
+    Parameter "C(FermiEnergy(2))" is new with value equal to 0
+    Parameter "C(WorkFunction(1))" is new with value equal to 0
+    Parameter "C(WorkFunction(2))" is new with value equal to 0
+    Parameter "C(alpha(1))" is new with value equal to 0
+    Parameter "C(alpha(2))" is new with value equal to 0
+    Parameter "C(alpha2(1))" is new with value equal to 0
+    Parameter "C(alpha2(2))" is new with value equal to 0
+    Parameter "C(beta(1))" is new with value equal to 0
+    Parameter "C(beta(2))" is new with value equal to 0
+    Parameter "C(beta2(1))" is new with value equal to 0
+    Parameter "C(beta2(2))" is new with value equal to 0
+    Parameter "C(dEg0(Bennett)(1))" is new with value equal to 0
+    Parameter "C(dEg0(Bennett)(2))" is new with value equal to 0
+    Parameter "C(dEg0(OldSlotboom)(1))" is new with value equal to 0
+    Parameter "C(dEg0(OldSlotboom)(2))" is new with value equal to 0
+    Parameter "C(dEg0(Slotboom)(1))" is new with value equal to 0
+    Parameter "C(dEg0(Slotboom)(2))" is new with value equal to 0
+    Parameter "C(dEg0(delAlamo)(1))" is new with value equal to 0
+    Parameter "C(dEg0(delAlamo)(2))" is new with value equal to 0
+    Parameter "C(dEgMin(1))" is new with value equal to 0
+    Parameter "C(dEgMin(2))" is new with value equal to 0
+    Parameter "EgMin(0)" is new with value equal to -10
+    Parameter "EgMin(1)" is new with value equal to -10
+    Parameter "EgMin(2)" is new with value equal to -10
+    Parameter "FermiEnergy(0)" is new with value equal to 11.7
+    Parameter "FermiEnergy(1)" is new with value equal to 11.7
+    Parameter "FermiEnergy(2)" is new with value equal to 11.7
+    Parameter "WorkFunction(0)" is new with value equal to 4.25
+    Parameter "WorkFunction(1)" is new with value equal to 4.25
+    Parameter "WorkFunction(2)" is new with value equal to 4.25
+    Parameter "alpha2(0)" is new with value equal to 0
+    Parameter "alpha2(1)" is new with value equal to 0
+    Parameter "alpha2(2)" is new with value equal to 0
+    Parameter "beta2(0)" is new with value equal to 0
+    Parameter "beta2(1)" is new with value equal to 0
+    Parameter "beta2(2)" is new with value equal to 0
+    Parameter "dEg0(Bennett)(0)" is new with value equal to 0
+    Parameter "dEg0(Bennett)(1)" is new with value equal to 0
+    Parameter "dEg0(Bennett)(2)" is new with value equal to 0
+    Parameter "dEg0(OldSlotboom)(0)" is new with value equal to 0
+    Parameter "dEg0(OldSlotboom)(1)" is new with value equal to 0
+    Parameter "dEg0(OldSlotboom)(2)" is new with value equal to 0
+    Parameter "dEg0(Slotboom)(0)" is new with value equal to 0
+    Parameter "dEg0(Slotboom)(1)" is new with value equal to 0
+    Parameter "dEg0(Slotboom)(2)" is new with value equal to 0
+    Parameter "dEg0(delAlamo)(0)" is new with value equal to 0
+    Parameter "dEg0(delAlamo)(1)" is new with value equal to 0
+    Parameter "dEg0(delAlamo)(2)" is new with value equal to 0
+    Parameter "dEgMin(0)" is new with value equal to 0
+    Parameter "dEgMin(1)" is new with value equal to 0
+    Parameter "dEgMin(2)" is new with value equal to 0
+  Model: "BandstructureParameters"
+    Parameter "A1(0)" is new with value equal to 0
+    Parameter "A1(1)" is new with value equal to 0
+    Parameter "A2(0)" is new with value equal to 0
+    Parameter "A2(1)" is new with value equal to 0
+    Parameter "A3(0)" is new with value equal to 0
+    Parameter "A3(1)" is new with value equal to 0
+    Parameter "A4(0)" is new with value equal to 0
+    Parameter "A4(1)" is new with value equal to 0
+    Parameter "A5(0)" is new with value equal to 0
+    Parameter "A5(1)" is new with value equal to 0
+    Parameter "A6(0)" is new with value equal to 0
+    Parameter "A6(1)" is new with value equal to 0
+    Parameter "cr(0)" is new with value equal to 0
+    Parameter "cr(1)" is new with value equal to 0
+  Model: "ComplexRefractiveIndex"
+    Parameter "k_0(0)" is new with value equal to 0
+    Parameter "k_0(1)" is new with value equal to 0
+  Model: "ConstantMobility_electron"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_electron_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "DOSMass_electron"
+    Parameter "a(0)" is new with value equal to 0.1905
+    Parameter "a(1)" is new with value equal to 0.1905
+    Parameter "ml(0)" is new with value equal to 0.9163
+    Parameter "ml(1)" is new with value equal to 0.9163
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "DOSMass_hole"
+    Parameter "a(0)" is new with value equal to 0.443587
+    Parameter "a(1)" is new with value equal to 0.443587
+    Parameter "b(0)" is new with value equal to 0.0036095
+    Parameter "b(1)" is new with value equal to 0.0036095
+    Parameter "c(0)" is new with value equal to 0.00011735
+    Parameter "c(1)" is new with value equal to 0.00011735
+    Parameter "d(0)" is new with value equal to 1.2632e-06
+    Parameter "d(1)" is new with value equal to 1.2632e-06
+    Parameter "e(0)" is new with value equal to 3.0256e-09
+    Parameter "e(1)" is new with value equal to 3.0256e-09
+    Parameter "f(0)" is new with value equal to 0.0046834
+    Parameter "f(1)" is new with value equal to 0.0046834
+    Parameter "g(0)" is new with value equal to 0.00022869
+    Parameter "g(1)" is new with value equal to 0.00022869
+    Parameter "h(0)" is new with value equal to 7.4693e-07
+    Parameter "h(1)" is new with value equal to 7.4693e-07
+    Parameter "i(0)" is new with value equal to 1.7275e-09
+    Parameter "i(1)" is new with value equal to 1.7275e-09
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "HighFieldDependence_electron"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "HighFieldDependence_electron_aniso"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "HighFieldDependence_hole"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "HighFieldDependence_hole_aniso"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "Kappa"
+    Parameter "B(1/kappa_b(1))" is new with value equal to 0
+    Parameter "B(1/kappa_c(1))" is new with value equal to 0
+    Parameter "B(kappa(1))" is new with value equal to 0
+    Parameter "B(kappa_b(1))" is new with value equal to 0
+    Parameter "B(kappa_c(1))" is new with value equal to 0
+    Parameter "C(1/kappa(1))" is new with value equal to 0
+    Parameter "C(1/kappa_b(1))" is new with value equal to 0
+    Parameter "C(1/kappa_c(1))" is new with value equal to 0
+    Parameter "C(kappa(1))" is new with value equal to 0
+    Parameter "C(kappa_b(1))" is new with value equal to 0
+    Parameter "C(kappa_c(1))" is new with value equal to 0
+    Parameter "kappa(0)" is new with value equal to 1.5
+    Parameter "kappa(1)" is new with value equal to 1.5
+    Parameter "kappa_b(0)" is new with value equal to 0
+    Parameter "kappa_b(1)" is new with value equal to 0
+    Parameter "kappa_c(0)" is new with value equal to 0
+    Parameter "kappa_c(1)" is new with value equal to 0
+  Model: "Kappa_aniso"
+    Parameter "B(1/kappa_b(1))" is new with value equal to 0
+    Parameter "B(1/kappa_c(1))" is new with value equal to 0
+    Parameter "B(kappa(1))" is new with value equal to 0
+    Parameter "B(kappa_b(1))" is new with value equal to 0
+    Parameter "B(kappa_c(1))" is new with value equal to 0
+    Parameter "C(1/kappa(1))" is new with value equal to 0
+    Parameter "C(1/kappa_b(1))" is new with value equal to 0
+    Parameter "C(1/kappa_c(1))" is new with value equal to 0
+    Parameter "C(kappa(1))" is new with value equal to 0
+    Parameter "C(kappa_b(1))" is new with value equal to 0
+    Parameter "C(kappa_c(1))" is new with value equal to 0
+    Parameter "kappa(0)" is new with value equal to 1.5
+    Parameter "kappa(1)" is new with value equal to 1.5
+    Parameter "kappa_b(0)" is new with value equal to 0
+    Parameter "kappa_b(1)" is new with value equal to 0
+    Parameter "kappa_c(0)" is new with value equal to 0
+    Parameter "kappa_c(1)" is new with value equal to 0
+  Model: "QWStrain"
+    Parameter "C_13(0)" is new with value equal to 0
+    Parameter "C_13(1)" is new with value equal to 0
+    Parameter "C_33(0)" is new with value equal to 0
+    Parameter "C_33(1)" is new with value equal to 0
+    Parameter "D1(0)" is new with value equal to 0
+    Parameter "D1(1)" is new with value equal to 0
+    Parameter "D2(0)" is new with value equal to 0
+    Parameter "D2(1)" is new with value equal to 0
+    Parameter "D3(0)" is new with value equal to 0
+    Parameter "D3(1)" is new with value equal to 0
+    Parameter "D4(0)" is new with value equal to 0
+    Parameter "D4(1)" is new with value equal to 0
+    Parameter "c0(0)" is new with value equal to 0
+    Parameter "c0(1)" is new with value equal to 0
+  Model: "SchroedingerParameters"
+    Parameter "A(0)" is new with value equal to 4.22
+    Parameter "A(1)" is new with value equal to 4.22
+    Parameter "B(0)" is new with value equal to 0.6084
+    Parameter "B(1)" is new with value equal to 0.6084
+    Parameter "C(0)" is new with value equal to 23.058
+    Parameter "C(1)" is new with value equal to 23.058
+    Parameter "eoffset(0)" is new with value equal to 0
+    Parameter "eoffset(1)" is new with value equal to 0
+    Parameter "hoffset(0)" is new with value equal to 0
+    Parameter "hoffset(1)" is new with value equal to 0
+    Parameter "me(0)" is new with value equal to 0.07
+    Parameter "me(1)" is new with value equal to 0.07
+
+=======
+Region: "AlGaAs_region5"
+  (material is "AlGaAs")
+=======
+  Model: "Bandgap"
+    Parameter "B(Bgn2Chi(1))" is new with value equal to 0
+    Parameter "B(Bgn2Chi(2))" is new with value equal to 0
+    Parameter "B(Chi0(1))" is new with value equal to 0
+    Parameter "B(Chi0(2))" is new with value equal to 0
+    Parameter "B(Eg0(1))" is new with value equal to 0
+    Parameter "B(EgMin(1))" is new with value equal to 0
+    Parameter "B(EgMin(2))" is new with value equal to 0
+    Parameter "B(FermiEnergy(1))" is new with value equal to 0
+    Parameter "B(FermiEnergy(2))" is new with value equal to 0
+    Parameter "B(WorkFunction(1))" is new with value equal to 0
+    Parameter "B(WorkFunction(2))" is new with value equal to 0
+    Parameter "B(alpha(1))" is new with value equal to 0
+    Parameter "B(alpha(2))" is new with value equal to 0
+    Parameter "B(alpha2(1))" is new with value equal to 0
+    Parameter "B(alpha2(2))" is new with value equal to 0
+    Parameter "B(beta(1))" is new with value equal to 0
+    Parameter "B(beta(2))" is new with value equal to 0
+    Parameter "B(beta2(1))" is new with value equal to 0
+    Parameter "B(beta2(2))" is new with value equal to 0
+    Parameter "B(dEg0(Bennett)(1))" is new with value equal to 0
+    Parameter "B(dEg0(Bennett)(2))" is new with value equal to 0
+    Parameter "B(dEg0(OldSlotboom)(1))" is new with value equal to 0
+    Parameter "B(dEg0(OldSlotboom)(2))" is new with value equal to 0
+    Parameter "B(dEg0(Slotboom)(1))" is new with value equal to 0
+    Parameter "B(dEg0(Slotboom)(2))" is new with value equal to 0
+    Parameter "B(dEg0(delAlamo)(1))" is new with value equal to 0
+    Parameter "B(dEg0(delAlamo)(2))" is new with value equal to 0
+    Parameter "B(dEgMin(1))" is new with value equal to 0
+    Parameter "B(dEgMin(2))" is new with value equal to 0
+    Parameter "Bgn2Chi(0)" is new with value equal to 0.5
+    Parameter "Bgn2Chi(1)" is new with value equal to 0.5
+    Parameter "Bgn2Chi(2)" is new with value equal to 0.5
+    Parameter "C(Chi0(1))" is new with value equal to 0
+    Parameter "C(Chi0(2))" is new with value equal to 0
+    Parameter "C(Eg0(1))" is new with value equal to 0
+    Parameter "C(Eg0(2))" is new with value equal to 0
+    Parameter "C(EgMin(1))" is new with value equal to 0
+    Parameter "C(EgMin(2))" is new with value equal to 0
+    Parameter "C(FermiEnergy(1))" is new with value equal to 0
+    Parameter "C(FermiEnergy(2))" is new with value equal to 0
+    Parameter "C(WorkFunction(1))" is new with value equal to 0
+    Parameter "C(WorkFunction(2))" is new with value equal to 0
+    Parameter "C(alpha(1))" is new with value equal to 0
+    Parameter "C(alpha(2))" is new with value equal to 0
+    Parameter "C(alpha2(1))" is new with value equal to 0
+    Parameter "C(alpha2(2))" is new with value equal to 0
+    Parameter "C(beta(1))" is new with value equal to 0
+    Parameter "C(beta(2))" is new with value equal to 0
+    Parameter "C(beta2(1))" is new with value equal to 0
+    Parameter "C(beta2(2))" is new with value equal to 0
+    Parameter "C(dEg0(Bennett)(1))" is new with value equal to 0
+    Parameter "C(dEg0(Bennett)(2))" is new with value equal to 0
+    Parameter "C(dEg0(OldSlotboom)(1))" is new with value equal to 0
+    Parameter "C(dEg0(OldSlotboom)(2))" is new with value equal to 0
+    Parameter "C(dEg0(Slotboom)(1))" is new with value equal to 0
+    Parameter "C(dEg0(Slotboom)(2))" is new with value equal to 0
+    Parameter "C(dEg0(delAlamo)(1))" is new with value equal to 0
+    Parameter "C(dEg0(delAlamo)(2))" is new with value equal to 0
+    Parameter "C(dEgMin(1))" is new with value equal to 0
+    Parameter "C(dEgMin(2))" is new with value equal to 0
+    Parameter "EgMin(0)" is new with value equal to -10
+    Parameter "EgMin(1)" is new with value equal to -10
+    Parameter "EgMin(2)" is new with value equal to -10
+    Parameter "FermiEnergy(0)" is new with value equal to 11.7
+    Parameter "FermiEnergy(1)" is new with value equal to 11.7
+    Parameter "FermiEnergy(2)" is new with value equal to 11.7
+    Parameter "WorkFunction(0)" is new with value equal to 4.25
+    Parameter "WorkFunction(1)" is new with value equal to 4.25
+    Parameter "WorkFunction(2)" is new with value equal to 4.25
+    Parameter "alpha2(0)" is new with value equal to 0
+    Parameter "alpha2(1)" is new with value equal to 0
+    Parameter "alpha2(2)" is new with value equal to 0
+    Parameter "beta2(0)" is new with value equal to 0
+    Parameter "beta2(1)" is new with value equal to 0
+    Parameter "beta2(2)" is new with value equal to 0
+    Parameter "dEg0(Bennett)(0)" is new with value equal to 0
+    Parameter "dEg0(Bennett)(1)" is new with value equal to 0
+    Parameter "dEg0(Bennett)(2)" is new with value equal to 0
+    Parameter "dEg0(OldSlotboom)(0)" is new with value equal to 0
+    Parameter "dEg0(OldSlotboom)(1)" is new with value equal to 0
+    Parameter "dEg0(OldSlotboom)(2)" is new with value equal to 0
+    Parameter "dEg0(Slotboom)(0)" is new with value equal to 0
+    Parameter "dEg0(Slotboom)(1)" is new with value equal to 0
+    Parameter "dEg0(Slotboom)(2)" is new with value equal to 0
+    Parameter "dEg0(delAlamo)(0)" is new with value equal to 0
+    Parameter "dEg0(delAlamo)(1)" is new with value equal to 0
+    Parameter "dEg0(delAlamo)(2)" is new with value equal to 0
+    Parameter "dEgMin(0)" is new with value equal to 0
+    Parameter "dEgMin(1)" is new with value equal to 0
+    Parameter "dEgMin(2)" is new with value equal to 0
+  Model: "BandstructureParameters"
+    Parameter "A1(0)" is new with value equal to 0
+    Parameter "A1(1)" is new with value equal to 0
+    Parameter "A2(0)" is new with value equal to 0
+    Parameter "A2(1)" is new with value equal to 0
+    Parameter "A3(0)" is new with value equal to 0
+    Parameter "A3(1)" is new with value equal to 0
+    Parameter "A4(0)" is new with value equal to 0
+    Parameter "A4(1)" is new with value equal to 0
+    Parameter "A5(0)" is new with value equal to 0
+    Parameter "A5(1)" is new with value equal to 0
+    Parameter "A6(0)" is new with value equal to 0
+    Parameter "A6(1)" is new with value equal to 0
+    Parameter "cr(0)" is new with value equal to 0
+    Parameter "cr(1)" is new with value equal to 0
+  Model: "ComplexRefractiveIndex"
+    Parameter "k_0(0)" is new with value equal to 0
+    Parameter "k_0(1)" is new with value equal to 0
+  Model: "ConstantMobility_electron"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_electron_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "DOSMass_electron"
+    Parameter "a(0)" is new with value equal to 0.1905
+    Parameter "a(1)" is new with value equal to 0.1905
+    Parameter "ml(0)" is new with value equal to 0.9163
+    Parameter "ml(1)" is new with value equal to 0.9163
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "DOSMass_hole"
+    Parameter "a(0)" is new with value equal to 0.443587
+    Parameter "a(1)" is new with value equal to 0.443587
+    Parameter "b(0)" is new with value equal to 0.0036095
+    Parameter "b(1)" is new with value equal to 0.0036095
+    Parameter "c(0)" is new with value equal to 0.00011735
+    Parameter "c(1)" is new with value equal to 0.00011735
+    Parameter "d(0)" is new with value equal to 1.2632e-06
+    Parameter "d(1)" is new with value equal to 1.2632e-06
+    Parameter "e(0)" is new with value equal to 3.0256e-09
+    Parameter "e(1)" is new with value equal to 3.0256e-09
+    Parameter "f(0)" is new with value equal to 0.0046834
+    Parameter "f(1)" is new with value equal to 0.0046834
+    Parameter "g(0)" is new with value equal to 0.00022869
+    Parameter "g(1)" is new with value equal to 0.00022869
+    Parameter "h(0)" is new with value equal to 7.4693e-07
+    Parameter "h(1)" is new with value equal to 7.4693e-07
+    Parameter "i(0)" is new with value equal to 1.7275e-09
+    Parameter "i(1)" is new with value equal to 1.7275e-09
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "HighFieldDependence_electron"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "HighFieldDependence_electron_aniso"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "HighFieldDependence_hole"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "HighFieldDependence_hole_aniso"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "Kappa"
+    Parameter "B(1/kappa_b(1))" is new with value equal to 0
+    Parameter "B(1/kappa_c(1))" is new with value equal to 0
+    Parameter "B(kappa(1))" is new with value equal to 0
+    Parameter "B(kappa_b(1))" is new with value equal to 0
+    Parameter "B(kappa_c(1))" is new with value equal to 0
+    Parameter "C(1/kappa(1))" is new with value equal to 0
+    Parameter "C(1/kappa_b(1))" is new with value equal to 0
+    Parameter "C(1/kappa_c(1))" is new with value equal to 0
+    Parameter "C(kappa(1))" is new with value equal to 0
+    Parameter "C(kappa_b(1))" is new with value equal to 0
+    Parameter "C(kappa_c(1))" is new with value equal to 0
+    Parameter "kappa(0)" is new with value equal to 1.5
+    Parameter "kappa(1)" is new with value equal to 1.5
+    Parameter "kappa_b(0)" is new with value equal to 0
+    Parameter "kappa_b(1)" is new with value equal to 0
+    Parameter "kappa_c(0)" is new with value equal to 0
+    Parameter "kappa_c(1)" is new with value equal to 0
+  Model: "Kappa_aniso"
+    Parameter "B(1/kappa_b(1))" is new with value equal to 0
+    Parameter "B(1/kappa_c(1))" is new with value equal to 0
+    Parameter "B(kappa(1))" is new with value equal to 0
+    Parameter "B(kappa_b(1))" is new with value equal to 0
+    Parameter "B(kappa_c(1))" is new with value equal to 0
+    Parameter "C(1/kappa(1))" is new with value equal to 0
+    Parameter "C(1/kappa_b(1))" is new with value equal to 0
+    Parameter "C(1/kappa_c(1))" is new with value equal to 0
+    Parameter "C(kappa(1))" is new with value equal to 0
+    Parameter "C(kappa_b(1))" is new with value equal to 0
+    Parameter "C(kappa_c(1))" is new with value equal to 0
+    Parameter "kappa(0)" is new with value equal to 1.5
+    Parameter "kappa(1)" is new with value equal to 1.5
+    Parameter "kappa_b(0)" is new with value equal to 0
+    Parameter "kappa_b(1)" is new with value equal to 0
+    Parameter "kappa_c(0)" is new with value equal to 0
+    Parameter "kappa_c(1)" is new with value equal to 0
+  Model: "QWStrain"
+    Parameter "C_13(0)" is new with value equal to 0
+    Parameter "C_13(1)" is new with value equal to 0
+    Parameter "C_33(0)" is new with value equal to 0
+    Parameter "C_33(1)" is new with value equal to 0
+    Parameter "D1(0)" is new with value equal to 0
+    Parameter "D1(1)" is new with value equal to 0
+    Parameter "D2(0)" is new with value equal to 0
+    Parameter "D2(1)" is new with value equal to 0
+    Parameter "D3(0)" is new with value equal to 0
+    Parameter "D3(1)" is new with value equal to 0
+    Parameter "D4(0)" is new with value equal to 0
+    Parameter "D4(1)" is new with value equal to 0
+    Parameter "c0(0)" is new with value equal to 0
+    Parameter "c0(1)" is new with value equal to 0
+  Model: "SchroedingerParameters"
+    Parameter "A(0)" is new with value equal to 4.22
+    Parameter "A(1)" is new with value equal to 4.22
+    Parameter "B(0)" is new with value equal to 0.6084
+    Parameter "B(1)" is new with value equal to 0.6084
+    Parameter "C(0)" is new with value equal to 23.058
+    Parameter "C(1)" is new with value equal to 23.058
+    Parameter "eoffset(0)" is new with value equal to 0
+    Parameter "eoffset(1)" is new with value equal to 0
+    Parameter "hoffset(0)" is new with value equal to 0
+    Parameter "hoffset(1)" is new with value equal to 0
+    Parameter "me(0)" is new with value equal to 0.07
+    Parameter "me(1)" is new with value equal to 0.07
+
+=======
+Region: "AlGaAs_region6"
+  (material is "AlGaAs")
+=======
+  Model: "Bandgap"
+    Parameter "B(Bgn2Chi(1))" is new with value equal to 0
+    Parameter "B(Bgn2Chi(2))" is new with value equal to 0
+    Parameter "B(Chi0(1))" is new with value equal to 0
+    Parameter "B(Chi0(2))" is new with value equal to 0
+    Parameter "B(Eg0(1))" is new with value equal to 0
+    Parameter "B(EgMin(1))" is new with value equal to 0
+    Parameter "B(EgMin(2))" is new with value equal to 0
+    Parameter "B(FermiEnergy(1))" is new with value equal to 0
+    Parameter "B(FermiEnergy(2))" is new with value equal to 0
+    Parameter "B(WorkFunction(1))" is new with value equal to 0
+    Parameter "B(WorkFunction(2))" is new with value equal to 0
+    Parameter "B(alpha(1))" is new with value equal to 0
+    Parameter "B(alpha(2))" is new with value equal to 0
+    Parameter "B(alpha2(1))" is new with value equal to 0
+    Parameter "B(alpha2(2))" is new with value equal to 0
+    Parameter "B(beta(1))" is new with value equal to 0
+    Parameter "B(beta(2))" is new with value equal to 0
+    Parameter "B(beta2(1))" is new with value equal to 0
+    Parameter "B(beta2(2))" is new with value equal to 0
+    Parameter "B(dEg0(Bennett)(1))" is new with value equal to 0
+    Parameter "B(dEg0(Bennett)(2))" is new with value equal to 0
+    Parameter "B(dEg0(OldSlotboom)(1))" is new with value equal to 0
+    Parameter "B(dEg0(OldSlotboom)(2))" is new with value equal to 0
+    Parameter "B(dEg0(Slotboom)(1))" is new with value equal to 0
+    Parameter "B(dEg0(Slotboom)(2))" is new with value equal to 0
+    Parameter "B(dEg0(delAlamo)(1))" is new with value equal to 0
+    Parameter "B(dEg0(delAlamo)(2))" is new with value equal to 0
+    Parameter "B(dEgMin(1))" is new with value equal to 0
+    Parameter "B(dEgMin(2))" is new with value equal to 0
+    Parameter "Bgn2Chi(0)" is new with value equal to 0.5
+    Parameter "Bgn2Chi(1)" is new with value equal to 0.5
+    Parameter "Bgn2Chi(2)" is new with value equal to 0.5
+    Parameter "C(Chi0(1))" is new with value equal to 0
+    Parameter "C(Chi0(2))" is new with value equal to 0
+    Parameter "C(Eg0(1))" is new with value equal to 0
+    Parameter "C(Eg0(2))" is new with value equal to 0
+    Parameter "C(EgMin(1))" is new with value equal to 0
+    Parameter "C(EgMin(2))" is new with value equal to 0
+    Parameter "C(FermiEnergy(1))" is new with value equal to 0
+    Parameter "C(FermiEnergy(2))" is new with value equal to 0
+    Parameter "C(WorkFunction(1))" is new with value equal to 0
+    Parameter "C(WorkFunction(2))" is new with value equal to 0
+    Parameter "C(alpha(1))" is new with value equal to 0
+    Parameter "C(alpha(2))" is new with value equal to 0
+    Parameter "C(alpha2(1))" is new with value equal to 0
+    Parameter "C(alpha2(2))" is new with value equal to 0
+    Parameter "C(beta(1))" is new with value equal to 0
+    Parameter "C(beta(2))" is new with value equal to 0
+    Parameter "C(beta2(1))" is new with value equal to 0
+    Parameter "C(beta2(2))" is new with value equal to 0
+    Parameter "C(dEg0(Bennett)(1))" is new with value equal to 0
+    Parameter "C(dEg0(Bennett)(2))" is new with value equal to 0
+    Parameter "C(dEg0(OldSlotboom)(1))" is new with value equal to 0
+    Parameter "C(dEg0(OldSlotboom)(2))" is new with value equal to 0
+    Parameter "C(dEg0(Slotboom)(1))" is new with value equal to 0
+    Parameter "C(dEg0(Slotboom)(2))" is new with value equal to 0
+    Parameter "C(dEg0(delAlamo)(1))" is new with value equal to 0
+    Parameter "C(dEg0(delAlamo)(2))" is new with value equal to 0
+    Parameter "C(dEgMin(1))" is new with value equal to 0
+    Parameter "C(dEgMin(2))" is new with value equal to 0
+    Parameter "EgMin(0)" is new with value equal to -10
+    Parameter "EgMin(1)" is new with value equal to -10
+    Parameter "EgMin(2)" is new with value equal to -10
+    Parameter "FermiEnergy(0)" is new with value equal to 11.7
+    Parameter "FermiEnergy(1)" is new with value equal to 11.7
+    Parameter "FermiEnergy(2)" is new with value equal to 11.7
+    Parameter "WorkFunction(0)" is new with value equal to 4.25
+    Parameter "WorkFunction(1)" is new with value equal to 4.25
+    Parameter "WorkFunction(2)" is new with value equal to 4.25
+    Parameter "alpha2(0)" is new with value equal to 0
+    Parameter "alpha2(1)" is new with value equal to 0
+    Parameter "alpha2(2)" is new with value equal to 0
+    Parameter "beta2(0)" is new with value equal to 0
+    Parameter "beta2(1)" is new with value equal to 0
+    Parameter "beta2(2)" is new with value equal to 0
+    Parameter "dEg0(Bennett)(0)" is new with value equal to 0
+    Parameter "dEg0(Bennett)(1)" is new with value equal to 0
+    Parameter "dEg0(Bennett)(2)" is new with value equal to 0
+    Parameter "dEg0(OldSlotboom)(0)" is new with value equal to 0
+    Parameter "dEg0(OldSlotboom)(1)" is new with value equal to 0
+    Parameter "dEg0(OldSlotboom)(2)" is new with value equal to 0
+    Parameter "dEg0(Slotboom)(0)" is new with value equal to 0
+    Parameter "dEg0(Slotboom)(1)" is new with value equal to 0
+    Parameter "dEg0(Slotboom)(2)" is new with value equal to 0
+    Parameter "dEg0(delAlamo)(0)" is new with value equal to 0
+    Parameter "dEg0(delAlamo)(1)" is new with value equal to 0
+    Parameter "dEg0(delAlamo)(2)" is new with value equal to 0
+    Parameter "dEgMin(0)" is new with value equal to 0
+    Parameter "dEgMin(1)" is new with value equal to 0
+    Parameter "dEgMin(2)" is new with value equal to 0
+  Model: "BandstructureParameters"
+    Parameter "A1(0)" is new with value equal to 0
+    Parameter "A1(1)" is new with value equal to 0
+    Parameter "A2(0)" is new with value equal to 0
+    Parameter "A2(1)" is new with value equal to 0
+    Parameter "A3(0)" is new with value equal to 0
+    Parameter "A3(1)" is new with value equal to 0
+    Parameter "A4(0)" is new with value equal to 0
+    Parameter "A4(1)" is new with value equal to 0
+    Parameter "A5(0)" is new with value equal to 0
+    Parameter "A5(1)" is new with value equal to 0
+    Parameter "A6(0)" is new with value equal to 0
+    Parameter "A6(1)" is new with value equal to 0
+    Parameter "cr(0)" is new with value equal to 0
+    Parameter "cr(1)" is new with value equal to 0
+  Model: "ComplexRefractiveIndex"
+    Parameter "k_0(0)" is new with value equal to 0
+    Parameter "k_0(1)" is new with value equal to 0
+  Model: "ConstantMobility_electron"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_electron_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "DOSMass_electron"
+    Parameter "a(0)" is new with value equal to 0.1905
+    Parameter "a(1)" is new with value equal to 0.1905
+    Parameter "ml(0)" is new with value equal to 0.9163
+    Parameter "ml(1)" is new with value equal to 0.9163
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "DOSMass_hole"
+    Parameter "a(0)" is new with value equal to 0.443587
+    Parameter "a(1)" is new with value equal to 0.443587
+    Parameter "b(0)" is new with value equal to 0.0036095
+    Parameter "b(1)" is new with value equal to 0.0036095
+    Parameter "c(0)" is new with value equal to 0.00011735
+    Parameter "c(1)" is new with value equal to 0.00011735
+    Parameter "d(0)" is new with value equal to 1.2632e-06
+    Parameter "d(1)" is new with value equal to 1.2632e-06
+    Parameter "e(0)" is new with value equal to 3.0256e-09
+    Parameter "e(1)" is new with value equal to 3.0256e-09
+    Parameter "f(0)" is new with value equal to 0.0046834
+    Parameter "f(1)" is new with value equal to 0.0046834
+    Parameter "g(0)" is new with value equal to 0.00022869
+    Parameter "g(1)" is new with value equal to 0.00022869
+    Parameter "h(0)" is new with value equal to 7.4693e-07
+    Parameter "h(1)" is new with value equal to 7.4693e-07
+    Parameter "i(0)" is new with value equal to 1.7275e-09
+    Parameter "i(1)" is new with value equal to 1.7275e-09
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "HighFieldDependence_electron"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "HighFieldDependence_electron_aniso"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "HighFieldDependence_hole"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "HighFieldDependence_hole_aniso"
+    Parameter "E0_TrEf(0)" is new with value equal to 4000
+    Parameter "E0_TrEf(1)" is new with value equal to 4000
+    Parameter "K_dT(0)" is new with value equal to 0.2
+    Parameter "K_dT(1)" is new with value equal to 0.2
+    Parameter "Ksmooth_TrEf(0)" is new with value equal to 1
+    Parameter "Ksmooth_TrEf(1)" is new with value equal to 1
+    Parameter "alpha(0)" is new with value equal to 0
+    Parameter "alpha(1)" is new with value equal to 0
+  Model: "Kappa"
+    Parameter "B(1/kappa_b(1))" is new with value equal to 0
+    Parameter "B(1/kappa_c(1))" is new with value equal to 0
+    Parameter "B(kappa(1))" is new with value equal to 0
+    Parameter "B(kappa_b(1))" is new with value equal to 0
+    Parameter "B(kappa_c(1))" is new with value equal to 0
+    Parameter "C(1/kappa(1))" is new with value equal to 0
+    Parameter "C(1/kappa_b(1))" is new with value equal to 0
+    Parameter "C(1/kappa_c(1))" is new with value equal to 0
+    Parameter "C(kappa(1))" is new with value equal to 0
+    Parameter "C(kappa_b(1))" is new with value equal to 0
+    Parameter "C(kappa_c(1))" is new with value equal to 0
+    Parameter "kappa(0)" is new with value equal to 1.5
+    Parameter "kappa(1)" is new with value equal to 1.5
+    Parameter "kappa_b(0)" is new with value equal to 0
+    Parameter "kappa_b(1)" is new with value equal to 0
+    Parameter "kappa_c(0)" is new with value equal to 0
+    Parameter "kappa_c(1)" is new with value equal to 0
+  Model: "Kappa_aniso"
+    Parameter "B(1/kappa_b(1))" is new with value equal to 0
+    Parameter "B(1/kappa_c(1))" is new with value equal to 0
+    Parameter "B(kappa(1))" is new with value equal to 0
+    Parameter "B(kappa_b(1))" is new with value equal to 0
+    Parameter "B(kappa_c(1))" is new with value equal to 0
+    Parameter "C(1/kappa(1))" is new with value equal to 0
+    Parameter "C(1/kappa_b(1))" is new with value equal to 0
+    Parameter "C(1/kappa_c(1))" is new with value equal to 0
+    Parameter "C(kappa(1))" is new with value equal to 0
+    Parameter "C(kappa_b(1))" is new with value equal to 0
+    Parameter "C(kappa_c(1))" is new with value equal to 0
+    Parameter "kappa(0)" is new with value equal to 1.5
+    Parameter "kappa(1)" is new with value equal to 1.5
+    Parameter "kappa_b(0)" is new with value equal to 0
+    Parameter "kappa_b(1)" is new with value equal to 0
+    Parameter "kappa_c(0)" is new with value equal to 0
+    Parameter "kappa_c(1)" is new with value equal to 0
+  Model: "QWStrain"
+    Parameter "C_13(0)" is new with value equal to 0
+    Parameter "C_13(1)" is new with value equal to 0
+    Parameter "C_33(0)" is new with value equal to 0
+    Parameter "C_33(1)" is new with value equal to 0
+    Parameter "D1(0)" is new with value equal to 0
+    Parameter "D1(1)" is new with value equal to 0
+    Parameter "D2(0)" is new with value equal to 0
+    Parameter "D2(1)" is new with value equal to 0
+    Parameter "D3(0)" is new with value equal to 0
+    Parameter "D3(1)" is new with value equal to 0
+    Parameter "D4(0)" is new with value equal to 0
+    Parameter "D4(1)" is new with value equal to 0
+    Parameter "c0(0)" is new with value equal to 0
+    Parameter "c0(1)" is new with value equal to 0
+  Model: "SchroedingerParameters"
+    Parameter "A(0)" is new with value equal to 4.22
+    Parameter "A(1)" is new with value equal to 4.22
+    Parameter "B(0)" is new with value equal to 0.6084
+    Parameter "B(1)" is new with value equal to 0.6084
+    Parameter "C(0)" is new with value equal to 23.058
+    Parameter "C(1)" is new with value equal to 23.058
+    Parameter "eoffset(0)" is new with value equal to 0
+    Parameter "eoffset(1)" is new with value equal to 0
+    Parameter "hoffset(0)" is new with value equal to 0
+    Parameter "hoffset(1)" is new with value equal to 0
+    Parameter "me(0)" is new with value equal to 0.07
+    Parameter "me(1)" is new with value equal to 0.07
+
+=======
+Region: "AlInP_region7"
+  (material is "AlInP")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "GaAsbot_contact"
+  (material is "GaAs")
+=======
+  Model: "BarrierTunneling"
+    Parameter "mt_e" is modified from 0 to 0.05
+    Parameter "mt_h" is modified from 0 to 0.14
+
+=======
+Region: "GaInP_region1"
+  (material is "GaInP")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "GaInP_region2"
+  (material is "GaInP")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "GaInP_top_BSF"
+  (material is "GaInP")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "GaInP_top_window"
+  (material is "GaInP")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "Gold_region_1"
+  (material is "Gold")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "Goldregion_gold"
+  (material is "Gold")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "InAlAs_region3"
+  (material is "InAlAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "InAlAs_region4"
+  (material is "InAlAs")
+=======
+  Constants are not modified and equal to default ones
+
+=======
+Region: "InGaAs_bot_BSF"
+  (material is "InGaAs")
+=======
+  Model: "Bandgap"
+    Parameter "B(Chi0(1))" is new with value equal to 0
+    Parameter "B(alpha(1))" is new with value equal to 0
+    Parameter "B(beta(1))" is new with value equal to 0
+    Parameter "C(Chi0(1))" is new with value equal to 0
+    Parameter "C(Eg0(1))" is new with value equal to 0
+    Parameter "C(alpha(1))" is new with value equal to 0
+    Parameter "C(beta(1))" is new with value equal to 0
+  Model: "BandstructureParameters"
+    Parameter "A1(0)" is new with value equal to 0
+    Parameter "A1(1)" is new with value equal to 0
+    Parameter "A2(0)" is new with value equal to 0
+    Parameter "A2(1)" is new with value equal to 0
+    Parameter "A3(0)" is new with value equal to 0
+    Parameter "A3(1)" is new with value equal to 0
+    Parameter "A4(0)" is new with value equal to 0
+    Parameter "A4(1)" is new with value equal to 0
+    Parameter "A5(0)" is new with value equal to 0
+    Parameter "A5(1)" is new with value equal to 0
+    Parameter "A6(0)" is new with value equal to 0
+    Parameter "A6(1)" is new with value equal to 0
+    Parameter "cr(0)" is new with value equal to 0
+    Parameter "cr(1)" is new with value equal to 0
+  Model: "ComplexRefractiveIndex"
+    Parameter "Cn_temp(0)" is modified from 0.0002 to 0.0004
+    Parameter "n_0(0)" is modified from 3.892 to 3.5108
+  Model: "ConstantMobility_electron"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_electron_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "DOSMass_electron"
+    Parameter "a(0)" is new with value equal to 0.1905
+    Parameter "a(1)" is new with value equal to 0.1905
+    Parameter "ml(0)" is new with value equal to 0.9163
+    Parameter "ml(1)" is new with value equal to 0.9163
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "DOSMass_hole"
+    Parameter "a(0)" is new with value equal to 0.443587
+    Parameter "a(1)" is new with value equal to 0.443587
+    Parameter "b(0)" is new with value equal to 0.0036095
+    Parameter "b(1)" is new with value equal to 0.0036095
+    Parameter "c(0)" is new with value equal to 0.00011735
+    Parameter "c(1)" is new with value equal to 0.00011735
+    Parameter "d(0)" is new with value equal to 1.2632e-06
+    Parameter "d(1)" is new with value equal to 1.2632e-06
+    Parameter "e(0)" is new with value equal to 3.0256e-09
+    Parameter "e(1)" is new with value equal to 3.0256e-09
+    Parameter "f(0)" is new with value equal to 0.0046834
+    Parameter "f(1)" is new with value equal to 0.0046834
+    Parameter "g(0)" is new with value equal to 0.00022869
+    Parameter "g(1)" is new with value equal to 0.00022869
+    Parameter "h(0)" is new with value equal to 7.4693e-07
+    Parameter "h(1)" is new with value equal to 7.4693e-07
+    Parameter "i(0)" is new with value equal to 1.7275e-09
+    Parameter "i(1)" is new with value equal to 1.7275e-09
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "Kappa"
+    Parameter "B(1/kappa_b(1))" is new with value equal to 0
+    Parameter "B(1/kappa_c(1))" is new with value equal to 0
+    Parameter "B(kappa(1))" is new with value equal to 0
+    Parameter "B(kappa_b(1))" is new with value equal to 0
+    Parameter "B(kappa_c(1))" is new with value equal to 0
+    Parameter "C(1/kappa(1))" is new with value equal to 0
+    Parameter "C(1/kappa_b(1))" is new with value equal to 0
+    Parameter "C(1/kappa_c(1))" is new with value equal to 0
+    Parameter "C(kappa(1))" is new with value equal to 0
+    Parameter "C(kappa_b(1))" is new with value equal to 0
+    Parameter "C(kappa_c(1))" is new with value equal to 0
+    Parameter "kappa(0)" is new with value equal to 1.5
+    Parameter "kappa(1)" is new with value equal to 1.5
+    Parameter "kappa_b(0)" is new with value equal to 0
+    Parameter "kappa_b(1)" is new with value equal to 0
+    Parameter "kappa_c(0)" is new with value equal to 0
+    Parameter "kappa_c(1)" is new with value equal to 0
+  Model: "SchroedingerParameters"
+    Parameter "A(0)" is new with value equal to 0
+    Parameter "A(1)" is new with value equal to 0
+    Parameter "B(0)" is new with value equal to 0
+    Parameter "B(1)" is new with value equal to 0
+    Parameter "C(0)" is new with value equal to 0
+    Parameter "C(1)" is new with value equal to 0
+
+=======
+Region: "InGaAs_bot_window"
+  (material is "InGaAs")
+=======
+  Model: "Bandgap"
+    Parameter "B(Chi0(1))" is new with value equal to 0
+    Parameter "B(alpha(1))" is new with value equal to 0
+    Parameter "B(beta(1))" is new with value equal to 0
+    Parameter "C(Chi0(1))" is new with value equal to 0
+    Parameter "C(Eg0(1))" is new with value equal to 0
+    Parameter "C(alpha(1))" is new with value equal to 0
+    Parameter "C(beta(1))" is new with value equal to 0
+  Model: "BandstructureParameters"
+    Parameter "A1(0)" is new with value equal to 0
+    Parameter "A1(1)" is new with value equal to 0
+    Parameter "A2(0)" is new with value equal to 0
+    Parameter "A2(1)" is new with value equal to 0
+    Parameter "A3(0)" is new with value equal to 0
+    Parameter "A3(1)" is new with value equal to 0
+    Parameter "A4(0)" is new with value equal to 0
+    Parameter "A4(1)" is new with value equal to 0
+    Parameter "A5(0)" is new with value equal to 0
+    Parameter "A5(1)" is new with value equal to 0
+    Parameter "A6(0)" is new with value equal to 0
+    Parameter "A6(1)" is new with value equal to 0
+    Parameter "cr(0)" is new with value equal to 0
+    Parameter "cr(1)" is new with value equal to 0
+  Model: "ComplexRefractiveIndex"
+    Parameter "Cn_temp(0)" is modified from 0.0002 to 0.0004
+    Parameter "n_0(0)" is modified from 3.892 to 3.5108
+  Model: "ConstantMobility_electron"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_electron_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "DOSMass_electron"
+    Parameter "a(0)" is new with value equal to 0.1905
+    Parameter "a(1)" is new with value equal to 0.1905
+    Parameter "ml(0)" is new with value equal to 0.9163
+    Parameter "ml(1)" is new with value equal to 0.9163
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "DOSMass_hole"
+    Parameter "a(0)" is new with value equal to 0.443587
+    Parameter "a(1)" is new with value equal to 0.443587
+    Parameter "b(0)" is new with value equal to 0.0036095
+    Parameter "b(1)" is new with value equal to 0.0036095
+    Parameter "c(0)" is new with value equal to 0.00011735
+    Parameter "c(1)" is new with value equal to 0.00011735
+    Parameter "d(0)" is new with value equal to 1.2632e-06
+    Parameter "d(1)" is new with value equal to 1.2632e-06
+    Parameter "e(0)" is new with value equal to 3.0256e-09
+    Parameter "e(1)" is new with value equal to 3.0256e-09
+    Parameter "f(0)" is new with value equal to 0.0046834
+    Parameter "f(1)" is new with value equal to 0.0046834
+    Parameter "g(0)" is new with value equal to 0.00022869
+    Parameter "g(1)" is new with value equal to 0.00022869
+    Parameter "h(0)" is new with value equal to 7.4693e-07
+    Parameter "h(1)" is new with value equal to 7.4693e-07
+    Parameter "i(0)" is new with value equal to 1.7275e-09
+    Parameter "i(1)" is new with value equal to 1.7275e-09
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "Kappa"
+    Parameter "B(1/kappa_b(1))" is new with value equal to 0
+    Parameter "B(1/kappa_c(1))" is new with value equal to 0
+    Parameter "B(kappa(1))" is new with value equal to 0
+    Parameter "B(kappa_b(1))" is new with value equal to 0
+    Parameter "B(kappa_c(1))" is new with value equal to 0
+    Parameter "C(1/kappa(1))" is new with value equal to 0
+    Parameter "C(1/kappa_b(1))" is new with value equal to 0
+    Parameter "C(1/kappa_c(1))" is new with value equal to 0
+    Parameter "C(kappa(1))" is new with value equal to 0
+    Parameter "C(kappa_b(1))" is new with value equal to 0
+    Parameter "C(kappa_c(1))" is new with value equal to 0
+    Parameter "kappa(0)" is new with value equal to 1.5
+    Parameter "kappa(1)" is new with value equal to 1.5
+    Parameter "kappa_b(0)" is new with value equal to 0
+    Parameter "kappa_b(1)" is new with value equal to 0
+    Parameter "kappa_c(0)" is new with value equal to 0
+    Parameter "kappa_c(1)" is new with value equal to 0
+  Model: "SchroedingerParameters"
+    Parameter "A(0)" is new with value equal to 0
+    Parameter "A(1)" is new with value equal to 0
+    Parameter "B(0)" is new with value equal to 0
+    Parameter "B(1)" is new with value equal to 0
+    Parameter "C(0)" is new with value equal to 0
+    Parameter "C(1)" is new with value equal to 0
+
+=======
+Region: "InGaAs_region10"
+  (material is "InGaAs")
+=======
+  Model: "Bandgap"
+    Parameter "B(Chi0(1))" is new with value equal to 0
+    Parameter "B(alpha(1))" is new with value equal to 0
+    Parameter "B(beta(1))" is new with value equal to 0
+    Parameter "C(Chi0(1))" is new with value equal to 0
+    Parameter "C(Eg0(1))" is new with value equal to 0
+    Parameter "C(alpha(1))" is new with value equal to 0
+    Parameter "C(beta(1))" is new with value equal to 0
+  Model: "BandstructureParameters"
+    Parameter "A1(0)" is new with value equal to 0
+    Parameter "A1(1)" is new with value equal to 0
+    Parameter "A2(0)" is new with value equal to 0
+    Parameter "A2(1)" is new with value equal to 0
+    Parameter "A3(0)" is new with value equal to 0
+    Parameter "A3(1)" is new with value equal to 0
+    Parameter "A4(0)" is new with value equal to 0
+    Parameter "A4(1)" is new with value equal to 0
+    Parameter "A5(0)" is new with value equal to 0
+    Parameter "A5(1)" is new with value equal to 0
+    Parameter "A6(0)" is new with value equal to 0
+    Parameter "A6(1)" is new with value equal to 0
+    Parameter "cr(0)" is new with value equal to 0
+    Parameter "cr(1)" is new with value equal to 0
+  Model: "ComplexRefractiveIndex"
+    Parameter "Cn_temp(0)" is modified from 0.0002 to 0.0004
+    Parameter "n_0(0)" is modified from 3.892 to 3.5108
+  Model: "ConstantMobility_electron"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_electron_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "DOSMass_electron"
+    Parameter "a(0)" is new with value equal to 0.1905
+    Parameter "a(1)" is new with value equal to 0.1905
+    Parameter "ml(0)" is new with value equal to 0.9163
+    Parameter "ml(1)" is new with value equal to 0.9163
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "DOSMass_hole"
+    Parameter "a(0)" is new with value equal to 0.443587
+    Parameter "a(1)" is new with value equal to 0.443587
+    Parameter "b(0)" is new with value equal to 0.0036095
+    Parameter "b(1)" is new with value equal to 0.0036095
+    Parameter "c(0)" is new with value equal to 0.00011735
+    Parameter "c(1)" is new with value equal to 0.00011735
+    Parameter "d(0)" is new with value equal to 1.2632e-06
+    Parameter "d(1)" is new with value equal to 1.2632e-06
+    Parameter "e(0)" is new with value equal to 3.0256e-09
+    Parameter "e(1)" is new with value equal to 3.0256e-09
+    Parameter "f(0)" is new with value equal to 0.0046834
+    Parameter "f(1)" is new with value equal to 0.0046834
+    Parameter "g(0)" is new with value equal to 0.00022869
+    Parameter "g(1)" is new with value equal to 0.00022869
+    Parameter "h(0)" is new with value equal to 7.4693e-07
+    Parameter "h(1)" is new with value equal to 7.4693e-07
+    Parameter "i(0)" is new with value equal to 1.7275e-09
+    Parameter "i(1)" is new with value equal to 1.7275e-09
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "Kappa"
+    Parameter "B(1/kappa_b(1))" is new with value equal to 0
+    Parameter "B(1/kappa_c(1))" is new with value equal to 0
+    Parameter "B(kappa(1))" is new with value equal to 0
+    Parameter "B(kappa_b(1))" is new with value equal to 0
+    Parameter "B(kappa_c(1))" is new with value equal to 0
+    Parameter "C(1/kappa(1))" is new with value equal to 0
+    Parameter "C(1/kappa_b(1))" is new with value equal to 0
+    Parameter "C(1/kappa_c(1))" is new with value equal to 0
+    Parameter "C(kappa(1))" is new with value equal to 0
+    Parameter "C(kappa_b(1))" is new with value equal to 0
+    Parameter "C(kappa_c(1))" is new with value equal to 0
+    Parameter "kappa(0)" is new with value equal to 1.5
+    Parameter "kappa(1)" is new with value equal to 1.5
+    Parameter "kappa_b(0)" is new with value equal to 0
+    Parameter "kappa_b(1)" is new with value equal to 0
+    Parameter "kappa_c(0)" is new with value equal to 0
+    Parameter "kappa_c(1)" is new with value equal to 0
+  Model: "SchroedingerParameters"
+    Parameter "A(0)" is new with value equal to 0
+    Parameter "A(1)" is new with value equal to 0
+    Parameter "B(0)" is new with value equal to 0
+    Parameter "B(1)" is new with value equal to 0
+    Parameter "C(0)" is new with value equal to 0
+    Parameter "C(1)" is new with value equal to 0
+
+=======
+Region: "InGaAs_region8"
+  (material is "InGaAs")
+=======
+  Model: "Bandgap"
+    Parameter "B(Chi0(1))" is new with value equal to 0
+    Parameter "B(alpha(1))" is new with value equal to 0
+    Parameter "B(beta(1))" is new with value equal to 0
+    Parameter "C(Chi0(1))" is new with value equal to 0
+    Parameter "C(Eg0(1))" is new with value equal to 0
+    Parameter "C(alpha(1))" is new with value equal to 0
+    Parameter "C(beta(1))" is new with value equal to 0
+  Model: "BandstructureParameters"
+    Parameter "A1(0)" is new with value equal to 0
+    Parameter "A1(1)" is new with value equal to 0
+    Parameter "A2(0)" is new with value equal to 0
+    Parameter "A2(1)" is new with value equal to 0
+    Parameter "A3(0)" is new with value equal to 0
+    Parameter "A3(1)" is new with value equal to 0
+    Parameter "A4(0)" is new with value equal to 0
+    Parameter "A4(1)" is new with value equal to 0
+    Parameter "A5(0)" is new with value equal to 0
+    Parameter "A5(1)" is new with value equal to 0
+    Parameter "A6(0)" is new with value equal to 0
+    Parameter "A6(1)" is new with value equal to 0
+    Parameter "cr(0)" is new with value equal to 0
+    Parameter "cr(1)" is new with value equal to 0
+  Model: "ComplexRefractiveIndex"
+    Parameter "Cn_temp(0)" is modified from 0.0002 to 0.0004
+    Parameter "n_0(0)" is modified from 3.892 to 3.5108
+  Model: "ConstantMobility_electron"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_electron_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "DOSMass_electron"
+    Parameter "a(0)" is new with value equal to 0.1905
+    Parameter "a(1)" is new with value equal to 0.1905
+    Parameter "ml(0)" is new with value equal to 0.9163
+    Parameter "ml(1)" is new with value equal to 0.9163
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "DOSMass_hole"
+    Parameter "a(0)" is new with value equal to 0.443587
+    Parameter "a(1)" is new with value equal to 0.443587
+    Parameter "b(0)" is new with value equal to 0.0036095
+    Parameter "b(1)" is new with value equal to 0.0036095
+    Parameter "c(0)" is new with value equal to 0.00011735
+    Parameter "c(1)" is new with value equal to 0.00011735
+    Parameter "d(0)" is new with value equal to 1.2632e-06
+    Parameter "d(1)" is new with value equal to 1.2632e-06
+    Parameter "e(0)" is new with value equal to 3.0256e-09
+    Parameter "e(1)" is new with value equal to 3.0256e-09
+    Parameter "f(0)" is new with value equal to 0.0046834
+    Parameter "f(1)" is new with value equal to 0.0046834
+    Parameter "g(0)" is new with value equal to 0.00022869
+    Parameter "g(1)" is new with value equal to 0.00022869
+    Parameter "h(0)" is new with value equal to 7.4693e-07
+    Parameter "h(1)" is new with value equal to 7.4693e-07
+    Parameter "i(0)" is new with value equal to 1.7275e-09
+    Parameter "i(1)" is new with value equal to 1.7275e-09
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "Kappa"
+    Parameter "B(1/kappa_b(1))" is new with value equal to 0
+    Parameter "B(1/kappa_c(1))" is new with value equal to 0
+    Parameter "B(kappa(1))" is new with value equal to 0
+    Parameter "B(kappa_b(1))" is new with value equal to 0
+    Parameter "B(kappa_c(1))" is new with value equal to 0
+    Parameter "C(1/kappa(1))" is new with value equal to 0
+    Parameter "C(1/kappa_b(1))" is new with value equal to 0
+    Parameter "C(1/kappa_c(1))" is new with value equal to 0
+    Parameter "C(kappa(1))" is new with value equal to 0
+    Parameter "C(kappa_b(1))" is new with value equal to 0
+    Parameter "C(kappa_c(1))" is new with value equal to 0
+    Parameter "kappa(0)" is new with value equal to 1.5
+    Parameter "kappa(1)" is new with value equal to 1.5
+    Parameter "kappa_b(0)" is new with value equal to 0
+    Parameter "kappa_b(1)" is new with value equal to 0
+    Parameter "kappa_c(0)" is new with value equal to 0
+    Parameter "kappa_c(1)" is new with value equal to 0
+  Model: "SchroedingerParameters"
+    Parameter "A(0)" is new with value equal to 0
+    Parameter "A(1)" is new with value equal to 0
+    Parameter "B(0)" is new with value equal to 0
+    Parameter "B(1)" is new with value equal to 0
+    Parameter "C(0)" is new with value equal to 0
+    Parameter "C(1)" is new with value equal to 0
+
+=======
+Region: "InGaAs_region9"
+  (material is "InGaAs")
+=======
+  Model: "Bandgap"
+    Parameter "B(Chi0(1))" is new with value equal to 0
+    Parameter "B(alpha(1))" is new with value equal to 0
+    Parameter "B(beta(1))" is new with value equal to 0
+    Parameter "C(Chi0(1))" is new with value equal to 0
+    Parameter "C(Eg0(1))" is new with value equal to 0
+    Parameter "C(alpha(1))" is new with value equal to 0
+    Parameter "C(beta(1))" is new with value equal to 0
+  Model: "BandstructureParameters"
+    Parameter "A1(0)" is new with value equal to 0
+    Parameter "A1(1)" is new with value equal to 0
+    Parameter "A2(0)" is new with value equal to 0
+    Parameter "A2(1)" is new with value equal to 0
+    Parameter "A3(0)" is new with value equal to 0
+    Parameter "A3(1)" is new with value equal to 0
+    Parameter "A4(0)" is new with value equal to 0
+    Parameter "A4(1)" is new with value equal to 0
+    Parameter "A5(0)" is new with value equal to 0
+    Parameter "A5(1)" is new with value equal to 0
+    Parameter "A6(0)" is new with value equal to 0
+    Parameter "A6(1)" is new with value equal to 0
+    Parameter "cr(0)" is new with value equal to 0
+    Parameter "cr(1)" is new with value equal to 0
+  Model: "ComplexRefractiveIndex"
+    Parameter "Cn_temp(0)" is modified from 0.0002 to 0.0004
+    Parameter "n_0(0)" is modified from 3.892 to 3.5108
+  Model: "ConstantMobility_electron"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_electron_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "ConstantMobility_hole_aniso"
+    Parameter "mutunnel(0)" is new with value equal to 0.05
+    Parameter "mutunnel(1)" is new with value equal to 0.05
+  Model: "DOSMass_electron"
+    Parameter "a(0)" is new with value equal to 0.1905
+    Parameter "a(1)" is new with value equal to 0.1905
+    Parameter "ml(0)" is new with value equal to 0.9163
+    Parameter "ml(1)" is new with value equal to 0.9163
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "DOSMass_hole"
+    Parameter "a(0)" is new with value equal to 0.443587
+    Parameter "a(1)" is new with value equal to 0.443587
+    Parameter "b(0)" is new with value equal to 0.0036095
+    Parameter "b(1)" is new with value equal to 0.0036095
+    Parameter "c(0)" is new with value equal to 0.00011735
+    Parameter "c(1)" is new with value equal to 0.00011735
+    Parameter "d(0)" is new with value equal to 1.2632e-06
+    Parameter "d(1)" is new with value equal to 1.2632e-06
+    Parameter "e(0)" is new with value equal to 3.0256e-09
+    Parameter "e(1)" is new with value equal to 3.0256e-09
+    Parameter "f(0)" is new with value equal to 0.0046834
+    Parameter "f(1)" is new with value equal to 0.0046834
+    Parameter "g(0)" is new with value equal to 0.00022869
+    Parameter "g(1)" is new with value equal to 0.00022869
+    Parameter "h(0)" is new with value equal to 7.4693e-07
+    Parameter "h(1)" is new with value equal to 7.4693e-07
+    Parameter "i(0)" is new with value equal to 1.7275e-09
+    Parameter "i(1)" is new with value equal to 1.7275e-09
+    Parameter "mm(0)" is new with value equal to 0
+    Parameter "mm(1)" is new with value equal to 0
+  Model: "Kappa"
+    Parameter "B(1/kappa_b(1))" is new with value equal to 0
+    Parameter "B(1/kappa_c(1))" is new with value equal to 0
+    Parameter "B(kappa(1))" is new with value equal to 0
+    Parameter "B(kappa_b(1))" is new with value equal to 0
+    Parameter "B(kappa_c(1))" is new with value equal to 0
+    Parameter "C(1/kappa(1))" is new with value equal to 0
+    Parameter "C(1/kappa_b(1))" is new with value equal to 0
+    Parameter "C(1/kappa_c(1))" is new with value equal to 0
+    Parameter "C(kappa(1))" is new with value equal to 0
+    Parameter "C(kappa_b(1))" is new with value equal to 0
+    Parameter "C(kappa_c(1))" is new with value equal to 0
+    Parameter "kappa(0)" is new with value equal to 1.5
+    Parameter "kappa(1)" is new with value equal to 1.5
+    Parameter "kappa_b(0)" is new with value equal to 0
+    Parameter "kappa_b(1)" is new with value equal to 0
+    Parameter "kappa_c(0)" is new with value equal to 0
+    Parameter "kappa_c(1)" is new with value equal to 0
+  Model: "SchroedingerParameters"
+    Parameter "A(0)" is new with value equal to 0
+    Parameter "A(1)" is new with value equal to 0
+    Parameter "B(0)" is new with value equal to 0
+    Parameter "B(1)" is new with value equal to 0
+    Parameter "C(0)" is new with value equal to 0
+    Parameter "C(1)" is new with value equal to 0
+
+=======
+Region: "MgF_region_1"
+  (material is "MgF")
+=======
+  Model: "DOSMass_electron"
+    Parameter "a" is modified from 0.1905 to 0
+    Parameter "ml" is modified from 0.9163 to 0
+    Parameter "mm" is modified from 0 to 0.42
+  Model: "DOSMass_hole"
+    Parameter "a" is modified from 0.443587 to 0
+    Parameter "b" is modified from 0.00360953 to 0
+    Parameter "c" is modified from 0.000117352 to 0
+    Parameter "d" is modified from 1.26322e-06 to 0
+    Parameter "e" is modified from 3.02558e-09 to 0
+    Parameter "f" is modified from 0.00468338 to 0
+    Parameter "g" is modified from 0.000228689 to 0
+    Parameter "h" is modified from 7.46927e-07 to 0
+    Parameter "i" is modified from 1.72748e-09 to 0
+    Parameter "mm" is modified from 0 to 1
+  Model: "Epsilon"
+    Parameter "epsilon" is modified from 11.7 to 6
+
+=======
+Region: "TiOx_region_1"
+  (material is "TiOx")
+=======
+  Model: "DOSMass_electron"
+    Parameter "a" is modified from 0.1905 to 0
+    Parameter "ml" is modified from 0.9163 to 0
+    Parameter "mm" is modified from 0 to 0.42
+  Model: "DOSMass_hole"
+    Parameter "a" is modified from 0.443587 to 0
+    Parameter "b" is modified from 0.00360953 to 0
+    Parameter "c" is modified from 0.000117352 to 0
+    Parameter "d" is modified from 1.26322e-06 to 0
+    Parameter "e" is modified from 3.02558e-09 to 0
+    Parameter "f" is modified from 0.00468338 to 0
+    Parameter "g" is modified from 0.000228689 to 0
+    Parameter "h" is modified from 7.46927e-07 to 0
+    Parameter "i" is modified from 1.72748e-09 to 0
+    Parameter "mm" is modified from 0 to 1
+  Model: "Epsilon"
+    Parameter "epsilon" is modified from 11.7 to 6
+
+================
+RegionInterface: "AlGaAs_region6/AlGaAs_mid_BSF"
+  (material interface is "AlGaAs/AlGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "AlGaAs_mid_BSF/AlInP_region7"
+  (material interface is "AlGaAs/AlInP")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "AlGaAs_mid_window/AlGaAs_region5"
+  (material interface is "AlGaAs/AlGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "AlGaAs_mid_window/InAlAs_region4"
+  (material interface is "AlGaAs/InAlAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "AlGaAs_region5/AlGaAs_region6"
+  (material interface is "AlGaAs/AlGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "AlInP_region7/InGaAs_region8"
+  (material interface is "AlInP/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaAsbot_contact/Goldregion_gold"
+  (material interface is "GaAs/Gold")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "InGaAs_bot_BSF/GaAsbot_contact"
+  (material interface is "InGaAs/GaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaInP_region1/GaInP_region2"
+  (material interface is "GaInP/GaInP")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaInP_top_window/GaInP_region1"
+  (material interface is "GaInP/GaInP")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaInP_top_BSF/GaInP_region2"
+  (material interface is "GaInP/GaInP")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaInP_top_BSF/InAlAs_region3"
+  (material interface is "GaInP/InAlAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaInP_top_window/Gold_region_1"
+  (material interface is "GaInP/Gold")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "GaInP_top_window/TiOx_region_1"
+  (material interface is "GaInP/TiOx")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Gold_region_1/MgF_region_1"
+  (material interface is "Gold/MgF")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Gold_region_1/TiOx_region_1"
+  (material interface is "Gold/TiOx")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "InAlAs_region3/InAlAs_region4"
+  (material interface is "InAlAs/InAlAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "InGaAs_bot_BSF/InGaAs_region10"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "InGaAs_region8/InGaAs_bot_window"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "InGaAs_bot_window/InGaAs_region9"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "InGaAs_region9/InGaAs_region10"
+  (material interface is "InGaAs/InGaAs")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "MgF_region_1/TiOx_region_1"
+  (material interface is "MgF/TiOx")
+================
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "back"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "front"
+==========
+  Constants are not modified and equal to default ones
+
+
+Use doping species (B, P) concentrations from file (Species => Na,Nd)!
+Use doping concentration (Nnet) from file.
+No total doping concentration in doping file (Species => Ntot)!
+
+
+ Region "GaInP_top_window" (Material "GaInP"): "Bandgap" computed by side materials "InP,GaP"
+ Region "GaInP_top_window" (Material "GaInP"): "Epsilon" computed by side materials "InP,GaP"
+ Region "GaInP_top_window" (Material "GaInP"): "eDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_top_window" (Material "GaInP"): "hDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_top_window" (Material "GaInP"): "DopingDependence(electrons)" computed by side materials "InP,GaP"
+ Region "GaInP_top_window" (Material "GaInP"): "DopingDependence(holes)" computed by side materials "InP,GaP"
+ Region "AlGaAs_mid_window" (Material "AlGaAs"): "DopingDependence(electrons)" computed by side materials "GaAs,AlAs"
+ Region "AlGaAs_mid_window" (Material "AlGaAs"): "DopingDependence(holes)" computed by side materials "GaAs,AlAs"
+ Region "AlGaAs_region5" (Material "AlGaAs"): "DopingDependence(electrons)" computed by side materials "GaAs,AlAs"
+ Region "AlGaAs_region5" (Material "AlGaAs"): "DopingDependence(holes)" computed by side materials "GaAs,AlAs"
+ Region "InGaAs_bot_BSF" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "InGaAs_bot_BSF" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "AlGaAs_region6" (Material "AlGaAs"): "DopingDependence(electrons)" computed by side materials "GaAs,AlAs"
+ Region "AlGaAs_region6" (Material "AlGaAs"): "DopingDependence(holes)" computed by side materials "GaAs,AlAs"
+ Region "GaInP_region1" (Material "GaInP"): "Bandgap" computed by side materials "InP,GaP"
+ Region "GaInP_region1" (Material "GaInP"): "Epsilon" computed by side materials "InP,GaP"
+ Region "GaInP_region1" (Material "GaInP"): "eDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_region1" (Material "GaInP"): "hDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_region1" (Material "GaInP"): "DopingDependence(electrons)" computed by side materials "InP,GaP"
+ Region "GaInP_region1" (Material "GaInP"): "DopingDependence(holes)" computed by side materials "InP,GaP"
+ Region "GaInP_top_BSF" (Material "GaInP"): "Bandgap" computed by side materials "InP,GaP"
+ Region "GaInP_top_BSF" (Material "GaInP"): "Epsilon" computed by side materials "InP,GaP"
+ Region "GaInP_top_BSF" (Material "GaInP"): "eDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_top_BSF" (Material "GaInP"): "hDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_top_BSF" (Material "GaInP"): "DopingDependence(electrons)" computed by side materials "InP,GaP"
+ Region "GaInP_top_BSF" (Material "GaInP"): "DopingDependence(holes)" computed by side materials "InP,GaP"
+ Region "GaInP_region2" (Material "GaInP"): "Bandgap" computed by side materials "InP,GaP"
+ Region "GaInP_region2" (Material "GaInP"): "Epsilon" computed by side materials "InP,GaP"
+ Region "GaInP_region2" (Material "GaInP"): "eDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_region2" (Material "GaInP"): "hDOSMass" computed by side materials "InP,GaP"
+ Region "GaInP_region2" (Material "GaInP"): "DopingDependence(electrons)" computed by side materials "InP,GaP"
+ Region "GaInP_region2" (Material "GaInP"): "DopingDependence(holes)" computed by side materials "InP,GaP"
+ Region "AlGaAs_mid_BSF" (Material "AlGaAs"): "DopingDependence(electrons)" computed by side materials "GaAs,AlAs"
+ Region "AlGaAs_mid_BSF" (Material "AlGaAs"): "DopingDependence(holes)" computed by side materials "GaAs,AlAs"
+ Region "InAlAs_region3" (Material "InAlAs"): "DopingDependence(electrons)" computed by side materials "InAs,AlAs"
+ Region "InAlAs_region3" (Material "InAlAs"): "DopingDependence(holes)" computed by side materials "InAs,AlAs"
+ Region "InGaAs_region8" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "InGaAs_region8" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "InGaAs_bot_window" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "InGaAs_bot_window" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "InAlAs_region4" (Material "InAlAs"): "DopingDependence(electrons)" computed by side materials "InAs,AlAs"
+ Region "InAlAs_region4" (Material "InAlAs"): "DopingDependence(holes)" computed by side materials "InAs,AlAs"
+ Region "InGaAs_region9" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "InGaAs_region9" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+ Region "InGaAs_region10" (Material "InGaAs"): "DopingDependence(electrons)" computed by side materials "InAs,GaAs"
+ Region "InGaAs_region10" (Material "InGaAs"): "DopingDependence(holes)" computed by side materials "InAs,GaAs"
+Sun Mar 16 05:13:59 2014: checked out 1 Dessis-Hetero license(s)
+Sun Mar 16 05:13:59 2014: checked out 1 sdevice-hetero license(s)
+
+With Constant Reference Potential:
+  Parameters of Reference Semiconductor:
+    The Electron Affinity: 4.11826
+    The Band Gap: 1.42248
+    The Electron DOS: 4.4200e+17
+    The Hole DOS: 8.4700e+18
+  The Constant Reference Potential: 4.79133
+Sun Mar 16 05:13:59 2014: checked out 1 Dessis-Optic license(s)
+Sun Mar 16 05:13:59 2014: checked out 1 sdevice-optic license(s)
+
+===============================
+Starting solve of next problem:
+ Poisson
+===============================
+
+Computing poisson-equation 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.78e+05                                                      0.15
+    1      2.68e+04   1.00e+00   6.43e+00   1.04e+11    0         1      0.61
+    2      5.08e+03   1.00e+00   2.10e+00   3.66e+10    0         1      1.06
+    3      8.39e+02   1.00e+00   8.96e-01   1.59e+10    0         1      1.51
+    4      7.96e+01   1.00e+00   3.90e-01   5.23e+09    0         1      2.03
+    5      2.84e+00   1.00e+00   4.21e-02   5.24e+08    0         1      2.49
+    6      2.37e-03   1.00e+00   8.82e-04   1.17e+07    0         1      2.96
+    7      1.67e-09   1.00e+00   7.97e-07   1.12e+04    0         1      3.40
+Finished, because...
+|RHS| less than 1.0000E-05.
+
+Accumulated times:
+Rhs time:        1.14 s
+Jacobian time:   0.86 s
+Solve time:      1.38 s
+Total time:      3.40 s
+
+
+Warning: Illumination spectrum file n639_am15d.txt does not contain header specifying parameter name and corresponding unit for each data column, continuing in backward compatibility mode (pre E-2010.12) where first column is supposed to contain wavelength [um] and second column is supposed to contain intensity [W*cm^-2]  !
+
+Parsing file 'n639_am15d.txt' succeeded.
+Reading geometry 'n610_msh.tdr' ...
+  coordinate system: DFISE, 2d_dfise (y is device down direction, 3d extension right-handed)
+  use coordinate system as is (no transformation)
+done.
+contact        voltage     electron current    hole current  conduction current
+ back         0.000E+00       8.783E+03        -8.783E+03       -1.728E-15
+ front        0.000E+00       6.498E+03        -6.498E+03        5.616E-15
+
+
+===============================
+Starting solve of next problem:
+Transient (
+      Max. #iterations : 20, 
+      Initial step : 1.0000e-10 s, Minimum #intervals : 0, 
+      Minimum step : 1.0000e-14 s, Maximum step : 1 s, 
+      Initial time : 0.0000e+00 s, Final time : 0.1 s, 
+    )
+  {
+    Coupled ( Digits : 11, Max. #iterations : 20, 
+        Solver : Super,
+        #undamped iterations : 100 
+)
+        { Poisson Electron Hole } 
+  }
+===============================
+
+Computing BE-step from 0.0000e+00 s to 1.0000e-10 s (Stepsize: 1.0000e-10 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.03e+04                                                      3.34
+    1      1.35e+09   1.00e+00   2.35e+01   5.66e+10    0         1     12.36
+    2      7.52e+03   1.00e+00   3.84e-03   3.33e+08    0         1     21.05
+    3      6.94e-03   1.00e+00   8.47e-07   8.25e+04    0         1     29.77
+    4      6.35e-03   1.00e+00   1.58e-13   2.68e-03    0         1     38.55
+Finished, because...
+Error smaller than 1 ( 2.6782E-03 ).
+
+Accumulated times:
+Rhs time:       18.54 s
+Jacobian time:   3.13 s
+Solve time:     16.21 s
+Total time:     38.55 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       2.537E+03        -1.384E-16        7.884E+03
+ front        0.000E+00      -2.532E+03        -1.692E-15       -1.044E+04
+
+
+Computing BE-step from 1.0000e-10 s to 3.0000e-10 s (Stepsize: 2.0000e-10 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.38e+05                                                      3.64
+    1      6.28e+09   1.00e+00   8.20e-01   1.13e+10    0         1     12.46
+    2      1.34e+05   1.00e+00   5.56e-03   3.53e+08    0         1     21.31
+    3      1.62e-02   1.00e+00   2.08e-06   1.90e+05    0         1     30.20
+    4      7.11e-03   1.00e+00   4.17e-12   1.16e-01    0         1     38.95
+Finished, because...
+Error smaller than 1 ( 1.1561E-01 ).
+
+Accumulated times:
+Rhs time:       18.75 s
+Jacobian time:   3.22 s
+Solve time:     16.38 s
+Total time:     38.96 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       4.768E+03        -3.650E-16        9.993E+03
+ front        0.000E+00      -4.766E+03         6.751E-17       -1.146E+04
+
+
+Computing BE-step from 3.0000e-10 s to 7.0000e-10 s (Stepsize: 4.0000e-10 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.05e+10                                                      3.69
+    1      1.16e+09   1.00e+00   5.98e-01   2.50e+10    0         1     12.53
+    2      6.72e+03   1.00e+00   4.08e-03   3.10e+08    0         1     21.32
+    3      6.07e-03   1.00e+00   2.01e-06   1.86e+05    0         1     30.07
+    4      7.09e-03   1.00e+00   2.17e-11   2.84e-01    0         1     38.84
+Finished, because...
+Error smaller than 1 ( 2.8375E-01 ).
+
+Accumulated times:
+Rhs time:       18.94 s
+Jacobian time:   3.13 s
+Solve time:     16.13 s
+Total time:     38.84 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       6.703E+03        -4.084E-16        1.039E+04
+ front        0.000E+00      -6.702E+03         7.637E-17       -1.156E+04
+
+
+Computing BE-step from 7.0000e-10 s to 1.5000e-09 s (Stepsize: 8.0000e-10 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.16e+10                                                      3.75
+    1      4.32e+09   1.00e+00   1.07e+00   1.59e+10    0         1     12.57
+    2      3.04e+05   1.00e+00   1.55e-02   1.17e+09    0         1     21.35
+    3      1.33e+01   1.00e+00   8.49e-06   8.23e+05    0         1     30.20
+    4      5.97e-03   1.00e+00   7.54e-09   1.14e+02    0         1     39.00
+    5      7.76e-03   1.00e+00   6.28e-11   9.40e-01    0         1     47.89
+Finished, because...
+Error smaller than 1 ( 9.3986E-01 ).
+
+Accumulated times:
+Rhs time:       22.93 s
+Jacobian time:   3.99 s
+Solve time:     20.14 s
+Total time:     47.89 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       8.268E+03         9.080E-16        1.043E+04
+ front        0.000E+00      -8.267E+03         4.805E-15       -1.156E+04
+
+
+Computing BE-step from 1.5000e-09 s to 3.1000e-09 s (Stepsize: 1.6000e-09 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.61e+11                                                      3.70
+    1      1.95e+09   1.00e+00   1.32e+00   1.69e+11    0         1     12.46
+    2      1.54e+06   1.00e+00   7.36e-02   2.61e+09    0         1     21.11
+    3      3.99e+01   1.00e+00   4.50e-05   4.46e+06    0         1     29.73
+    4      6.53e-03   1.00e+00   1.74e-08   3.13e+02    0         1     38.49
+    5      6.46e-03   1.00e+00   2.45e-10   4.31e+00    0         1     47.08
+    6      6.75e-03   1.00e+00   3.46e-12   6.11e-02    0         1     55.79
+Finished, because...
+Error smaller than 1 ( 6.1059E-02 ).
+
+Accumulated times:
+Rhs time:       25.75 s
+Jacobian time:   4.84 s
+Solve time:     24.23 s
+Total time:     55.79 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       9.260E+03         2.059E-16        1.044E+04
+ front        0.000E+00      -9.260E+03         4.395E-15       -1.155E+04
+
+
+Computing BE-step from 3.1000e-09 s to 6.3000e-09 s (Stepsize: 3.2000e-09 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.55e+12                                                      3.73
+    1      1.10e+10   1.00e+00   1.07e+00   8.02e+10    0         1     12.46
+    2      3.72e+08   1.00e+00   5.94e-02   2.17e+09    0         1     21.19
+    3      2.09e+06   1.00e+00   4.67e-04   2.26e+07    0         1     30.05
+    4      1.33e+04   1.00e+00   3.74e-05   6.85e+05    0         1     38.82
+    5      9.82e+01   1.00e+00   3.15e-06   5.74e+04    0         1     47.50
+    6      7.04e-01   1.00e+00   2.64e-07   4.83e+03    0         1     56.03
+    7      6.74e-03   1.00e+00   2.22e-08   4.06e+02    0         1     64.70
+    8      5.38e-03   1.00e+00   1.87e-09   3.42e+01    0         1     73.48
+    9      6.80e-03   1.00e+00   1.57e-10   2.87e+00    0         1     82.29
+   10      5.90e-03   1.00e+00   1.32e-11   2.42e-01    0         1     91.08
+Finished, because...
+Error smaller than 1 ( 2.4156E-01 ).
+
+Accumulated times:
+Rhs time:       40.37 s
+Jacobian time:   8.21 s
+Solve time:     40.97 s
+Total time:     91.08 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       9.714E+03         5.400E-17        1.044E+04
+ front        0.000E+00      -9.714E+03         1.316E-15       -1.153E+04
+
+
+Computing BE-step from 6.3000e-09 s to 1.2700e-08 s (Stepsize: 6.4000e-09 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.60e+12                                                      3.31
+    1      2.88e+11   1.00e+00   6.31e-01   3.27e+10    0         1     11.71
+    2      6.89e+09   1.00e+00   1.73e-01   3.56e+09    0         1     20.23
+    3      3.27e+08   1.00e+00   3.41e-02   5.55e+08    0         1     28.53
+    4      1.02e+04   1.00e+00   1.48e-04   1.43e+07    0         1     36.88
+    5      9.71e-03   1.00e+00   1.46e-07   2.68e+03    0         1     45.47
+    6      6.59e-03   1.00e+00   4.15e-12   6.10e-02    0         1     53.67
+Finished, because...
+Error smaller than 1 ( 6.1004E-02 ).
+
+Accumulated times:
+Rhs time:       23.22 s
+Jacobian time:   4.86 s
+Solve time:     24.66 s
+Total time:     53.67 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       9.862E+03         1.482E-15        1.044E+04
+ front        0.000E+00      -9.862E+03         8.996E-15       -1.150E+04
+
+
+Computing BE-step from 1.2700e-08 s to 2.5500e-08 s (Stepsize: 1.2800e-08 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.67e+14                                                      2.67
+    1      3.08e+13   1.00e+00   6.59e-01   1.08e+12    0         1     10.40
+    2      2.95e+11   1.00e+00   3.70e-01   9.59e+09    0         1     18.01
+    3      3.29e+08   1.00e+00   8.91e-03   5.29e+08    0         1     25.47
+    4      4.72e+02   1.00e+00   1.56e-05   1.46e+06    0         1     33.17
+    5      8.42e-03   1.00e+00   2.98e-11   1.59e+00    0         1     40.76
+    6      7.06e-03   1.00e+00   7.00e-18   1.43e-07    0         1     48.39
+Finished, because...
+Error smaller than 1 ( 1.4264E-07 ).
+
+Accumulated times:
+Rhs time:       17.94 s
+Jacobian time:   4.86 s
+Solve time:     24.65 s
+Total time:     48.40 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       9.881E+03         1.080E-16        1.044E+04
+ front        0.000E+00      -9.881E+03         4.102E-15       -1.141E+04
+
+
+Computing BE-step from 2.5500e-08 s to 5.1100e-08 s (Stepsize: 2.5600e-08 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.36e+16                                                      2.46
+    1      5.01e+15   1.00e+00   2.27e+00   9.98e+15    0         1     10.08
+    2      1.20e+15   1.00e+00   3.36e+00   1.66e+17    0         1     17.46
+    3      2.67e+14   1.00e+00   2.34e+00   4.66e+17    0         1     24.94
+    4      1.85e+13   1.00e+00   1.41e+00   2.13e+12    0         1     32.45
+    5      1.09e+11   1.00e+00   1.39e+00   6.83e+11    0         1     39.97
+    6      6.14e+08   1.00e+00   5.47e-01   8.14e+09    0         1     47.46
+    7      4.91e+06   1.00e+00   3.24e-02   1.64e+09    0         1     54.92
+    8      7.41e+05   1.00e+00   8.62e-03   7.48e+08    0         1     62.51
+    9      2.07e+04   1.00e+00   1.52e-03   1.48e+08    0         1     69.97
+   10      1.67e+01   1.00e+00   4.31e-05   4.30e+06    0         1     77.52
+   11      6.02e-03   1.00e+00   3.40e-08   3.40e+03    0         1     85.04
+   12      6.01e-03   1.00e+00   2.22e-14   2.22e-03    0         1     92.56
+Finished, because...
+Error smaller than 1 ( 2.2212E-03 ).
+
+Accumulated times:
+Rhs time:       31.54 s
+Jacobian time:   9.74 s
+Solve time:     49.47 s
+Total time:     92.56 s
+
+contact        voltage     electron current    hole current     total current
+ back         0.000E+00       9.855E+03        -1.384E-16        1.043E+04
+ front        0.000E+00      -9.855E+03        -9.900E-16       -1.047E+04
+
+
+Computing BE-step from 5.1100e-08 s to 1.0230e-07 s (Stepsize: 5.1200e-08 s)
+Computing Coupled( 1 poisson-equation(s) , 1 current-contact-equation(s) , 
+                   1 electron-equation(s) , 1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0           inf                                                      2.49

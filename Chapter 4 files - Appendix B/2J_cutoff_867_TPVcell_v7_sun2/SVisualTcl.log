@@ -1,0 +1,20 @@
+load_file /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/n100_des.tdr
+create_plot -dataset n100_des
+select_plots {Plot_n100_des}
+#-> Plot_n100_des
+#-> Plot_n100_des
+#-> n100_des
+create_cutline -plot Plot_n100_des -type free -points {0 -0.61 0 4.55}
+select_plots {Plot_1}
+#-> Plot_1
+#-> C1(n100_des)
+select_plots {Plot_n100_des}
+#-> Plot_n100_des
+select_plots {Plot_1}
+#-> Plot_1
+set_band_diagram {Plot_1}
+#-> 0
+zoom_plot -plot Plot_1 -window {1.53162 -1.27694 2.00637 -0.612797 0 0}
+zoom_plot -plot Plot_1 -reset
+zoom_plot -plot Plot_1 -window {1.56259 -1.93009 1.93929 0.369618 0 0}
+exit

@@ -1,0 +1,22 @@
+****************************************************************************
+***                  Sentaurus Workbench Visualization                   ***
+***                          Version G-2012.06                           ***
+***                         (1.1, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+Enforcing MESA version because GLX is missing.
+Tecplot 11.2-0-566 - 08:47:21  03-09-2008  [linux64.24]
+Configuration File     : /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/lib/tecplotlib/tecplot112.cfg.europe
+Process Temp Dir       : /tmp/tecplot_cdowns01/tpaIfakwp
+Tecplot displayed on   : localhost:12.0
+Tecplot executable     : /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/tecplot/amd64/tecplot11/bin/mesa/tecplot.shared
+Tecplot Home Directory : /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/tecplot/amd64/tecplot11
+QuickMacro File        : /usr/cots/synopsys/G_2012.06/tcad/G-2012.06/tecplot/amd64/tecplot11/tecplot.mcr
+AddOn Loaded           : Sentaurus Workbench Add-on

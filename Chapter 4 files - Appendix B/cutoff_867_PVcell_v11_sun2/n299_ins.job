@@ -1,0 +1,44 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gjob                       ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gjob is running on host 'sunfire47' by user 'cdowns01'
+Binary 'gjob'
+Command line options '-verbose -nice 19 -nopp -job 299 -swb_pid 17968 -gsub_pid 29801 -gsub_host sunfire47 -gsub_port 44018 @STDB@/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2'
+Current directory '/h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2'
+Some relevant environment variables:
+	STROOT=/usr/cots/synopsys/G_2012.06
+	STRELEASE=current
+	STROOT_LIB=/usr/cots/synopsys/G_2012.06/tcad/current/lib
+	STDB=/h/cdowns01/tmp
+	DATEX=/usr/cots/synopsys/G_2012.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:12.0
+
+relativizing paths:
+project path: /h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2
+STDB path: @STDB@
+Project '@STDB@/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2'
+Loading global tool database '/usr/cots/synopsys/G_2012.06/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/h/cdowns01/tmp/gpref2_cdowns01.G-2012.06'...
+Loading project tree '/h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/gtree.dat'
+Loading jobs and dependence graph '"/h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/gexec.cmd"'
+Start Simulation section
+17:16:29 Jul 18 2014     job 299 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp299_ins.cmd"
+17:16:53 Jul 18 2014 +++ job 299 <inspect> done: exit(0)
+End Simulation section
+Start Epilogue section
+17:16:53 Jul 18 2014 *** job 299 pre/post execution: eval " gjob::find_extracted_vars "/h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2" n299_ins.out 299 "
+End Epilogue section
+Job succeeded
+gjob exits with status 0

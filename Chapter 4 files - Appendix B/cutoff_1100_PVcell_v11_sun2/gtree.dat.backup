@@ -1,0 +1,89 @@
+# Copyright (C) 1994-2011 Synopsys Inc.
+# swbtree vcurrent, Sat Mar 15 13:54:03 2014
+
+# --- simulation flow
+sde sde "-rel @release@" {}
+sde release "G-2012.06" {G-2012.06}
+sde top_depth ".5" {.5}
+sde tunnel_depth ".03" {.03}
+sde ARC1_depth ".25" {.157}
+sde ARC2_depth ".25" {.157}
+sde doping "1.2" {1e17}
+sde contact_doping "1e17" {1e17}
+sde width "50" {50.0}
+sde contact_width "1" {1}
+scale_intensity gtclsh "-rel @release@" {}
+scale_intensity scaleI "1.0" {1.0 10.0 100.0 1000.0}
+sdevice sdevice "-rel @release@" {}
+sdevice frac ".06" {.1}
+sdevice vend1 "1.5" {2 2.3 2.1 2.5}
+sdevice vend2 "1.5" {4.5}
+inspect inspect "-rel @release@" {}
+inspect pmax "1" {100000 10000 1000 100}
+tecplot tecplot "-rel @release@" {}
+tecplot cutpos "-25" {-25}
+# --- variables
+# --- scenarios and parameter specs
+scenario default release ""
+scenario default top_depth ""
+scenario default tunnel_depth ""
+scenario default ARC1_depth ""
+scenario default ARC2_depth ""
+scenario default doping ""
+scenario default contact_doping ""
+scenario default width ""
+scenario default contact_width ""
+scenario default scaleI ""
+scenario default frac ""
+scenario default vend1 ""
+scenario default vend2 ""
+scenario default pmax ""
+scenario default cutpos ""
+# --- simulation tree
+0 1 0 {} {default}
+1 2 1 {G-2012.06} {default}
+2 3 2 {.5} {default}
+3 4 3 {.03} {default}
+4 5 4 {.157} {default}
+5 229 5 {.157} {default}
+6 607 229 {1e17} {default}
+7 608 607 {1e17} {default}
+8 609 608 {50.0} {default}
+9 610 609 {1} {default}
+10 611 610 {} {default}
+11 612 611 {1.0} {default}
+12 613 612 {} {default}
+13 614 613 {.1} {default}
+14 615 614 {2.5} {default}
+15 616 615 {4.5} {default}
+16 617 616 {} {default}
+17 618 617 {100} {default}
+18 619 618 {} {default}
+19 620 619 {-25} {default}
+11 621 611 {10.0} {default}
+12 622 621 {} {default}
+13 623 622 {.1} {default}
+14 624 623 {2.1} {default}
+15 625 624 {4.5} {default}
+16 626 625 {} {default}
+17 627 626 {1000} {default}
+18 628 627 {} {default}
+19 629 628 {-25} {default}
+11 630 611 {100.0} {default}
+12 631 630 {} {default}
+13 632 631 {.1} {default}
+14 633 632 {2.3} {default}
+15 634 633 {4.5} {default}
+16 635 634 {} {default}
+17 636 635 {10000} {default}
+18 637 636 {} {default}
+19 638 637 {-25} {default}
+11 639 611 {1000.0} {default}
+12 640 639 {} {default}
+13 641 640 {.1} {default}
+14 642 641 {2} {default}
+15 643 642 {4.5} {default}
+16 644 643 {} {default}
+17 645 644 {100000} {default}
+18 646 645 {} {default}
+19 647 646 {-25} {default}

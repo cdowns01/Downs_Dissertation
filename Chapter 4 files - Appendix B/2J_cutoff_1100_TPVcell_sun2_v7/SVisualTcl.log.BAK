@@ -1,0 +1,17 @@
+load_file /h/cdowns01/tmp/cutoff_1100/reasonable/2J_cutoff_1100_botcell_sun2_v7_2/n391_des.tdr
+create_plot -dataset n391_des
+select_plots {Plot_n391_des}
+#-> Plot_n391_des
+#-> Plot_n391_des
+#-> n391_des
+create_cutline -plot Plot_n391_des -type free -points {0 -0.5 0 5.35}
+select_plots {Plot_1}
+#-> Plot_1
+#-> C1(n391_des)
+select_plots {Plot_n391_des}
+#-> Plot_n391_des
+select_plots {Plot_1}
+#-> Plot_1
+set_band_diagram {Plot_1}
+#-> 0
+exit

@@ -1,0 +1,334 @@
+# Copyright (C) 1994-2011 Synopsys Inc.
+# swbtree vcurrent, Fri Jun  7 14:27:48 2013
+
+# --- simulation flow
+sde sde "-rel @release@" {}
+sde release "G-2012.06" {G-2012.06}
+sde top_depth ".5" {.5}
+sde tunnel_depth ".03" {.03}
+sde ARC1_depth ".25" {.126}
+sde ARC2_depth ".25" {.195}
+sde iso_depth ".5" {.5 .75 1}
+sde width "50" {50.0}
+sde contact_width "1" {1}
+scale_intensity gtclsh "-rel @release@" {}
+scale_intensity scaleI "1.0" {1.0 10.0 100.0 1000.0}
+sdevice sdevice "-rel @release@" {}
+sdevice frac ".4" {.25 .5 .75}
+sdevice vend1 "3.5" {3.5}
+sdevice vend2 "5" {5}
+inspect inspect "-rel @release@" {}
+inspect pmax "1" {100000 10000 1000 100}
+tecplot tecplot "-rel @release@" {}
+tecplot cutpos "-25" {-25}
+# --- variables
+# --- scenarios and parameter specs
+scenario default release ""
+scenario default top_depth ""
+scenario default tunnel_depth ""
+scenario default ARC1_depth ""
+scenario default ARC2_depth ""
+scenario default iso_depth ""
+scenario default width ""
+scenario default contact_width ""
+scenario default scaleI ""
+scenario default frac ""
+scenario default vend1 ""
+scenario default vend2 ""
+scenario default pmax ""
+scenario default cutpos ""
+# --- simulation tree
+0 1 0 {} {default}
+1 2 1 {G-2012.06} {default}
+2 3 2 {.5} {default}
+3 44 3 {.03} {default}
+4 248 44 {.126} {default}
+5 609 248 {.195} {default}
+6 569 609 {.5} {default}
+7 290 569 {50.0} {default}
+8 291 290 {1} {default}
+9 292 291 {} {default}
+10 293 292 {1.0} {default}
+11 294 293 {} {default}
+12 295 294 {.25} {default}
+13 296 295 {3.5} {default}
+14 297 296 {5} {default}
+15 298 297 {} {default}
+16 299 298 {100} {default}
+17 300 299 {} {default}
+18 301 300 {-25} {default}
+12 690 294 {.5} {default}
+13 691 690 {3.5} {default}
+14 692 691 {5} {default}
+15 693 692 {} {default}
+16 694 693 {100} {default}
+17 695 694 {} {default}
+18 696 695 {-25} {default}
+12 774 294 {.75} {default}
+13 775 774 {3.5} {default}
+14 776 775 {5} {default}
+15 777 776 {} {default}
+16 778 777 {100} {default}
+17 779 778 {} {default}
+18 780 779 {-25} {default}
+10 302 292 {10.0} {default}
+11 303 302 {} {default}
+12 304 303 {.25} {default}
+13 305 304 {3.5} {default}
+14 306 305 {5} {default}
+15 307 306 {} {default}
+16 308 307 {1000} {default}
+17 309 308 {} {default}
+18 310 309 {-25} {default}
+12 697 303 {.5} {default}
+13 698 697 {3.5} {default}
+14 699 698 {5} {default}
+15 700 699 {} {default}
+16 701 700 {1000} {default}
+17 702 701 {} {default}
+18 703 702 {-25} {default}
+12 781 303 {.75} {default}
+13 782 781 {3.5} {default}
+14 783 782 {5} {default}
+15 784 783 {} {default}
+16 785 784 {1000} {default}
+17 786 785 {} {default}
+18 787 786 {-25} {default}
+10 311 292 {100.0} {default}
+11 312 311 {} {default}
+12 313 312 {.25} {default}
+13 314 313 {3.5} {default}
+14 315 314 {5} {default}
+15 316 315 {} {default}
+16 317 316 {10000} {default}
+17 318 317 {} {default}
+18 319 318 {-25} {default}
+12 704 312 {.5} {default}
+13 705 704 {3.5} {default}
+14 706 705 {5} {default}
+15 707 706 {} {default}
+16 708 707 {10000} {default}
+17 709 708 {} {default}
+18 710 709 {-25} {default}
+12 788 312 {.75} {default}
+13 789 788 {3.5} {default}
+14 790 789 {5} {default}
+15 791 790 {} {default}
+16 792 791 {10000} {default}
+17 793 792 {} {default}
+18 794 793 {-25} {default}
+10 320 292 {1000.0} {default}
+11 321 320 {} {default}
+12 322 321 {.25} {default}
+13 323 322 {3.5} {default}
+14 324 323 {5} {default}
+15 325 324 {} {default}
+16 326 325 {100000} {default}
+17 327 326 {} {default}
+18 328 327 {-25} {default}
+12 711 321 {.5} {default}
+13 712 711 {3.5} {default}
+14 713 712 {5} {default}
+15 714 713 {} {default}
+16 715 714 {100000} {default}
+17 716 715 {} {default}
+18 717 716 {-25} {default}
+12 795 321 {.75} {default}
+13 796 795 {3.5} {default}
+14 797 796 {5} {default}
+15 798 797 {} {default}
+16 799 798 {100000} {default}
+17 800 799 {} {default}
+18 801 800 {-25} {default}
+6 610 609 {.75} {default}
+7 611 610 {50.0} {default}
+8 612 611 {1} {default}
+9 613 612 {} {default}
+10 614 613 {1.0} {default}
+11 615 614 {} {default}
+12 616 615 {.25} {default}
+13 617 616 {3.5} {default}
+14 618 617 {5} {default}
+15 619 618 {} {default}
+16 620 619 {100} {default}
+17 621 620 {} {default}
+18 622 621 {-25} {default}
+12 718 615 {.5} {default}
+13 719 718 {3.5} {default}
+14 720 719 {5} {default}
+15 721 720 {} {default}
+16 722 721 {100} {default}
+17 723 722 {} {default}
+18 724 723 {-25} {default}
+12 802 615 {.75} {default}
+13 803 802 {3.5} {default}
+14 804 803 {5} {default}
+15 805 804 {} {default}
+16 806 805 {100} {default}
+17 807 806 {} {default}
+18 808 807 {-25} {default}
+10 623 613 {10.0} {default}
+11 624 623 {} {default}
+12 625 624 {.25} {default}
+13 626 625 {3.5} {default}
+14 627 626 {5} {default}
+15 628 627 {} {default}
+16 629 628 {1000} {default}
+17 630 629 {} {default}
+18 631 630 {-25} {default}
+12 725 624 {.5} {default}
+13 726 725 {3.5} {default}
+14 727 726 {5} {default}
+15 728 727 {} {default}
+16 729 728 {1000} {default}
+17 730 729 {} {default}
+18 731 730 {-25} {default}
+12 809 624 {.75} {default}
+13 810 809 {3.5} {default}
+14 811 810 {5} {default}
+15 812 811 {} {default}
+16 813 812 {1000} {default}
+17 814 813 {} {default}
+18 815 814 {-25} {default}
+10 632 613 {100.0} {default}
+11 633 632 {} {default}
+12 634 633 {.25} {default}
+13 635 634 {3.5} {default}
+14 636 635 {5} {default}
+15 637 636 {} {default}
+16 638 637 {10000} {default}
+17 639 638 {} {default}
+18 640 639 {-25} {default}
+12 732 633 {.5} {default}
+13 733 732 {3.5} {default}
+14 734 733 {5} {default}
+15 735 734 {} {default}
+16 736 735 {10000} {default}
+17 737 736 {} {default}
+18 738 737 {-25} {default}
+12 816 633 {.75} {default}
+13 817 816 {3.5} {default}
+14 818 817 {5} {default}
+15 819 818 {} {default}
+16 820 819 {10000} {default}
+17 821 820 {} {default}
+18 822 821 {-25} {default}
+10 641 613 {1000.0} {default}
+11 642 641 {} {default}
+12 643 642 {.25} {default}
+13 644 643 {3.5} {default}
+14 645 644 {5} {default}
+15 646 645 {} {default}
+16 647 646 {100000} {default}
+17 648 647 {} {default}
+18 649 648 {-25} {default}
+12 739 642 {.5} {default}
+13 740 739 {3.5} {default}
+14 741 740 {5} {default}
+15 742 741 {} {default}
+16 743 742 {100000} {default}
+17 744 743 {} {default}
+18 745 744 {-25} {default}
+12 823 642 {.75} {default}
+13 824 823 {3.5} {default}
+14 825 824 {5} {default}
+15 826 825 {} {default}
+16 827 826 {100000} {default}
+17 828 827 {} {default}
+18 829 828 {-25} {default}
+6 650 609 {1} {default}
+7 651 650 {50.0} {default}
+8 652 651 {1} {default}
+9 653 652 {} {default}
+10 654 653 {1.0} {default}
+11 655 654 {} {default}
+12 656 655 {.25} {default}
+13 657 656 {3.5} {default}
+14 658 657 {5} {default}
+15 659 658 {} {default}
+16 660 659 {100} {default}
+17 661 660 {} {default}
+18 662 661 {-25} {default}
+12 746 655 {.5} {default}
+13 747 746 {3.5} {default}
+14 748 747 {5} {default}
+15 749 748 {} {default}
+16 750 749 {100} {default}
+17 751 750 {} {default}
+18 752 751 {-25} {default}
+12 830 655 {.75} {default}
+13 831 830 {3.5} {default}
+14 832 831 {5} {default}
+15 833 832 {} {default}
+16 834 833 {100} {default}
+17 835 834 {} {default}
+18 836 835 {-25} {default}
+10 663 653 {10.0} {default}
+11 664 663 {} {default}
+12 665 664 {.25} {default}
+13 666 665 {3.5} {default}
+14 667 666 {5} {default}
+15 668 667 {} {default}
+16 669 668 {1000} {default}
+17 670 669 {} {default}
+18 671 670 {-25} {default}
+12 753 664 {.5} {default}
+13 754 753 {3.5} {default}
+14 755 754 {5} {default}
+15 756 755 {} {default}
+16 757 756 {1000} {default}
+17 758 757 {} {default}
+18 759 758 {-25} {default}
+12 837 664 {.75} {default}
+13 838 837 {3.5} {default}
+14 839 838 {5} {default}
+15 840 839 {} {default}
+16 841 840 {1000} {default}
+17 842 841 {} {default}
+18 843 842 {-25} {default}
+10 672 653 {100.0} {default}
+11 673 672 {} {default}
+12 674 673 {.25} {default}
+13 675 674 {3.5} {default}
+14 676 675 {5} {default}
+15 677 676 {} {default}
+16 678 677 {10000} {default}
+17 679 678 {} {default}
+18 680 679 {-25} {default}
+12 760 673 {.5} {default}
+13 761 760 {3.5} {default}
+14 762 761 {5} {default}
+15 763 762 {} {default}
+16 764 763 {10000} {default}
+17 765 764 {} {default}
+18 766 765 {-25} {default}
+12 844 673 {.75} {default}
+13 845 844 {3.5} {default}
+14 846 845 {5} {default}
+15 847 846 {} {default}
+16 848 847 {10000} {default}
+17 849 848 {} {default}
+18 850 849 {-25} {default}
+10 681 653 {1000.0} {default}
+11 682 681 {} {default}
+12 683 682 {.25} {default}
+13 684 683 {3.5} {default}
+14 685 684 {5} {default}
+15 686 685 {} {default}
+16 687 686 {100000} {default}
+17 688 687 {} {default}
+18 689 688 {-25} {default}
+12 767 682 {.5} {default}
+13 768 767 {3.5} {default}
+14 769 768 {5} {default}
+15 770 769 {} {default}
+16 771 770 {100000} {default}
+17 772 771 {} {default}
+18 773 772 {-25} {default}
+12 851 682 {.75} {default}
+13 852 851 {3.5} {default}
+14 853 852 {5} {default}
+15 854 853 {} {default}
+16 855 854 {100000} {default}
+17 856 855 {} {default}
+18 857 856 {-25} {default}

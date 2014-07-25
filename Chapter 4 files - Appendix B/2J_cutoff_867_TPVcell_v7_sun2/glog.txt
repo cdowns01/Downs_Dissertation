@@ -1,0 +1,95 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'sunfire47' by user 'cdowns01'
+Binary 'gsub'
+Command line options '-verbose -swb_pid 17968 -q local:default -e 78 @STDB@/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2'
+Current directory '/h/cdowns01'
+Some relevant environment variables:
+	STROOT=/usr/cots/synopsys/G_2012.06
+	STRELEASE=current
+	STROOT_LIB=/usr/cots/synopsys/G_2012.06/tcad/current/lib
+	STDB=/h/cdowns01/tmp
+	DATEX=/usr/cots/synopsys/G_2012.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:12.0
+
+Starting swblm daemon...OK
+relativizing paths:
+project path: /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2
+STDB path: @STDB@
+Project '@STDB@/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2'
+Loading global tool database '/usr/cots/synopsys/G_2012.06/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/h/cdowns01/tmp/gpref2_cdowns01.G-2012.06'...
+Loading preferences '/h/cdowns01/tmp/gpref2_cdowns01.G-2012.06'...
+17:21:29 Jul 18 2014 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+Loading global queue configuration file '/usr/cots/synopsys/G_2012.06/queues/gqueues.dat'...ok
+Loading project tree '/h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/gtree.dat'
+>>>>> Preprocessing the project to run in normal mode
+Loading jobs and dependence graph '"/h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/gtree.dat'
+Loading project variables '/h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/sde_dvs.cmd
+Reading file /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/scale_intensity_tcl.cmd
+Reading file /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/sdevice_des.cmd
+Reading file /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/sdevice.par
+Reading file /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/inspect_ins.cmd
+Reading file /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/tecplot_tec.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/inspect_ins.cmd fornode 78
+'@previous@' creates dependences with the node(s) '76'
+'@plot@' creates dependences with the node(s) '76'
++++Node successfully preprocessed+++
+The node '78' has dependencies to the node(s) '76'
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/gexec.cmd"'
+>>>>>>>>>> job '78' status changed from 'done' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 78
+-----------------------------------------------------------------
+>>>>> cleaning the index file from previous simulations 
+                       /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/.gindex
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '78' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/n78_ins.job
+local% submit job 78 for local execution
+>>>>>>>>>> job '78' status changed from 'ready' to 'pending'
+local% exec "/usr/cots/synopsys/G_2012.06/bin/gjob -verbose -nice 19  -job 78 -swb_pid 17968 -gsub_pid 6102 -gsub_host sunfire47 -gsub_port 48615 "@STDB@/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2""
+>>>>>>>>>> job '78' status changed from 'pending' to 'running'
+17:21:30 Jul 18 2014     job 78 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp78_ins.cmd"
+>>>>>>>>>> job '78' status changed from 'running' to 'failed'
+19:43:09 Jul 18 2014 --- job 78 <inspect> exited abnormally: exit()
+>>>>>>>>>> Checking extraction consistency...
+
+SCHEDULING REPORT
+--- failed  : 78
+
+19:43:13 Jul 18 2014 <2J_cutoff_867_botcell_v7_sun2> failed
+>>>>>> Writing to status file 8504

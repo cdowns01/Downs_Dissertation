@@ -1,0 +1,233 @@
+13:30:47 Apr 11 2013 <2J_cutoff_867_botcell_v5_sun2_matching> submitted to the batch system
+13:30:48 Apr 11 2013     job 10 <sde> started on host 'sunfire47': "sde -rel G-2012.06 -e -l n10_dvs.cmd"
+13:31:01 Apr 11 2013 +++ job 10 <sde> done: exit(0)
+13:31:02 Apr 11 2013     job 12 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp12_tcl.cmd"
+13:31:05 Apr 11 2013 +++ job 12 <gtclsh> done: exit(0)
+13:31:06 Apr 11 2013     job 28 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp28_des.cmd"
+13:56:13 Apr 11 2013 +++ job 28 <sdevice> done: exit(0)
+13:56:14 Apr 11 2013     job 29 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp29_des.cmd"
+13:59:52 Apr 11 2013 +++ job 29 <sdevice> done: exit(0)
+13:59:53 Apr 11 2013     job 44 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp44_ins.cmd"
+14:00:12 Apr 11 2013 +++ job 44 <inspect> done: exit(0)
+14:00:13 Apr 11 2013     job 45 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp45_ins.cmd"
+14:00:26 Apr 11 2013 +++ job 45 <inspect> done: exit(0)
+14:00:29 Apr 11 2013 <2J_cutoff_867_botcell_v5_sun2_matching> done (1782 sec)
+14:01:01 Apr 11 2013 <2J_cutoff_867_botcell_v5_sun2_matching> submitted to the batch system
+14:01:02 Apr 11 2013     job 44 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp44_ins.cmd"
+14:02:25 Apr 11 2013 +++ job 44 <inspect> done: exit(0)
+14:02:28 Apr 11 2013 <2J_cutoff_867_botcell_v5_sun2_matching> done (87 sec)
+14:05:14 Apr 11 2013 <2J_cutoff_867_botcell_v5_sun2_matching> submitted to the batch system
+14:05:15 Apr 11 2013     job 44 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp44_ins.cmd"
+14:05:26 Apr 11 2013 +++ job 44 <inspect> done: exit(0)
+14:05:27 Apr 11 2013     job 45 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp45_ins.cmd"
+14:05:39 Apr 11 2013 +++ job 45 <inspect> done: exit(0)
+14:05:41 Apr 11 2013 <2J_cutoff_867_botcell_v5_sun2_matching> done (27 sec)
+14:09:10 Apr 11 2013 <2J_cutoff_867_botcell_v5_sun2_matching> submitted to the batch system
+14:09:12 Apr 11 2013     job 28 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp28_des.cmd"
+14:34:26 Apr 11 2013 +++ job 28 <sdevice> done: exit(0)
+14:34:27 Apr 11 2013     job 44 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp44_ins.cmd"
+14:34:43 Apr 11 2013 +++ job 44 <inspect> done: exit(0)
+14:34:46 Apr 11 2013 <2J_cutoff_867_botcell_v5_sun2_matching> done (1536 sec)
+14:35:20 Apr 11 2013 <2J_cutoff_867_botcell_v5_sun2_matching> submitted to the batch system
+14:35:21 Apr 11 2013     job 29 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp29_des.cmd"
+14:46:19 Apr 11 2013 +++ job 29 <sdevice> done: exit(0)
+14:46:20 Apr 11 2013     job 45 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp45_ins.cmd"
+14:46:32 Apr 11 2013 +++ job 45 <inspect> done: exit(0)
+14:46:35 Apr 11 2013 <2J_cutoff_867_botcell_v5_sun2_matching> done (675 sec)
+14:54:12 Apr 11 2013 <2J_cutoff_867_botcell_v5_sun2_matching> submitted to the batch system
+14:54:13 Apr 11 2013     job 28 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp28_des.cmd"
+15:12:33 Apr 11 2013 +++ job 28 <sdevice> done: exit(0)
+15:12:35 Apr 11 2013     job 29 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp29_des.cmd"
+15:23:32 Apr 11 2013 +++ job 29 <sdevice> done: exit(0)
+15:23:33 Apr 11 2013     job 44 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp44_ins.cmd"
+15:25:46 Apr 11 2013 +++ job 44 <inspect> done: exit(0)
+15:25:47 Apr 11 2013     job 45 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp45_ins.cmd"
+15:26:03 Apr 11 2013 +++ job 45 <inspect> done: exit(0)
+15:26:06 Apr 11 2013 <2J_cutoff_867_botcell_v5_sun2_matching> done (1914 sec)
+15:27:47 Apr 11 2013 <2J_cutoff_867_botcell_v5_sun2_matching> submitted to the batch system
+15:27:48 Apr 11 2013     job 28 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp28_des.cmd"
+15:45:56 Apr 11 2013 +++ job 28 <sdevice> done: exit(0)
+15:45:57 Apr 11 2013     job 29 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp29_des.cmd"
+15:56:41 Apr 11 2013 +++ job 29 <sdevice> done: exit(0)
+15:56:43 Apr 11 2013     job 44 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp44_ins.cmd"
+15:56:54 Apr 11 2013 --- job 44 <inspect> exited abnormally: exit()
+15:56:55 Apr 11 2013     job 45 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp45_ins.cmd"
+15:57:05 Apr 11 2013 --- job 45 <inspect> exited abnormally: exit()
+15:57:07 Apr 11 2013 <2J_cutoff_867_botcell_v5_sun2_matching> failed
+11:00:48 Apr 12 2013 <2J_cutoff_867_botcell_v5_sun2_matching> submitted to the batch system
+11:00:49 Apr 12 2013     job 44 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp44_ins.cmd"
+11:01:01 Apr 12 2013 +++ job 44 <inspect> done: exit(0)
+11:01:02 Apr 12 2013     job 45 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp45_ins.cmd"
+11:01:13 Apr 12 2013 +++ job 45 <inspect> done: exit(0)
+11:01:15 Apr 12 2013 <2J_cutoff_867_botcell_v5_sun2_matching> done (27 sec)
+11:19:41 Apr 12 2013 <2J_cutoff_867_botcell_v6_sun2_matching> submitted to the batch system
+11:19:43 Apr 12 2013     job 10 <sde> started on host 'sunfire47': "sde -rel G-2012.06 -e -l n10_dvs.cmd"
+11:19:55 Apr 12 2013 +++ job 10 <sde> done: exit(0)
+11:19:56 Apr 12 2013     job 12 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp12_tcl.cmd"
+11:19:59 Apr 12 2013 +++ job 12 <gtclsh> done: exit(0)
+11:20:00 Apr 12 2013     job 24 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp24_des.cmd"
+11:36:04 Apr 12 2013 +++ job 24 <sdevice> done: exit(0)
+11:36:05 Apr 12 2013     job 44 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp44_ins.cmd"
+11:36:17 Apr 12 2013 +++ job 44 <inspect> done: exit(0)
+11:36:19 Apr 12 2013 <2J_cutoff_867_botcell_v6_sun2_matching> done (998 sec)
+15:28:53 Apr 12 2013 <2J_cutoff_867_botcell_v6_sun2> submitted to the batch system
+15:28:55 Apr 12 2013     job 13 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp13_tcl.cmd"
+15:28:59 Apr 12 2013 +++ job 13 <gtclsh> done: exit(0)
+15:29:00 Apr 12 2013     job 14 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp14_tcl.cmd"
+15:29:03 Apr 12 2013 +++ job 14 <gtclsh> done: exit(0)
+15:29:04 Apr 12 2013     job 15 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp15_tcl.cmd"
+15:29:08 Apr 12 2013 +++ job 15 <gtclsh> done: exit(0)
+15:29:09 Apr 12 2013     job 25 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp25_des.cmd"
+15:47:40 Apr 12 2013 +++ job 25 <sdevice> done: exit(0)
+15:47:41 Apr 12 2013     job 26 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp26_des.cmd"
+16:07:46 Apr 12 2013 +++ job 26 <sdevice> done: exit(0)
+16:07:47 Apr 12 2013     job 27 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp27_des.cmd"
+16:27:58 Apr 12 2013 +++ job 27 <sdevice> done: exit(0)
+16:27:59 Apr 12 2013     job 46 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp46_ins.cmd"
+16:28:13 Apr 12 2013 +++ job 46 <inspect> done: exit(0)
+16:28:14 Apr 12 2013     job 48 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp48_ins.cmd"
+16:28:29 Apr 12 2013 +++ job 48 <inspect> done: exit(0)
+16:28:30 Apr 12 2013     job 50 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp50_ins.cmd"
+16:28:44 Apr 12 2013 +++ job 50 <inspect> done: exit(0)
+16:28:47 Apr 12 2013 <2J_cutoff_867_botcell_v6_sun2> done (3594 sec)
+16:29:18 Apr 12 2013 <2J_cutoff_867_botcell_v6_sun2> submitted to the batch system
+16:29:19 Apr 12 2013     job 26 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp26_des.cmd"
+16:45:27 Apr 12 2013 +++ job 26 <sdevice> done: exit(0)
+16:45:28 Apr 12 2013     job 27 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp27_des.cmd"
+17:02:42 Apr 12 2013 +++ job 27 <sdevice> done: exit(0)
+17:02:43 Apr 12 2013     job 48 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp48_ins.cmd"
+17:02:55 Apr 12 2013 +++ job 48 <inspect> done: exit(0)
+17:02:56 Apr 12 2013     job 50 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp50_ins.cmd"
+17:03:11 Apr 12 2013 +++ job 50 <inspect> done: exit(0)
+17:03:14 Apr 12 2013 <2J_cutoff_867_botcell_v6_sun2> done (2036 sec)
+16:54:07 Apr 30 2013 <2J_cutoff_867_botcell_v6_sun2> submitted to the batch system
+16:54:08 Apr 30 2013     job 60 <tecplot> started on host 'sunfire47': "tecplot_sv -rel G-2012.06 -p n60_tec.mcr"
+17:11:53 Apr 30 2013 +++ job 60 <tecplot> done: exit(0)
+17:11:56 Apr 30 2013 <2J_cutoff_867_botcell_v6_sun2> done (1069 sec)
+16:22:48 May 11 2013 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+16:22:49 May 11 2013     job 10 <sde> started on host 'sunfire47': "sde -rel G-2012.06 -e -l n10_dvs.cmd"
+16:23:02 May 11 2013 +++ job 10 <sde> done: exit(0)
+16:23:03 May 11 2013     job 12 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp12_tcl.cmd"
+16:23:06 May 11 2013 +++ job 12 <gtclsh> done: exit(0)
+16:23:07 May 11 2013     job 24 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp24_des.cmd"
+16:34:22 May 11 2013 +++ job 24 <sdevice> done: exit(0)
+16:34:23 May 11 2013     job 44 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp44_ins.cmd"
+16:34:36 May 11 2013 +++ job 44 <inspect> done: exit(0)
+16:34:39 May 11 2013 <2J_cutoff_867_botcell_v7_sun2> done (711 sec)
+16:35:13 May 11 2013 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+16:35:14 May 11 2013     job 13 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp13_tcl.cmd"
+16:35:17 May 11 2013 +++ job 13 <gtclsh> done: exit(0)
+16:35:18 May 11 2013     job 14 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp14_tcl.cmd"
+16:35:21 May 11 2013 +++ job 14 <gtclsh> done: exit(0)
+16:35:22 May 11 2013     job 15 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp15_tcl.cmd"
+16:35:26 May 11 2013 +++ job 15 <gtclsh> done: exit(0)
+16:35:27 May 11 2013     job 25 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp25_des.cmd"
+16:49:43 May 11 2013 +++ job 25 <sdevice> done: exit(0)
+16:49:44 May 11 2013     job 26 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp26_des.cmd"
+17:05:26 May 11 2013 +++ job 26 <sdevice> done: exit(0)
+17:05:27 May 11 2013     job 27 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp27_des.cmd"
+17:23:45 May 11 2013 +++ job 27 <sdevice> done: exit(0)
+17:23:47 May 11 2013     job 46 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp46_ins.cmd"
+17:23:59 May 11 2013 +++ job 46 <inspect> done: exit(0)
+17:24:01 May 11 2013     job 48 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp48_ins.cmd"
+17:24:10 May 11 2013 +++ job 48 <inspect> done: exit(0)
+17:24:12 May 11 2013     job 50 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp50_ins.cmd"
+17:24:21 May 11 2013 +++ job 50 <inspect> done: exit(0)
+17:24:24 May 11 2013 <2J_cutoff_867_botcell_v7_sun2> done (2951 sec)
+14:52:47 May 13 2013 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+14:52:48 May 13 2013     job 71 <sde> started on host 'sunfire47': "sde -rel G-2012.06 -e -l n71_dvs.cmd"
+14:53:00 May 13 2013 +++ job 71 <sde> done: exit(0)
+14:53:01 May 13 2013     job 108 <sde> started on host 'sunfire47': "sde -rel G-2012.06 -e -l n108_dvs.cmd"
+14:53:14 May 13 2013 +++ job 108 <sde> done: exit(0)
+14:53:15 May 13 2013     job 73 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp73_tcl.cmd"
+14:53:18 May 13 2013 +++ job 73 <gtclsh> done: exit(0)
+14:53:19 May 13 2013     job 110 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp110_tcl.cmd"
+14:53:22 May 13 2013 +++ job 110 <gtclsh> done: exit(0)
+14:53:23 May 13 2013     job 76 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp76_des.cmd"
+15:04:40 May 13 2013 +++ job 76 <sdevice> done: exit(0)
+15:04:41 May 13 2013     job 113 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp113_des.cmd"
+15:18:19 May 13 2013 +++ job 113 <sdevice> done: exit(0)
+15:18:20 May 13 2013     job 78 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp78_ins.cmd"
+15:18:42 May 13 2013 +++ job 78 <inspect> done: exit(0)
+15:18:43 May 13 2013     job 115 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp115_ins.cmd"
+15:18:55 May 13 2013 +++ job 115 <inspect> done: exit(0)
+15:18:58 May 13 2013 <2J_cutoff_867_botcell_v7_sun2> done (1571 sec)
+11:18:20 May 30 2013 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+11:18:22 May 30 2013     job 143 <sde> started on host 'sunfire47': "sde -rel G-2012.06 -l n143_dvs.cmd"
+11:22:35 May 30 2013 +++ job 143 <sde> done: exit(0)
+11:22:38 May 30 2013 <2J_cutoff_867_botcell_v7_sun2> done (258 sec)
+10:30:09 Jun 19 2013 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+10:30:11 Jun 19 2013     job 80 <tecplot> started on host 'sunfire47': "tecplot_sv -rel G-2012.06 -p n80_tec.mcr"
+10:35:02 Jun 19 2013 +++ job 80 <tecplot> done: exit(0)
+10:35:06 Jun 19 2013 <2J_cutoff_867_botcell_v7_sun2> done (297 sec)
+10:35:14 Jun 19 2013 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+10:35:15 Jun 19 2013     job 80 <tecplot> started on host 'sunfire47': "tecplot_sv -rel G-2012.06 -p n80_tec.mcr"
+10:45:04 Jun 19 2013 +++ job 80 <tecplot> done: exit(0)
+10:45:08 Jun 19 2013 <2J_cutoff_867_botcell_v7_sun2> done (594 sec)
+17:04:31 Mar 10 2014 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+17:04:32 Mar 10 2014     job 71 <sde> started on host 'sunfire47': "sde -rel G-2012.06 -l n71_dvs.cmd"
+17:05:49 Mar 10 2014 +++ job 71 <sde> done: exit(0)
+17:05:50 Mar 10 2014     job 73 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp73_tcl.cmd"
+17:05:53 Mar 10 2014 +++ job 73 <gtclsh> done: exit(0)
+17:05:54 Mar 10 2014     job 76 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp76_des.cmd"
+17:18:55 Mar 10 2014 +++ job 76 <sdevice> done: exit(0)
+17:18:56 Mar 10 2014     job 78 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp78_ins.cmd"
+17:19:19 Mar 10 2014 +++ job 78 <inspect> done: exit(0)
+17:19:21 Mar 10 2014 <2J_cutoff_867_botcell_v7_sun2> done (890 sec)
+18:23:33 Mar 11 2014 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+18:23:35 Mar 11 2014     job 71 <sde> started on host 'sunfire47': "sde -rel G-2012.06 -l n71_dvs.cmd"
+18:23:59 Mar 11 2014 <2J_cutoff_867_botcell_v7_sun2> done (26 sec)
+18:24:31 Mar 11 2014 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+18:24:32 Mar 11 2014     job 71 <sde> started on host 'sunfire47': "sde -rel G-2012.06 -e -l n71_dvs.cmd"
+18:24:44 Mar 11 2014 +++ job 71 <sde> done: exit(0)
+18:24:45 Mar 11 2014     job 73 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp73_tcl.cmd"
+18:24:48 Mar 11 2014 +++ job 73 <gtclsh> done: exit(0)
+18:24:49 Mar 11 2014     job 81 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp81_tcl.cmd"
+18:24:52 Mar 11 2014 +++ job 81 <gtclsh> done: exit(0)
+18:24:53 Mar 11 2014     job 89 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp89_tcl.cmd"
+18:24:57 Mar 11 2014 +++ job 89 <gtclsh> done: exit(0)
+18:24:58 Mar 11 2014     job 97 <gtclsh> started on host 'sunfire47': "gtclsh -rel G-2012.06 pp97_tcl.cmd"
+18:25:02 Mar 11 2014 +++ job 97 <gtclsh> done: exit(0)
+18:25:03 Mar 11 2014     job 76 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp76_des.cmd"
+19:41:45 Mar 11 2014 +++ job 76 <sdevice> done: exit(0)
+19:41:46 Mar 11 2014     job 84 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp84_des.cmd"
+21:11:14 Mar 11 2014 +++ job 84 <sdevice> done: exit(0)
+21:11:15 Mar 11 2014     job 92 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp92_des.cmd"
+23:03:51 Mar 11 2014 +++ job 92 <sdevice> done: exit(0)
+23:03:52 Mar 11 2014     job 100 <sdevice> started on host 'sunfire47': "sdevice -rel G-2012.06 pp100_des.cmd"
+01:09:29 Mar 12 2014 +++ job 100 <sdevice> done: exit(0)
+01:09:30 Mar 12 2014     job 78 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp78_ins.cmd"
+01:09:39 Mar 12 2014 --- job 78 <inspect> exited abnormally: exit()
+01:09:40 Mar 12 2014     job 86 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp86_ins.cmd"
+01:09:49 Mar 12 2014 --- job 86 <inspect> exited abnormally: exit()
+01:09:50 Mar 12 2014     job 94 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp94_ins.cmd"
+01:09:59 Mar 12 2014 --- job 94 <inspect> exited abnormally: exit()
+01:10:00 Mar 12 2014     job 102 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp102_ins.cmd"
+01:10:09 Mar 12 2014 --- job 102 <inspect> exited abnormally: exit()
+01:10:12 Mar 12 2014 <2J_cutoff_867_botcell_v7_sun2> failed
+11:27:36 Mar 13 2014 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+11:27:38 Mar 13 2014     job 78 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp78_ins.cmd"
+11:27:53 Mar 13 2014 +++ job 78 <inspect> done: exit(0)
+11:27:54 Mar 13 2014     job 86 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp86_ins.cmd"
+11:28:02 Mar 13 2014 +++ job 86 <inspect> done: exit(0)
+11:28:03 Mar 13 2014     job 94 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp94_ins.cmd"
+11:28:12 Mar 13 2014 +++ job 94 <inspect> done: exit(0)
+11:28:13 Mar 13 2014     job 102 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp102_ins.cmd"
+11:28:23 Mar 13 2014 +++ job 102 <inspect> done: exit(0)
+11:28:26 Mar 13 2014 <2J_cutoff_867_botcell_v7_sun2> done (50 sec)
+17:17:26 Jul 18 2014 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+17:17:28 Jul 18 2014     job 78 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp78_ins.cmd"
+17:17:58 Jul 18 2014 +++ job 78 <inspect> done: exit(0)
+17:18:02 Jul 18 2014 <2J_cutoff_867_botcell_v7_sun2> done (36 sec)
+17:18:27 Jul 18 2014 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+17:18:28 Jul 18 2014     job 78 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp78_ins.cmd"
+17:19:59 Jul 18 2014 +++ job 78 <inspect> done: exit(0)
+17:20:02 Jul 18 2014 <2J_cutoff_867_botcell_v7_sun2> done (95 sec)
+17:20:28 Jul 18 2014 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+17:20:29 Jul 18 2014     job 78 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp78_ins.cmd"
+17:20:43 Jul 18 2014 +++ job 78 <inspect> done: exit(0)
+17:20:47 Jul 18 2014 <2J_cutoff_867_botcell_v7_sun2> done (19 sec)
+17:21:29 Jul 18 2014 <2J_cutoff_867_botcell_v7_sun2> submitted to the batch system
+17:21:30 Jul 18 2014     job 78 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp78_ins.cmd"
+19:43:09 Jul 18 2014 --- job 78 <inspect> exited abnormally: exit()
+19:43:13 Jul 18 2014 <2J_cutoff_867_botcell_v7_sun2> failed

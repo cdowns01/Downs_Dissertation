@@ -1,0 +1,49 @@
+Evaluating file n91_dvs.cmd
+---> (sde:clear)
+()
+---> (define node 91)
+node
+---> (define MATERIALS (list Al.2Ga.8Sb Al.2Ga.8Sb Al.2Ga.8Sb Al.2Ga.8Sb InAlAs InAlAs GaSb GaSb GaSb GaSb Gold))
+MATERIALS
+---> (define WIDTHS (list 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0))
+WIDTHS
+---> (define HEIGHTS (list 0.04 0.3 0.3 0.05 0.03 0.03 0.1 0.5 3 0.5 0.5))
+HEIGHTS
+---> (define REGION_LABELS (list _top_window _region1 _region2 _top_BSF _region3 _region4 _mid_window _region5 _region6 _mid_BSF region_gold))
+REGION_LABELS
+---> (define DOPING_CONCENTRATIONS (list 1e+17 5e+16 5e+16 1e+18 1e+19 1e+19 5e+17 5e+16 5e+16 1e+18 10000000000.0))
+DOPING_CONCENTRATIONS
+---> (define DOPANT_SPECIES (list PhosphorusActiveConcentration PhosphorusActiveConcentration BoronActiveConcentration BoronActiveConcentration BoronActiveConcentration PhosphorusActiveConcentration PhosphorusActiveConcentration PhosphorusActiveConcentration BoronActiveConcentration BoronActiveConcentration PhosphorusActiveConcentration))
+DOPANT_SPECIES
+---> (define PROFILE_NAMES (list top_window n_GaInP p_GaInP top_BSF p_tunnel1 n_tunnel1 mid_window n_InGaAs p_InGaAs mid_BSF gold))
+PROFILE_NAMES
+---> (define Y 0)
+Y
+---> (define X 0)
+X
+---> (sdegeo:create-rectangle (position -25.0 0 0) (position -24.0 -0.5 0) Gold Gold_region_1)
+#[body 9 1]
+---> (sdegeo:create-rectangle (position -24.0 0 0) (position 25.0 -0.25 0) TiOx TiOx_region_1)
+#[body 10 1]
+---> (sdegeo:create-rectangle (position -24.0 -0.25 0) (position 25.0 -0.5 0) MgF MgF_region_1)
+#[body 11 1]
+---> (for-each (lambda (MATERIAL WIDTH HEIGHT DOPING_CONCENTRATION DOPANT_SPECIE PROFILE_NAME REGION_LABEL) (begin (define REGION (string-append MATERIAL REGION_LABEL)) (sdegeo:create-rectangle (position (- 0 (/ WIDTH 2)) Y 0.0) (position (/ WIDTH 2) (+ Y HEIGHT) 0.0) MATERIAL REGION) (set! Y (+ Y HEIGHT)) (sdedr:define-constant-profile (string-append REGION doping) DOPANT_SPECIE DOPING_CONCENTRATION) (sdedr:define-constant-profile-region PROFILE_NAME (string-append REGION doping) REGION) (define DEFINITION (string-append PROFILE_NAME definition)) (sdedr:define-refinement-size DEFINITION (/ WIDTH 20) (/ HEIGHT 20) (/ WIDTH 40) (/ HEIGHT 40)) (sdedr:define-refinement-region (string-append DEFINITION placement) DEFINITION REGION))) MATERIALS WIDTHS HEIGHTS DOPING_CONCENTRATIONS DOPANT_SPECIES PROFILE_NAMES REGION_LABELS)
+()
+---> (sdegeo:define-contact-set front 4.0 (color:rgb 1 1 0) ##)
+()
+---> (sdegeo:define-contact-set back 4.0 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position -24.9 -0.5 0)) back)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position 0.1 Y 0)) front)
+()
+---> (sde:build-mesh snmesh  (string-append n node _msh))
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Fri Mar 14 11:52:11 2014"
+"End   Time:    Fri Mar 14 11:52:17 2014"
+"Total Execution Time (sec):    0"
+"Total System calls Time (sec): 0"
+"************************************************************************"

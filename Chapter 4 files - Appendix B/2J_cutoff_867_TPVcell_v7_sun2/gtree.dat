@@ -1,0 +1,121 @@
+# Copyright (C) 1994-2011 Synopsys Inc.
+# swbtree vcurrent, Tue Mar 11 18:24:18 2014
+
+# --- simulation flow
+sde sde "-rel @release@" {}
+sde release "G-2012.06" {G-2012.06}
+sde top_depth ".3" {.3}
+sde bot_dpeth "3" {3}
+sde ARC1_depth ".25" {.521}
+sde ARC2_depth ".25" {.086}
+sde BSF_depth ".1" {.1}
+sde depth "3" {2}
+sde tunnel_depth ".03" {.03}
+sde width "50" {50.0 10}
+sde contact_width "1" {1}
+scale_intensity gtclsh "-rel @release@" {}
+scale_intensity scaleI "1.0" {1.0 10.0 100.0 1000.0}
+sdevice sdevice "-rel @release@" {}
+sdevice vend1 "1.5" {.5 .9 .8 .7 2}
+sdevice vend2 "1.5" {1.5 2.7 2.5 2.3}
+inspect inspect "-rel @release@" {}
+inspect pmax "1" {100000 10000 1000 100}
+tecplot tecplot "-rel @release@" {}
+tecplot cutpos "-25" {-25}
+# --- variables
+# --- scenarios and parameter specs
+scenario default release ""
+scenario default top_depth ""
+scenario default bot_dpeth ""
+scenario default ARC1_depth ""
+scenario default ARC2_depth ""
+scenario default BSF_depth ""
+scenario default depth ""
+scenario default tunnel_depth ""
+scenario default width ""
+scenario default contact_width ""
+scenario default scaleI ""
+scenario default vend1 ""
+scenario default vend2 ""
+scenario default pmax ""
+scenario default cutpos ""
+# --- simulation tree
+0 1 0 {} {default}
+1 2 1 {G-2012.06} {default}
+2 3 2 {.3} {default}
+3 4 3 {3} {default}
+4 5 4 {.521} {default}
+5 6 5 {.086} {default}
+6 67 6 {.1} {default}
+7 68 67 {2} {default}
+8 69 68 {.03} {default}
+9 70 69 {50.0} {default}
+10 71 70 {1} {default}
+11 72 71 {} {default}
+12 73 72 {1.0} {default}
+13 74 73 {} {default}
+14 75 74 {.5} {default}
+15 76 75 {2.3} {default}
+16 77 76 {} {default}
+17 78 77 {100} {default}
+18 79 78 {} {default}
+19 80 79 {-25} {default}
+12 81 72 {10.0} {default}
+13 82 81 {} {default}
+14 83 82 {.7} {default}
+15 84 83 {2.5} {default}
+16 85 84 {} {default}
+17 86 85 {1000} {default}
+18 87 86 {} {default}
+19 88 87 {-25} {default}
+12 89 72 {100.0} {default}
+13 90 89 {} {default}
+14 91 90 {.8} {default}
+15 92 91 {2.7} {default}
+16 93 92 {} {default}
+17 94 93 {10000} {default}
+18 95 94 {} {default}
+19 96 95 {-25} {default}
+12 97 72 {1000.0} {default}
+13 98 97 {} {default}
+14 99 98 {.9} {default}
+15 100 99 {1.5} {default}
+16 101 100 {} {default}
+17 102 101 {100000} {default}
+18 103 102 {} {default}
+19 104 103 {-25} {default}
+9 177 69 {10} {default}
+10 178 177 {1} {default}
+11 179 178 {} {default}
+12 180 179 {1.0} {default}
+13 181 180 {} {default}
+14 182 181 {.5} {default}
+15 183 182 {2.3} {default}
+16 184 183 {} {default}
+17 185 184 {100} {default}
+18 186 185 {} {default}
+19 187 186 {-25} {default}
+12 188 179 {10.0} {default}
+13 189 188 {} {default}
+14 190 189 {.7} {default}
+15 191 190 {2.5} {default}
+16 192 191 {} {default}
+17 193 192 {1000} {default}
+18 194 193 {} {default}
+19 195 194 {-25} {default}
+12 196 179 {100.0} {default}
+13 197 196 {} {default}
+14 198 197 {.8} {default}
+15 199 198 {2.7} {default}
+16 200 199 {} {default}
+17 201 200 {10000} {default}
+18 202 201 {} {default}
+19 203 202 {-25} {default}
+12 204 179 {1000.0} {default}
+13 205 204 {} {default}
+14 206 205 {.9} {default}
+15 207 206 {1.5} {default}
+16 208 207 {} {default}
+17 209 208 {100000} {default}
+18 210 209 {} {default}
+19 211 210 {-25} {default}

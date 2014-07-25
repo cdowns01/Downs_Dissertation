@@ -1,0 +1,96 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'sunfire47' by user 'cdowns01'
+Binary 'gsub'
+Command line options '-verbose -swb_pid 17968 -nopp -q local:default -e 299 @STDB@/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2'
+Current directory '/h/cdowns01'
+Some relevant environment variables:
+	STROOT=/usr/cots/synopsys/G_2012.06
+	STRELEASE=current
+	STROOT_LIB=/usr/cots/synopsys/G_2012.06/tcad/current/lib
+	STDB=/h/cdowns01/tmp
+	DATEX=/usr/cots/synopsys/G_2012.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:12.0
+
+Starting swblm daemon...OK
+relativizing paths:
+project path: /h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2
+STDB path: @STDB@
+Project '@STDB@/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2'
+Loading global tool database '/usr/cots/synopsys/G_2012.06/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/h/cdowns01/tmp/gpref2_cdowns01.G-2012.06'...
+Loading preferences '/h/cdowns01/tmp/gpref2_cdowns01.G-2012.06'...
+17:16:27 Jul 18 2014 <cutoff_867_topcell_v11_sun2> submitted to the batch system
+Loading global queue configuration file '/usr/cots/synopsys/G_2012.06/queues/gqueues.dat'...ok
+Loading project tree '/h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/gtree.dat'
+>>>>> Preprocessing the project to run in normal mode
+Loading jobs and dependence graph '"/h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/gtree.dat'
+Loading project variables '/h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/sde_dvs.cmd
+Reading file /h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/scale_intensity_tcl.cmd
+Reading file /h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/sdevice_des.cmd
+Reading file /h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/sdevice.par
+Reading file /h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/inspect_ins.cmd
+Reading file /h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/tecplot_tec.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/inspect_ins.cmd fornode 299
+'@previous@' creates dependences with the node(s) '297'
+'@plot@' creates dependences with the node(s) '297'
++++Node successfully preprocessed+++
+The node '299' has dependencies to the node(s) '297'
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/gexec.cmd"'
+>>>>>>>>>> job '299' status changed from 'done' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 299
+-----------------------------------------------------------------
+>>>>> cleaning the index file from previous simulations 
+                       /h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/.gindex
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '299' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/n299_ins.job
+local% submit job 299 for local execution
+>>>>>>>>>> job '299' status changed from 'ready' to 'pending'
+local% exec "/usr/cots/synopsys/G_2012.06/bin/gjob -verbose -nice 19 -nopp -job 299 -swb_pid 17968 -gsub_pid 29801 -gsub_host sunfire47 -gsub_port 44018 "@STDB@/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2""
+>>>>>>>>>> job '299' status changed from 'pending' to 'running'
+17:16:28 Jul 18 2014     job 299 <inspect> started on host 'sunfire47': "inspect -rel G-2012.06 -f pp299_ins.cmd"
+>>>>>>>>>> job '299' status changed from 'running' to 'done'
+17:16:55 Jul 18 2014 +++ job 299 <inspect> done: exit(0)
+>>>>>>>>>> Checking extraction consistency...
+
+SCHEDULING REPORT
++++ done    : 299
+
+17:16:58 Jul 18 2014 <cutoff_867_topcell_v11_sun2> done (31 sec)
+>>>>>> Writing to status file 31
+gsub exits with status 0

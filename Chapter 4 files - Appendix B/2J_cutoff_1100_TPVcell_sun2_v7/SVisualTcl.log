@@ -1,0 +1,11 @@
+load_file /h/cdowns01/tmp/cutoff_1100/reasonable/2J_cutoff_1100_botcell_sun2_v7_2/n391_des.tdr
+create_plot -dataset n391_des
+select_plots {Plot_n391_des}
+#-> Plot_n391_des
+#-> Plot_n391_des
+#-> n391_des
+set_field_prop eLifetime -show_bands
+#-> 0
+set_field_prop hLifetime -show_bands
+#-> 0
+exit

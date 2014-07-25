@@ -1,0 +1,19 @@
+load_file /h/cdowns01/tmp/cutoff_1100/reasonable/cutoff_1100_topcell_v11_sun2/n616_des.tdr
+create_plot -dataset n616_des
+select_plots {Plot_n616_des}
+#-> Plot_n616_des
+#-> Plot_n616_des
+#-> n616_des
+create_cutline -plot Plot_n616_des -type free -points {0 -0.31 0 5.16}
+select_plots {Plot_1}
+#-> Plot_1
+#-> C1(n616_des)
+select_plots {Plot_n616_des}
+#-> Plot_n616_des
+select_plots {Plot_1}
+#-> Plot_1
+set_band_diagram {Plot_1}
+#-> 0
+zoom_plot -plot Plot_1 -window {3.09784 -3.79644 3.35226 0.0961978 0 0}
+zoom_plot -plot Plot_1 -reset
+exit

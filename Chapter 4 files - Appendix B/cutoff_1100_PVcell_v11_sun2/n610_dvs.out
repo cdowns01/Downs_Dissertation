@@ -1,0 +1,137 @@
+****************************************************************************
+***                      Sentaurus Structure Editor                      ***
+***                          Version G-2012.06                           ***
+***                         (1.3, amd64, linux)                          ***
+***                                                                      ***
+***               Copyright (C) 1994-2012 Synopsys, Inc.                 ***
+***        Portions of this software are owned by Spatial Corp.          ***
+***            Copyright (C) 1986-2012. All Rights Reserved.             ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Thu Apr 19 23:14:21 PDT 2012 on tcadprod5
+
+Machine type information not available.
+
+Evaluating file n610_dvs.cmd
+
+---> (sde:clear)
+
+---> (define node 610)
+
+
+---> (define WIDTHS (list 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0 50.0))
+
+---> (define HEIGHTS (list 0.04 0.3 0.5 0.05 0.03 0.03 0.1 0.5 1.25 0.1 0.03 0.03 0.1 0.3 0.7 0.1 0.5 0.5))
+
+
+---> (define DOPING_CONCENTRATIONS (list 1e+17 5e+16 5e+16 1e+18 1e+19 1e+19 5e+17 5e+16 5e+16 1e+18 1e+19 1e+19 5e+17 1e+17 5e+16 1e+17 1e+17 10000000000.0))
+
+
+
+---> (define Y 0)
+
+---> (define X 0)
+
+---> (sdegeo:create-rectangle (position -25.0 0 0) (position -24.0 -0.314 0) Gold Gold_region_1)
+
+
+---> (sdegeo:create-rectangle (position -24.0 -0.157 0) (position 25.0 -0.314 0) MgF MgF_region_1)
+
+
+---> (sdegeo:define-contact-set front 4.0 (color:rgb 1 1 0) ##)
+
+---> (sdegeo:define-contact-set back 4.0 (color:rgb 1 0 0) ##)
+
+---> (sdegeo:define-2d-contact (find-edge-id (position -24.9 -0.314 0)) back)
+
+---> (sdegeo:define-2d-contact (find-edge-id (position 0.1 Y 0)) front)
+
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                          Version G-2012.06                           ***
+***                         (1.5, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 2005-2012                        ***
+***                            Synopsys, Inc.                          ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Fri Apr 13 01:01:31 PDT 2012 on: tcadprod5
+Running on: sunfire47
+Process ID: 27087
+
+Flags used:
+
+** Generating 2d grid **
+
+Creating binary tree...done.
+Imprinting binary tree on the boundary...done.
+Optimizing boundary nodes...done.
+
+Number of vertices after binary tree generation : 
+  18249 (tree) + 1793 (boundary)
+
+
+=================================  brep2d quality  =====================================
+minAngle: 90  [near (-25 -0)] at region=Gold_region_1
+nVerts = 1793  nTris = 1813  nRegs = 23
+bmin: -25 -0.314
+bmax: 25 5.16
+min area: 0.000152832  max area: 1.5625  total area  : 1060.26 interface area: 949.314
+total volume: 273.7
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+** Delaunizing the mesh **
+
+Creating delaunizer input...done.
+Solving edges...done 
+Optimizing elements...done. (19430 vertices)
+Fixing diagonals...done.
+
+The final mesh has: 
+   19426 points.
+   37657 elements.
+      23 regions.
+Max. connectivity = 7 located at (-24;4.1657)
+
+
+==============================  tri-grid quality  ================================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %   33  .                           .   67                                
+---------------------------------------------------------------------------------
+minAngle: 0.00220231  maxAngle: 90
+nVerts = 19426  nTris = 37657  nMats = 21
+max connectivity (tris per node): 7
+bmin: -25 -0.314
+bmax: 25 5.16
+min edgeLength: 6.00586e-05  [near (-21.875 3.00293e-05)]
+min volume: 1.68915e-05  max volume: 0.0668213  Total volume: 273.7
+bbox  volume: 273.7
+Are all boundaries on bbox? true
+=================================================================================
+Interpolating data...done.
+done.
+Saving file n610_msh.tdr...done.
+---> (sde:build-mesh snmesh  (string-append n node _msh))
+
+
+"Meshing successful"
+---> #[end-of-file]
+
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Sat Mar 15 13:54:13 2014"
+"End   Time:    Sat Mar 15 13:54:25 2014"
+"Total Execution Time (sec):    0"
+"Total System calls Time (sec): 0"
+"************************************************************************"

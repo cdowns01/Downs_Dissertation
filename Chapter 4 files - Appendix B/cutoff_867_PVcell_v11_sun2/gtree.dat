@@ -1,0 +1,77 @@
+# Copyright (C) 1994-2011 Synopsys Inc.
+# swbtree vcurrent, Fri Jun  7 14:35:08 2013
+
+# --- simulation flow
+sde sde "-rel @release@" {}
+sde release "G-2012.06" {G-2012.06}
+sde top_depth ".5" {.5}
+sde tunnel_depth ".03" {.03}
+sde ARC1_depth ".25" {.126}
+sde ARC2_depth ".25" {.195}
+sde width "50" {50.0}
+sde contact_width "1" {1}
+scale_intensity gtclsh "-rel @release@" {}
+scale_intensity scaleI "1.0" {1.0 10.0 100.0 1000.0}
+sdevice sdevice "-rel @release@" {}
+sdevice vend1 "3.5" {3.5}
+sdevice vend2 "5" {5}
+inspect inspect "-rel @release@" {}
+inspect pmax "1" {100000 10000 1000 100}
+tecplot tecplot "-rel @release@" {}
+tecplot cutpos "-25" {-25}
+# --- variables
+# --- scenarios and parameter specs
+scenario default release ""
+scenario default top_depth ""
+scenario default tunnel_depth ""
+scenario default ARC1_depth ""
+scenario default ARC2_depth ""
+scenario default width ""
+scenario default contact_width ""
+scenario default scaleI ""
+scenario default vend1 ""
+scenario default vend2 ""
+scenario default pmax ""
+scenario default cutpos ""
+# --- simulation tree
+0 1 0 {} {default}
+1 2 1 {G-2012.06} {default}
+2 3 2 {.5} {default}
+3 44 3 {.03} {default}
+4 248 44 {.126} {default}
+5 609 248 {.195} {default}
+6 290 609 {50.0} {default}
+7 291 290 {1} {default}
+8 292 291 {} {default}
+9 293 292 {1.0} {default}
+10 294 293 {} {default}
+11 296 294 {3.5} {default}
+12 297 296 {5} {default}
+13 298 297 {} {default}
+14 299 298 {100} {default}
+15 300 299 {} {default}
+16 301 300 {-25} {default}
+9 302 292 {10.0} {default}
+10 303 302 {} {default}
+11 305 303 {3.5} {default}
+12 306 305 {5} {default}
+13 307 306 {} {default}
+14 308 307 {1000} {default}
+15 309 308 {} {default}
+16 310 309 {-25} {default}
+9 311 292 {100.0} {default}
+10 312 311 {} {default}
+11 314 312 {3.5} {default}
+12 315 314 {5} {default}
+13 316 315 {} {default}
+14 317 316 {10000} {default}
+15 318 317 {} {default}
+16 319 318 {-25} {default}
+9 320 292 {1000.0} {default}
+10 321 320 {} {default}
+11 323 321 {3.5} {default}
+12 324 323 {5} {default}
+13 325 324 {} {default}
+14 326 325 {100000} {default}
+15 327 326 {} {default}
+16 328 327 {-25} {default}

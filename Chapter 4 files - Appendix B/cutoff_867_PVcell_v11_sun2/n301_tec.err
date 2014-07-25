@@ -1,0 +1,12 @@
+License lookup failed: License server system does not support this feature.
+Feature:       Tecplot_all
+License path:  27000@sunfire21
+FLEXnet Licensing error:-18,234
+For further information, refer to the FLEXnet Licensing End User Guide,
+available at "www.macrovision.com"..
+	* feature is "Tecplot_all"
+	* version is "2012.06"
+	* STROOT is "/usr/cots/synopsys/G_2012.06"
+	* hostname is "sunfire47"
+	* display is "/dev/pts/17"
+	* user is "cdowns01"

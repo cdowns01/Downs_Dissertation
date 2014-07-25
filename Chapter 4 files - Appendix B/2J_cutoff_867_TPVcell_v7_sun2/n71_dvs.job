@@ -1,0 +1,60 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gjob                       ***
+***                          Version G-2012.06                           ***
+***                         (1.7, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gjob is running on host 'sunfire47' by user 'cdowns01'
+Binary 'gjob'
+Command line options '-verbose -nice 19 -job 71 -swb_pid 28768 -gsub_pid 3757 -gsub_host sunfire47 -gsub_port 48725 @STDB@/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2'
+Current directory '/h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2'
+Some relevant environment variables:
+	STROOT=/usr/cots/synopsys/G_2012.06
+	STRELEASE=current
+	STROOT_LIB=/usr/cots/synopsys/G_2012.06/tcad/current/lib
+	STDB=/h/cdowns01/tmp
+	DATEX=/usr/cots/synopsys/G_2012.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=localhost:11.0
+
+relativizing paths:
+project path: /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2
+STDB path: @STDB@
+Project '@STDB@/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2'
+Loading global tool database '/usr/cots/synopsys/G_2012.06/tcad/current/lib/glib2/tooldb.tcl'
+Loading preferences '/h/cdowns01/tmp/gpref2_cdowns01.G-2012.06'...
+INITIALIZING PREPROCESSOR:
+Loading project tree '/h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/gtree.dat'
+Loading jobs and dependence graph '"/h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/gexec.cmd"'
+Loading project variables '/h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/sde_dvs.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/sde_dvs.cmd fornode 71
++++Preprocessing results written to /h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2/pp71_dvs.cmd
+Start Simulation section
+18:24:33 Mar 11 2014     job 71 <sde> started on host 'sunfire47': "sde -rel G-2012.06 -e -l n71_dvs.cmd"
+18:24:43 Mar 11 2014 +++ job 71 <sde> done: exit(0)
+End Simulation section
+Start Epilogue section
+18:24:43 Mar 11 2014 *** job 71 pre/post execution: eval " gjob::find_extracted_vars "/h/cdowns01/tmp/cutoff_867/reasonable/2J_cutoff_867_botcell_v7_sun2" n71_dvs.out 71 "
+End Epilogue section
+Job succeeded
+gjob exits with status 0

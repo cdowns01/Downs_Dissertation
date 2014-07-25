@@ -1,0 +1,19 @@
+****************************************************************************
+***                               Inspect                                ***
+***                          Version G-2012.06                           ***
+***                         (1.2, amd64, linux)                          ***
+***                                                                      ***
+***                       Copyright (C) 1994-2012                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+DOE: Jsc 998.42
+DOE: Voc 3.4788
+DOE: Pm 2675.18
+DOE: FF 77.02
+DOE: Eff 26.75

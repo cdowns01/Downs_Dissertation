@@ -1,0 +1,21 @@
+load_file /h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/n297_des.tdr
+create_plot -dataset n297_des
+select_plots {Plot_n297_des}
+#-> Plot_n297_des
+#-> Plot_n297_des
+#-> n297_des
+load_file /h/cdowns01/tmp/cutoff_867/reasonable/cutoff_867_topcell_v11_sun2/n297_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> n297_des_2
+move_plot -position {0 0} -plot Plot_1
+#-> 0
+move_plot -position {0 0} -plot Plot_1
+#-> 0
+select_plots {Plot_n297_des}
+#-> Plot_n297_des
+select_plots {Plot_1}
+#-> Plot_1
+exit
